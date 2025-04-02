@@ -108,7 +108,8 @@ A tour of the Bitsy editor interface: [make.bitsy.org/](https://make.bitsy.org/)
 - Create an exit to link the two rooms
 - Place a sprite and some items
 - Create an ending
-- Edit and add dialogs for 
+- Edit and add dialogs
+- Play your game to test it out!
 
 ## Challenges
 
