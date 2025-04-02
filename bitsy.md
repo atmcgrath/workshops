@@ -70,8 +70,7 @@ A tour of the Bitsy editor interface: [make.bitsy.org/](https://make.bitsy.org/)
 - **play**: test out your game
 - **about**: instructions and documentation
 - **game**: load or save your game
-- **room**: the spaces your player interacts
-  - The main editor interface: links up all the other windows
+- **room**: the main editor for the space of your game
 - **paint**: design and add your characters and objects
 	- avatar: your player
 	- tile: an obstacle square
