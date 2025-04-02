@@ -66,16 +66,16 @@ A tour of the Bitsy editor interface: [make.bitsy.org/](https://make.bitsy.org/)
 
 ## Editor windows {.scrollable .smaller}
 
-- **tools**: show the menu of tools, click to open each one
+- **tools**: show the menu of tool windows, select which ones to toggle on
 - **play**: test out your game
 - **about**: instructions and documentation
 - **game**: load or save your game
 - **room**: the main editor for the space of your game
 - **paint**: design and add your characters and objects
-	- avatar: your player
-	- tile: an obstacle square
-	- sprite: NPC who can deliver information
-	- item: objects you collect
+	- **avatar**: your player
+	- **tile**: an obstacle square
+	- **sprite**: NPC who can deliver information
+	- **item**: objects you collect
 - **exits & endings**: what happens when you finish a room
 - **colors**: customize colors
 - **dialog**: UI text and narrative elements (interaction conditions)
@@ -104,8 +104,16 @@ A tour of the Bitsy editor interface: [make.bitsy.org/](https://make.bitsy.org/)
 
 - Create two rooms
 - Create an exit/entrance between the two rooms
+- Create an ending
 - Place tiles to create obstacles
 - Place your sprite and items
+- Edit your user interface dialog
+
+## Challenges
+
+- Customize your colors
+- Customize your avatar, sprites, tiles, and items
+- Create a locked exit
 
 # End-game {background-color="indigo"}
 
