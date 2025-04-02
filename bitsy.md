@@ -31,6 +31,8 @@ editor:
 
 - [Chop Suey](https://skwabrynmawr.github.io/SUEY/CHOPSUEY.html) by Shiamin Kwa
 - [Under a star called sun](https://haraiva.itch.io/under-a-star-called-sun) by Cecile Richard
+- [pasta bake](https://ruin.itch.io/pasta-bake) by [Ruin](https://ruin.itch.io/)
+- [Ally's famous bread rolls](https://enui.itch.io/allybread) by [enui](https://enui.itch.io/)
 
 
 ## {.smaller}
@@ -43,7 +45,7 @@ editor:
 
 <iframe src="https://atmcgrath.github.io/kitten-game/" width="600" height="600"></iframe>
 
-[Kitten-wrangler](https://atmcgrath.github.io/kitten-game/) a Bitsy game by Alice McGrath; [GitHub Repository](https://github.com/atmcgrath/kitten-game)
+[Kitten-wrangler](https://atmcgrath.github.io/kitten-game/) by Alice McGrath. On GitHub: [atmcgrath/kitten-game](https://github.com/atmcgrath/kitten-game)
 
 ## Features of a Bitsy game 
 
@@ -62,25 +64,25 @@ editor:
 A tour of the Bitsy editor interface: [make.bitsy.org/](https://make.bitsy.org/)
 
 
-## Menu {.scrollable}
+## Editor windows {.scrollable .smaller}
 
-- Tools: show the menu of tools, click to open each one
-- Play: test out your game
-- About: documentation
-- Game: load or save your game
-- Room: the spaces your player interacts
+- **tools**: show the menu of tools, click to open each one
+- **play**: test out your game
+- **about**: instructions and documentation
+- **game**: load or save your game
+- **room**: the spaces your player interacts
   - The main editor interface: links up all the other windows
-- Paint: design and add your characters and objects
+- **paint**: design and add your characters and objects
 	- avatar: your player
 	- tile: an obstacle square
 	- sprite: NPC who can deliver information
 	- item: objects you collect
-- Exits and endings: what happens when you finish a room
-- Colors: customize colors
-- Dialog: UI text and narrative elements (interaction conditions)
-- Tune and Blip: music and sound effects
-- Find: search among your game resources
-- Inventory: keep track of items and variables
+- **exits & endings**: what happens when you finish a room
+- **colors**: customize colors
+- **dialog**: UI text and narrative elements (interaction conditions)
+- **tune** and **blip**: music and sound effects
+- **find**: search among your game resources
+- **inventory**: keep track of items and variables
 
 # Planning your game {background-color="indigo"}
 
