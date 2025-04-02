@@ -95,25 +95,27 @@ A tour of the Bitsy editor interface: [make.bitsy.org/](https://make.bitsy.org/)
 ## UX design
 
 - How will your player know what to do?
-  - Dialogues and Sprite interactions
+  - Dialogs and Sprite interactions
+- What are the spaces/levels/narrative beats?
+  - Rooms, dialogs
 - Set up challenges and conditions
-  - Locked exits, dialogs
-- What should the spaces 
+  - Locked exits, dialogs, variables
 
 # Your turn! {.scrollable}
 
-- Create two rooms
-- Create an exit/entrance between the two rooms
+- Give your game a title
+- Create two rooms and customize them with tiles
+- Create an exit to link the two rooms
+- Place a sprite and some items
 - Create an ending
-- Place tiles to create obstacles
-- Place your sprite and items
-- Edit your user interface dialog
+- Edit and add dialogs for 
 
 ## Challenges
 
 - Customize your colors
 - Customize your avatar, sprites, tiles, and items
 - Create a locked exit
+- Customize music and blips
 
 # End-game {background-color="indigo"}
 

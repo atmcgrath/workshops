@@ -9,9 +9,8 @@ Made with Revealjs and Quarto
 
 [github repository](https://github.com/atmcgrath/workshops/)
 
-
-<!-- ## Notes
+## Notes
 
 Documentation: https://quarto.org/docs/presentations/revealjs/
 
-Full list of options: https://quarto.org/docs/reference/formats/presentations/revealjs.html -->
+Full list of options: https://quarto.org/docs/reference/formats/presentations/revealjs.html
