@@ -15,14 +15,17 @@ editor:
 
 1. What is Bitsy? Overview and examples.
 2. The Bitsy Editor
-3. Planning your game
+3. Planning and developing your game
 4. Saving and publishing your game
 
-# Bitsy
+# Bitsy {background-color="indigo"}
 
 ![](media/bitsy-cat.png) <!-- {.width=10} -->
 
-[bitsy.org](https://www.bitsy.org/) - an open-source 8-bit game building tool that is very easy to learn
+[bitsy.org](https://www.bitsy.org/)
+
+- A simple tool for building 8-bit games
+- Open source and easy-to-learn
 
 # Examples
 
@@ -51,7 +54,7 @@ editor:
 - Non-player characters to interact with
 - Objects to pick up (can be counted)
 - Exits and entrances (can have conditions/require keys)
-- Music and sound effects
+- Music, sound effects, and simple animation options
 :::
 
 # The Bitsy Editor {background-color="indigo"}
