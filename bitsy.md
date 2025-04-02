@@ -24,8 +24,8 @@ editor:
 
 [bitsy.org](https://www.bitsy.org/)
 
-- A simple tool for building 8-bit games
-- Open source and easy-to-learn
+- A tool for building [8-bit video games](https://en.wikipedia.org/wiki/Third_generation_of_video_game_consoles)
+- Open-source, browser-based, and easy-to-learn
 
 # Examples
 
