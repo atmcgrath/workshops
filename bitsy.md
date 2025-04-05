@@ -2,6 +2,7 @@
 title: Creative Coding with Bitsy
 date: April 2, 2025
 author: Alice McGrath & Cameron Boucher
+subtitle: Food in Translation, Shiamin Kwa
 format: 
     revealjs:
         theme: moon
