@@ -1,5 +1,5 @@
 ---
-title: Wikidata and Wikipedia
+title: Wikidata
 date: April 5, 2025
 author: Alice McGrath
 subtitle: ASECS 2025, DH Caucus Session
@@ -17,21 +17,22 @@ format:
 1. Overview of Wikidata
 2. Structure of Wikidata statements
 3. Queries and other uses
+4. Editing Wikidata
+
+Slides: [atmcgrath.github.io/workshops/wikidata](https://atmcgrath.github.io/workshops/wikidata#/title-slide)
 
 # What is Wikidata? {background-color="indigo"}
 
 > "A collaboratively edited multilingual knowledge graph hosted by the Wikimedia Foundation" 
 
 - "[Wikidata](https://en.wikipedia.org/wiki/Wikidata)", Wikipedia.org
+- Uses[Linked Data principles](https://www.w3.org/DesignIssues/LinkedData.html)
 
-
-## Linked Open Data
+## Linked Open Data {.smaller}
 
 ![The Linked Open Data Cloud](media/lod-cloud.png)
 
-The Linked Open Data Cloud ([view interactive version](https://lod-cloud.net/clouds/lod-cloud.svg) from [lod-cloud.net](https://lod-cloud.net/))
-
-[Principles of Linked Data](https://www.w3.org/DesignIssues/LinkedData.html)
+View the [interactive LOD cloud here](https://lod-cloud.net/clouds/lod-cloud.svg)
 
 # How does it work? {background-color="indigo"}
 
@@ -52,9 +53,9 @@ The Linked Open Data Cloud ([view interactive version](https://lod-cloud.net/clo
   - Subject - the sky - [Q527](https://www.wikidata.org/wiki/Q527)
   - Predicate - has the color - [P462](https://www.wikidata.org/wiki/Property:P462)
   - Object - blue - [Q1088](https://www.wikidata.org/wiki/Q1088)
-:::
+  :::
 
-## Examples
+## Examples: *Clarissa*
 
 ::: {.incremental}
 
@@ -62,18 +63,15 @@ The Linked Open Data Cloud ([view interactive version](https://lod-cloud.net/clo
   - `Instance of` (P31) `written work` (Q47461344)
   - `genre` (P136) `epistolary novel` (Q465821)
   - `author` (P50) `Samuel Richardson` (Q295941)
-:::
+  :::
 
 ## Eliza Haywood 
 
 - ID [Q1559438](https://www.wikidata.org/wiki/Q1559438)
-- Occupation:
-  - Novelist
-  - Poet
-  - Playwright
-  - Actor
-  - Editor
-  - Philosopher
+- `instance of` (P31) `human` (Q5)
+- `image` (P18)
+- `Occupation` (P106) `novelist` (Q6625963)
+  - Also poet, playwright, actor, editor, philosopher
 - VIAF cluster ID: 64027723
 
 ## Properties (for personography)
@@ -108,6 +106,17 @@ The game [Wikitrivia](https://wikitrivia.tomjwatson.com/) by Tom J. Watson uses 
 
 ## Query structure
 
+Get the names of all cats in wikidata
+
+```SPARQL
+SELECT ?item ?itemLabel # give me the item id and the item label
+WHERE # in instances where
+{
+  ?item wdt:P31 wd:Q146. # instance of cat
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } 
+  # the item label should be in english
+}
+```
 
 ## Queries for an author
 
@@ -123,6 +132,7 @@ The game [Wikitrivia](https://wikitrivia.tomjwatson.com/) by Tom J. Watson uses 
 ## Log in
 
 - Wikidata.org [Login URL](https://auth.wikimedia.org/wikidatawiki/wiki/Special:UserLogin?useformat=desktop&usesul3=1&returnto=Main_Page&centralauthLoginToken=6b995b9e158d3634e431d709e941225a)
+- Credentials are the same as Wikipedia
 
 ## Getting started
 
