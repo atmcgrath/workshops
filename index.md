@@ -16,4 +16,4 @@ Interim Director of Educational & Scholarly Technology @ Bryn Mawr College
 
 Made with Revealjs and Quarto
 
-[github repository](https://github.com/atmcgrath/workshops/)
+[View on GitHub](https://github.com/atmcgrath/workshops/)
