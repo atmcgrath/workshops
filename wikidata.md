@@ -12,8 +12,13 @@ editor:
     render-on-save: true
 ---
 
+# Outline
 
-## What is Wikidata?
+1. Overview of Wikidata
+2. Structure of Wikidata statements
+3. Queries and other uses
+
+# What is Wikidata? {background-color="indigo"}
 
 > "A collaboratively edited multilingual knowledge graph hosted by the Wikimedia Foundation" 
 
@@ -31,18 +36,42 @@ The Linked Open Data Cloud ([view interactive version](https://lod-cloud.net/clo
 
 [Principles of Linked Data](https://www.w3.org/DesignIssues/LinkedData.html)
 
-## What can you do with Wikidata?
+# How does it work? {background-color="indigo"}
 
-- Build a game: [Wikitrivia](https://wikitrivia.tomjwatson.com/)
-- Enhance your dataset: adding Wikidata IDs so queries can bring up more information
-- Add tags and features easily with IIIF publishing tools (i.e. Juncture and Exhibit.so)
+## Concepts
+
+- Data should be described in a standardized way
+- URIs refer to the definition of a data category
 
 ## Statements
 
-- Triple:
-  - Subject
-  - Predicate
-  - Object
+"The sky is blue" = "The sky has the color blue"
+
+- Semantic triple:
+  - Subject - sky
+  - Predicate - has the color
+  - Object - blue
+
+## Examples
+
+- Properties 
+  - Genre: [P136](https://www.wikidata.org/wiki/Property:P136)
+  - Gender: [P21](https://www.wikidata.org/wiki/Property:P21)
+
+# What can you do with Wikidata? {background-color="indigo"}
+
+## The Wikidata API {.smaller}
+
+<a href="https://wikitrivia.tomjwatson.com"><img src="media/wikitrivia.png" alt="screenshot of timeline game" width="60%"/></a>
+
+The game [Wikitrivia](https://wikitrivia.tomjwatson.com/) by Tom J. Watson uses the Wikidata API
+
+## Uses
+
+- Building open-source web resources
+- Add data and images easily with digital publishing tools like [Juncture](https://www.juncture-digital.org/)
+- Enhance a dataset: add Wikidata entity IDs to discover more information
+- Dataset discovery: add identifiers from other data resources to wikidata
 
 ## Wikidata Queries
 
@@ -56,4 +85,4 @@ The Linked Open Data Cloud ([view interactive version](https://lod-cloud.net/clo
 
 
 
-## Editing Wikidata
+# Editing Wikidata {background-color="indigo"}
