@@ -26,7 +26,7 @@ Slides: [atmcgrath.github.io/workshops/wikidata](https://atmcgrath.github.io/wor
 > "A collaboratively edited multilingual knowledge graph hosted by the Wikimedia Foundation" 
 
 - "[Wikidata](https://en.wikipedia.org/wiki/Wikidata)", Wikipedia.org
-- Uses[Linked Data principles](https://www.w3.org/DesignIssues/LinkedData.html)
+- Uses [Linked Data principles](https://www.w3.org/DesignIssues/LinkedData.html)
 
 ## Linked Open Data {.smaller}
 
@@ -40,6 +40,7 @@ View the [interactive LOD cloud here](https://lod-cloud.net/clouds/lod-cloud.svg
 
 - Data should be described in a standardized way
 - URIs refer to the definition of a data category
+- Interoperability
 
 ## Wikidata statements
 
@@ -50,9 +51,9 @@ View the [interactive LOD cloud here](https://lod-cloud.net/clouds/lod-cloud.svg
 - "The sky has the color blue"
 
 - Semantic triple:
-  - Subject - the sky - [Q527](https://www.wikidata.org/wiki/Q527)
-  - Predicate - has the color - [P462](https://www.wikidata.org/wiki/Property:P462)
-  - Object - blue - [Q1088](https://www.wikidata.org/wiki/Q1088)
+  - **Subject** - the sky - [Q527](https://www.wikidata.org/wiki/Q527)
+  - **Predicate** - has the color - [P462](https://www.wikidata.org/wiki/Property:P462)
+  - **Object** - blue - [Q1088](https://www.wikidata.org/wiki/Q1088)
   :::
 
 ## Examples: *Clarissa*
@@ -70,11 +71,11 @@ View the [interactive LOD cloud here](https://lod-cloud.net/clouds/lod-cloud.svg
 - ID [Q1559438](https://www.wikidata.org/wiki/Q1559438)
 - `instance of` (P31) `human` (Q5)
 - `image` (P18)
-- `Occupation` (P106) `novelist` (Q6625963)
+- `occupation` (P106) `novelist` (Q6625963)
   - Also poet, playwright, actor, editor, philosopher
-- VIAF cluster ID: 64027723
+- [VIAF cluster ID](https://www.wikidata.org/wiki/Property:P214) (P214): 64027723
 
-## Properties (for personography)
+## Other properties 
 
 - Genre: [P136](https://www.wikidata.org/wiki/Property:P136)
 - Gender: [P21](https://www.wikidata.org/wiki/Property:P21)
@@ -129,14 +130,11 @@ WHERE # in instances where
 
 # Editing Wikidata {background-color="indigo"}
 
-## Log in
-
-- Wikidata.org [Login URL](https://auth.wikimedia.org/wikidatawiki/wiki/Special:UserLogin?useformat=desktop&usesul3=1&returnto=Main_Page&centralauthLoginToken=6b995b9e158d3634e431d709e941225a)
-- Credentials are the same as Wikipedia
-
 ## Getting started
 
-[Wikidata Tours](https://www.wikidata.org/wiki/Wikidata:Tours)
+- Log in at Wikidata.org [Login URL](https://auth.wikimedia.org/wikidatawiki/wiki/Special:UserLogin?useformat=desktop&usesul3=1&returnto=Main_Page&centralauthLoginToken=6b995b9e158d3634e431d709e941225a) (credentials are the same as Wikipedia)
+
+- Take a Tour: [Wikidata Tours](https://www.wikidata.org/wiki/Wikidata:Tours)
 
 ## Resources
 
