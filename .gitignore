@@ -1,2 +1,3 @@
 test*
 /.quarto/
+.DS_Store

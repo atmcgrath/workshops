@@ -19,12 +19,17 @@ editor:
 
 - "[Wikidata](https://en.wikipedia.org/wiki/Wikidata)", Wikipedia.org
 
-## Linked Open Data {.smaller}
+---
 
 ![](https://lod-cloud.net/clouds/lod-cloud.svg)
 
-[View interactive version](https://lod-cloud.net/clouds/lod-cloud.svg) from [lod-cloud.net](https://lod-cloud.net/)
+The Linked Open Data Cloud ([view interactive version](https://lod-cloud.net/clouds/lod-cloud.svg) from [lod-cloud.net](https://lod-cloud.net/))
 
+## Linked Open Data
+
+![The Linked Open Data Cloud](media/lod-cloud.png)
+
+[Principles of Linked Data](https://www.w3.org/DesignIssues/LinkedData.html)
 
 ## What can you do with Wikidata?
 
@@ -32,18 +37,20 @@ editor:
 - Enhance your dataset: adding Wikidata IDs so queries can bring up more information
 - Add tags and features easily with IIIF publishing tools (i.e. Juncture and Exhibit.so)
 
-## Structure
+## Statements
 
 - Triple:
   - Subject
   - Predicate
   - Object
 
-
 ## Wikidata Queries
 
 - [Wikidata Query Service](https://query.wikidata.org/)-- SPARQL Queries
 - [Wikidata Query Builder](https://query.wikidata.org/querybuilder/?uselang=en) -- GUI 
+
+## Query structure
+
 
 ## Genre queries
 
