@@ -23,9 +23,11 @@ Slides: [atmcgrath.github.io/workshops/wikidata](https://atmcgrath.github.io/wor
 
 # What is Wikidata? {background-color="indigo"}
 
+[Wikidata.org](https://www.wikidata.org/wiki/Wikidata:Main_Page)
+
 > "A collaboratively edited multilingual knowledge graph hosted by the Wikimedia Foundation" 
 
-- "[Wikidata](https://en.wikipedia.org/wiki/Wikidata)", Wikipedia.org
+- ["Wikidata"](https://en.wikipedia.org/wiki/Wikidata), Wikipedia.org
 - Uses [Linked Data principles](https://www.w3.org/DesignIssues/LinkedData.html)
 
 ## Linked Open Data {.smaller}
