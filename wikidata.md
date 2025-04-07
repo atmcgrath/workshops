@@ -56,7 +56,8 @@ View the [interactive LOD cloud here](https://lod-cloud.net/clouds/lod-cloud.svg
   - **Subject** - the sky - [Q527](https://www.wikidata.org/wiki/Q527)
   - **Predicate** - has the color - [P462](https://www.wikidata.org/wiki/Property:P462)
   - **Object** - blue - [Q1088](https://www.wikidata.org/wiki/Q1088)
-  :::
+
+:::
 
 ## Examples: *Clarissa*
 
@@ -66,7 +67,8 @@ View the [interactive LOD cloud here](https://lod-cloud.net/clouds/lod-cloud.svg
   - `Instance of` (P31) `written work` (Q47461344)
   - `genre` (P136) `epistolary novel` (Q465821)
   - `author` (P50) `Samuel Richardson` (Q295941)
-  :::
+
+:::
 
 ## Eliza Haywood 
 
