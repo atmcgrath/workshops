@@ -107,6 +107,23 @@ A tour of the Bitsy editor interface: [make.bitsy.org/](https://make.bitsy.org/)
 - **find**: search among your game resources
 - **inventory**: keep track of items and variables
 
+# Your turn! {.scrollable}
+
+- Give your game a title
+- Customize your colors
+- Create two rooms and customize them with tiles
+- Create an exit to link the two rooms
+- Place a sprite and some items (use 'paint')
+- Edit and add dialogs
+- Play your game to test it out!
+
+## Challenges
+
+- Customize your avatar, sprites, tiles, and items
+- Create a locked exit dialog to impose conditions
+- Customize music and blips
+- Look at your game 'data' (under 'game' window): what do you see? 
+
 # Planning your game {background-color="indigo"}
 
 ## Storyboarding
@@ -124,23 +141,6 @@ A tour of the Bitsy editor interface: [make.bitsy.org/](https://make.bitsy.org/)
   - Rooms, dialogs
 - Set up challenges and conditions
   - Locked exits, dialogs, variables
-
-# Your turn! {.scrollable}
-
-- Give your game a title
-- Customize your colors
-- Create two rooms and customize them with tiles
-- Create an exit to link the two rooms
-- Place a sprite and some items (use 'paint')
-- Edit and add dialogs
-- Play your game to test it out!
-
-## Challenges
-
-- Customize your avatar, sprites, tiles, and items
-- Create a locked exit dialog to impose conditions
-- Customize music and blips
-- Look at your game 'data' (under 'game' window): what do you see? 
 
 # End-game {background-color="indigo"}
 
@@ -194,11 +194,8 @@ NB: [this GitHub deployment guide](https://atmcgrath.github.io/intro-dh/resource
 
 ## Resources
 
-### Bitsy
-
-- This [Bitsy Handout](https://rahji.github.io/bitsy-handout/web/) has lots of resources
+- This [Bitsy Handout](https://rahji.github.io/bitsy-handout/web/) has lots of tutorials and resources
 - Read the [Bitsy documentation](https://make.bitsy.org/docs/)
 - Check out [other Bitsy games](https://itch.io/games/made-with-bitsy)
-
 
 ## Return to [Intro DH Site](https://atmcgrath.github.io/intro-dh/)
