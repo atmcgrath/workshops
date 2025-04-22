@@ -9,6 +9,8 @@ theme: darkly
 
 Interim Director of Educational & Scholarly Technology @ Bryn Mawr College
 
+- [Creative Coding](creative-coding.html) - Intro DH, April 22 2025
+
 - [Wikidata](wikidata.html) - Workshop for ASECS DH Caucus, April 5 2025
 
 - [Creative Coding with Bitsy](bitsy.html) - Workshop for COML 281, April 2 2025

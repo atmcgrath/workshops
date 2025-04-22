@@ -1,3 +1,5 @@
 test*
 /.quarto/
 .DS_Store
+
+gen-ai.html
