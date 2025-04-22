@@ -7,6 +7,7 @@ format:
     revealjs:
         theme: moon
         controls: true
+        #embed-resources: true
 css: "https://alicemcgrath.digital.brynmawr.edu/pres/a3.css"
 editor:
     render-on-save: true
