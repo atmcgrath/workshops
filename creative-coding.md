@@ -128,19 +128,19 @@ A tour of the Bitsy editor interface: [make.bitsy.org/](https://make.bitsy.org/)
 # Your turn! {.scrollable}
 
 - Give your game a title
+- Customize your colors
 - Create two rooms and customize them with tiles
 - Create an exit to link the two rooms
-- Place a sprite and some items
-- Create an ending
+- Place a sprite and some items (use 'paint')
 - Edit and add dialogs
 - Play your game to test it out!
 
 ## Challenges
 
-- Customize your colors
 - Customize your avatar, sprites, tiles, and items
-- Create a locked exit
+- Create a locked exit dialog to impose conditions
 - Customize music and blips
+- Look at your game 'data' (under 'game' window): what do you see? 
 
 # End-game {background-color="indigo"}
 
@@ -190,12 +190,7 @@ NB: [this GitHub deployment guide](https://atmcgrath.github.io/intro-dh/resource
 
 - Load your Bitsy game file back into the editor
 - When you are done, export the html file and replace the old one on GitHub or DoOO
-
-# Thanks! {background-color="indigo"}
-
-Digital Scholarship Office Hours: Fridays 1-3 in the DMCL
-
-Reach out at [digitalscholarship@brynmawr.edu](mailto:digitalscholarship@brynmawr.edu) or [help@brynmawr.edu](mailto:help@brynmawr.edu)
+- Don't forget to change the filename to 'index.html'
 
 ## Resources
 
@@ -205,7 +200,5 @@ Reach out at [digitalscholarship@brynmawr.edu](mailto:digitalscholarship@brynmaw
 - Read the [Bitsy documentation](https://make.bitsy.org/docs/)
 - Check out [other Bitsy games](https://itch.io/games/made-with-bitsy)
 
-### Web publishing
 
-- AskAthena's [Domain of One's Own documentation](https://askathena.brynmawr.edu/help/domain-of-ones-own)
-- Guide to [GitHub Pages](https://pages.github.com/)
+## Return to [Intro DH Site](https://atmcgrath.github.io/intro-dh/)
