@@ -121,6 +121,7 @@ A tour of the Bitsy editor interface: [make.bitsy.org/](https://make.bitsy.org/)
 
 - Customize your avatar, sprites, tiles, and items
 - Create a locked exit dialog to impose conditions
+- Create simple animations
 - Customize music and blips
 - Look at your game 'data' (under 'game' window): what do you see? 
 
