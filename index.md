@@ -7,7 +7,7 @@ editor:
 theme: darkly
 ---
 
-Interim Director of Educational & Scholarly Technology @ Bryn Mawr College
+Digital Scholarship Specialist @ Bryn Mawr College
 
 - [Creative Coding](creative-coding.html) - Intro DH, April 22 2025
 
