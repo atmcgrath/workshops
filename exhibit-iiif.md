@@ -60,13 +60,14 @@ editor:
 
 - Searching for manifest links!
 - To get started: [Guides to finding IIIF resources](https://iiif.io/guides/finding_resources/)
-- Collection-specific guidelines (not always up-to-date)
+- Collection-specific guidelines are not always up-to-date
 - Example: Library of Congress, [Topographical Map of Ocean Co., New Jersey](https://www.loc.gov/item/2012592356/)
 
 ## Building your Exhibit.so
 - Navigate to [www.exhibit.so](https://www.exhibit.so/)
 - Save your Exhibit URL somewhere safe!
-- 
+- Add resources via IIIF manifest urls
+- Add slides for each resource and include text
 
 ## Resources
 - IIIF Online Training [https://training.iiif.io/iiif-online-workshop/]
