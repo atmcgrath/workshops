@@ -24,4 +24,5 @@ theme: darkly
 ## The Internet
 
 - MDN web docs: [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work)
-  - [The Internet in 5 Minutes (video)](https://www.youtube.com/watch?v=7_LPdttKXPc)
+  - [The Internet in 5 Minutes (video)](https://www.youtube.com/watch?v=7_LPdttKXPc) by Aaron Titus
+  - [How does the Internet work? (video)](https://www.youtube.com/watch?v=x3c1ih2NJEg)

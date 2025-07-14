@@ -9,7 +9,7 @@ theme: darkly
 
 Senior Digital Scholarship Specialist @ Bryn Mawr College
 
-- [Web Publishing Extravaganza!](web-publishing.html) - DTIs, July 14, 2025
+- [Web Publishing Extravaganza](web-publishing.html) - DTIs, July 15, 2025
 - [IIIF and Exhibit.so](exhibit-iiif.html) - IliADS, June 24, 2025
 - [Creative Coding](creative-coding.html) - Intro DH, April 22 2025
 - [Wikidata](wikidata.html) - Workshop for ASECS DH Caucus, April 5 2025
