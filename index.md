@@ -9,6 +9,7 @@ theme: darkly
 
 Senior Digital Scholarship Specialist @ Bryn Mawr College
 
+- [Creative Coding with Twine](https://digbmc.github.io/twine-workshop/) - Workshop for RUSS 233, February 11, 2026
 - [Web Publishing Extravaganza](web-publishing.html) - DTIs, July 15, 2025
 - [IIIF and Exhibit.so](exhibit-iiif.html) - IliADS, June 24, 2025
 - [Creative Coding](creative-coding.html) - Intro DH, April 22 2025
