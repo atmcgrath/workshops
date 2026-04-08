@@ -9,6 +9,7 @@ theme: darkly
 
 Senior Digital Scholarship Specialist @ Bryn Mawr College
 
+- [Maximizing Minimalism: DIY Digital Publishing Tools Starring Markdown](minimalism.html) - ASECS, April 9, 2026.
 - [Creative Coding with Twine](https://digbmc.github.io/twine-workshop/) - Workshop for RUSS 233, February 11, 2026
 - [Web Publishing Extravaganza](web-publishing.html) - DTIs, July 15, 2025
 - [IIIF and Exhibit.so](exhibit-iiif.html) - IliADS, June 24, 2025
