@@ -47,3 +47,5 @@ ASECS 2026, Philadelphia
 
 - Risam, Roopika, and Alex Gil. “Introduction: The Questions of Minimal Computing.” *Digital Humanities Quarterly* 016, no. 2 (2022).
 - Kleppman, Martin, Adam Wiggins, Peter van Hardenberg, and Mark McGranaghan. “[Local-First Software: You Own Your Data, in Spite of the Cloud](https://www.inkandswitch.com/essay/local-first/).” 2019 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward!). October 2019, 154–78. [https://doi.org/doi:10.1145/3359591.3359737](https://doi.org/doi:10.1145/3359591.3359737).
+- Dombrowski, Quinn. “Minimizing Computing Maximizes Labor.” Digital Humanities Quarterly, vol. 016, no. 2, June 2022.
+- Sander, Christoph. “Minimal Computing and Weak AI for Historical Research: The Case of Early Modern Church Administration.” Histories, vol. 5, no. 4, Dec. 2025, p. 59. www.mdpi.com, https://doi.org/10.3390/histories5040059.
