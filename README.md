@@ -1,10 +1,14 @@
-Alice McGrath, Interim Director of Educational & Scholarly Technology @ Bryn Mawr College
+Alice McGrath, Senior Digital Scholarship Specialist @ Bryn Mawr College
 
 ## Presentations
 
-- [Wikidata](wikidata) - Workshop for ASECS DH Caucus, April 5 2025
-- [Creative Coding with Bitsy](bitsy) - Workshop for COML 281, April 2 2025
-
+- [Maximizing Minimalism: DIY Digital Publishing Tools Starring Markdown](minimalism.html) - ASECS, April 9, 2026.
+- [Creative Coding with Twine](https://digbmc.github.io/twine-workshop/) - Workshop for RUSS 233, February 11, 2026
+- [Web Publishing Extravaganza](web-publishing.html) - DTIs, July 15, 2025
+- [IIIF and Exhibit.so](exhibit-iiif.html) - IliADS, June 24, 2025
+- [Creative Coding](creative-coding.html) - Intro DH, April 22 2025
+- [Wikidata](wikidata.html) - Workshop for ASECS DH Caucus, April 5 2025
+- [Creative Coding with Bitsy](bitsy.html) - Workshop for COML 281, April 2 2025
 
 Made with Revealjs and Quarto
 
