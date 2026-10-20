@@ -1,5 +1,390 @@
 [
   {
+    "objectID": "data-vocabularies.html#linked-open-data",
+    "href": "data-vocabularies.html#linked-open-data",
+    "title": "Linked Data & Controlled Vocabularies",
+    "section": "Linked Open Data",
+    "text": "Linked Open Data\n\nView the interactive LOD cloud here"
+  },
+  {
+    "objectID": "data-vocabularies.html#fair-data-principles",
+    "href": "data-vocabularies.html#fair-data-principles",
+    "title": "Linked Data & Controlled Vocabularies",
+    "section": "FAIR Data Principles",
+    "text": "FAIR Data Principles\n\nF - Findable: well-described and indexed in searchable resources\nA - Accessible: public in a usable form\nI - Interoperable: uses shared categories and vocabularies\nR - Reusable: process documentation and metadata are accurate"
+  },
+  {
+    "objectID": "data-vocabularies.html#interoperability",
+    "href": "data-vocabularies.html#interoperability",
+    "title": "Linked Data & Controlled Vocabularies",
+    "section": "Interoperability",
+    "text": "Interoperability\nFor a dataset to be interoperable, it has to have points of agreement with other datasets: pre-defined categories that have meaning outside of that dataset’s context.\nNot only does this help validate the data by using clear and established definitions it also helps users combine data from multiple sources."
+  },
+  {
+    "objectID": "data-vocabularies.html#examples",
+    "href": "data-vocabularies.html#examples",
+    "title": "Linked Data & Controlled Vocabularies",
+    "section": "Examples",
+    "text": "Examples\n\nCervantes Virtual: lod-cloud.net/dataset/BVMC\nFuturistic Fiction: data.post45.org/posts/futuristic-fiction/"
+  },
+  {
+    "objectID": "data-vocabularies.html#example-publication-location",
+    "href": "data-vocabularies.html#example-publication-location",
+    "title": "Linked Data & Controlled Vocabularies",
+    "section": "Example: publication location",
+    "text": "Example: publication location\nDisambiguate location names that are similar by providing geographic areas and regions\n\nSearch LC linked data service - geographic\nRevista Ariel - Revista Ariel on Cervantes Virtual\nTegucigalpa: Alcaldía Mayor vs. Francisco Morazán"
+  },
+  {
+    "objectID": "data-vocabularies.html#example-type-of-publication",
+    "href": "data-vocabularies.html#example-type-of-publication",
+    "title": "Linked Data & Controlled Vocabularies",
+    "section": "Example: type of publication",
+    "text": "Example: type of publication\n\nLCSH - GenreForm\nPeriodical -&gt; “Forma/género: Publicación periódica”"
+  },
+  {
+    "objectID": "data-vocabularies.html#viaf",
+    "href": "data-vocabularies.html#viaf",
+    "title": "Linked Data & Controlled Vocabularies",
+    "section": "VIAF",
+    "text": "VIAF\n\nInternational consortium of libraries and professional organizations: see contributors\n\nNB: the US flag symbolizes Library of Congress/NACO\n\nMakes it easier for librarians to catalog new materials by standardizing headings so that alternate forms can be cross-referenced"
+  },
+  {
+    "objectID": "data-vocabularies.html#example-author-names",
+    "href": "data-vocabularies.html#example-author-names",
+    "title": "Linked Data & Controlled Vocabularies",
+    "section": "Example: author names",
+    "text": "Example: author names\n\nOscar Wilde\nSearch ‘Personal Names’\nVIAF: viaf.org/en/viaf/34464414\nUse the form with the US flag/the most flags: ‘Wilde, Oscar, 1854-1900’\nScroll down for biographical details (gender, nationality, etc.)"
+  },
+  {
+    "objectID": "data-vocabularies.html#what-if-someone-isnt-in-viaf",
+    "href": "data-vocabularies.html#what-if-someone-isnt-in-viaf",
+    "title": "Linked Data & Controlled Vocabularies",
+    "section": "What if someone isn’t in VIAF?",
+    "text": "What if someone isn’t in VIAF?\n\nCheck your spelling!\nSearch Wikidata: wikidata.org/\nSearch Google (for fuzzy matches) and Wikipedia (for mentions). Include geography or professions.\n\nIf you find a likely match with an alternate name form, try VIAF and Wikidata again.\n\nAdd them to the ‘unknown authors’ tab and explain what you did and what you found\n\nOptional: sleuthing on Google Books and Google"
+  },
+  {
+    "objectID": "data-vocabularies.html#process",
+    "href": "data-vocabularies.html#process",
+    "title": "Linked Data & Controlled Vocabularies",
+    "section": "Process",
+    "text": "Process\n\n\n\n\n\nflowchart LR\n    Z[Author name] --&gt; A[Search VIAF]\n    A --&gt; |No| C[Search Wikidata]\n    A --&gt; |Yes| B[Add Authority]\n    C --&gt; |Yes|B\n    C --&gt; |No|D[Alternate name?]\n    D --&gt; |Yes|A\n    C --&gt; |No| E\n    D --&gt; |No| E[Add to Unknown Authors]"
+  },
+  {
+    "objectID": "data-vocabularies.html#example-mercedes-laínes",
+    "href": "data-vocabularies.html#example-mercedes-laínes",
+    "title": "Linked Data & Controlled Vocabularies",
+    "section": "Example: Mercedes Laínes",
+    "text": "Example: Mercedes Laínes\n\nNot in VIAF\nWikidata ID Q138557563\nGoogle search suggested “Mercedes Lainez Blanco” and brought me to this EcuRed Profile\nOther wikidata entry - Q106614689"
+  },
+  {
+    "objectID": "data-vocabularies.html#wikidata",
+    "href": "data-vocabularies.html#wikidata",
+    "title": "Linked Data & Controlled Vocabularies",
+    "section": "Wikidata",
+    "text": "Wikidata\n“A collaboratively edited multilingual knowledge graph hosted by the Wikimedia Foundation.” (“Wikidata”, Wikipedia.org).\nLike Wikipedia, it’s user generated and controlled: that means we can share back what we have discovered or add references for various statements in existing entries."
+  },
+  {
+    "objectID": "bitsy.html#section",
+    "href": "bitsy.html#section",
+    "title": "Creative Coding with Bitsy",
+    "section": "",
+    "text": "CHOPSUEY a Bitsy game by Shiamin Kwa"
+  },
+  {
+    "objectID": "bitsy.html#section-1",
+    "href": "bitsy.html#section-1",
+    "title": "Creative Coding with Bitsy",
+    "section": "",
+    "text": "Kitten-wrangler by Alice McGrath. On GitHub: atmcgrath/kitten-game"
+  },
+  {
+    "objectID": "bitsy.html#features-of-a-bitsy-game",
+    "href": "bitsy.html#features-of-a-bitsy-game",
+    "title": "Creative Coding with Bitsy",
+    "section": "Features of a Bitsy game",
+    "text": "Features of a Bitsy game\n\nMultiple rooms or spaces to move through\nSimple UI text\nNon-player characters to interact with\nObjects to pick up (can be counted)\nExits and entrances (can have conditions/require keys)\nMusic, sound effects, and simple animation options"
+  },
+  {
+    "objectID": "bitsy.html#editor-windows",
+    "href": "bitsy.html#editor-windows",
+    "title": "Creative Coding with Bitsy",
+    "section": "Editor windows",
+    "text": "Editor windows\n\ntools: show the menu of tool windows, select which ones to toggle on\nplay: test out your game\nabout: instructions and documentation\ngame: load or save your game\nroom: the main editor for the space of your game\npaint: design and add your characters and objects\n\navatar: your player\ntile: an obstacle square\nsprite: NPC who can deliver information\nitem: objects you collect\n\nexits & endings: what happens when you finish a room\ncolors: customize colors\ndialog: UI text and narrative elements (interaction conditions)\ntune and blip: music and sound effects\nfind: search among your game resources\ninventory: keep track of items and variables"
+  },
+  {
+    "objectID": "bitsy.html#storyboarding",
+    "href": "bitsy.html#storyboarding",
+    "title": "Creative Coding with Bitsy",
+    "section": "Storyboarding",
+    "text": "Storyboarding\n\nWho is your avatar character?\nWhere are they?\nWhat is their mission?\nWho and what will they interact with?"
+  },
+  {
+    "objectID": "bitsy.html#ux-design",
+    "href": "bitsy.html#ux-design",
+    "title": "Creative Coding with Bitsy",
+    "section": "UX design",
+    "text": "UX design\n\nHow will your player know what to do?\n\nDialogs and Sprite interactions\n\nWhat are the spaces/levels/narrative beats?\n\nRooms, dialogs\n\nSet up challenges and conditions\n\nLocked exits, dialogs, variables"
+  },
+  {
+    "objectID": "bitsy.html#challenges",
+    "href": "bitsy.html#challenges",
+    "title": "Creative Coding with Bitsy",
+    "section": "Challenges",
+    "text": "Challenges\n\nCustomize your colors\nCustomize your avatar, sprites, tiles, and items\nCreate a locked exit\nCustomize music and blips"
+  },
+  {
+    "objectID": "bitsy.html#saving-and-loading-your-game",
+    "href": "bitsy.html#saving-and-loading-your-game",
+    "title": "Creative Coding with Bitsy",
+    "section": "Saving and loading your game",
+    "text": "Saving and loading your game\n\nSelect ‘game’ to open the export-import menu\nSelect ‘save game’ to download your game as .html\nWhen you want to work on it again, it may have been saved in your browser session. Otherwise, you can select ‘load game’ and upload the same html file"
+  },
+  {
+    "objectID": "bitsy.html#publishing-your-game",
+    "href": "bitsy.html#publishing-your-game",
+    "title": "Creative Coding with Bitsy",
+    "section": "Publishing your game",
+    "text": "Publishing your game\nYou have two options for publishing your game on the web:\n\nGitHub offers free webhosting through GitHub Pages\nBiCo folks can get a webhosting account through Domain of One’s Own (BMC) or Haverford Sites (HC)"
+  },
+  {
+    "objectID": "bitsy.html#github-instructions",
+    "href": "bitsy.html#github-instructions",
+    "title": "Creative Coding with Bitsy",
+    "section": "GitHub instructions",
+    "text": "GitHub instructions\n1. Create a new repository\n\nLog in to GitHub.com and create a new repository called “bitsy-game”\nUpload the html file for your game to the repository\nRename the html file index.html\n\n2. Publish your repository\n\nFrom your repository, go to the ‘settings’ tab and scroll down to pages\nUnder ‘Source’ select ‘deploy from a branch’ and select “main” branch, then “save”\nWait for a few minutes for the deployment to finish\nYour site’s url: username.github.io/bitsy-game\n\nNB: this GitHub deployment guide has step-by-step instructions and screenshots"
+  },
+  {
+    "objectID": "bitsy.html#domain-of-ones-own",
+    "href": "bitsy.html#domain-of-ones-own",
+    "title": "Creative Coding with Bitsy",
+    "section": "Domain of One’s Own",
+    "text": "Domain of One’s Own\n\nNavigate to digital.brynmawr.edu or sites.haverford.edu\nClick ‘Get Started’ and sign in with your username\nSelect a personal subdomain name (this will be part of your URL)\nLocate the “File Manager” (in the “Files” section) on the list of tools\nNavigate to the “public_html” folder\nCreate a subfolder called “game”\nRenaim your game file index.html\nUpload it to the “game” folder\nYour site’s url: yourdomain.digital.brynmawr.edu/game"
+  },
+  {
+    "objectID": "bitsy.html#making-changes",
+    "href": "bitsy.html#making-changes",
+    "title": "Creative Coding with Bitsy",
+    "section": "Making changes",
+    "text": "Making changes\n\nLoad your Bitsy game file back into the editor\nWhen you are done, export the html file and replace the old one on GitHub or DoOO"
+  },
+  {
+    "objectID": "bitsy.html#resources",
+    "href": "bitsy.html#resources",
+    "title": "Creative Coding with Bitsy",
+    "section": "Resources",
+    "text": "Resources\nBitsy\n\nThis Bitsy Handout has lots of resources\nRead the Bitsy documentation\nCheck out other Bitsy games\n\nWeb publishing\n\nAskAthena’s Domain of One’s Own documentation\nGuide to GitHub Pages"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Workshops and Slides",
+    "section": "",
+    "text": "Senior Digital Scholarship Specialist @ Bryn Mawr College\n\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nMaximizing Minimalism: DIY Digital Publishing Tools Starring Markdown - ASECS, April 9, 2026.\nCreative Coding with Twine - Workshop for RUSS 233, February 11, 2026\nWeb Publishing Extravaganza - DTIs, July 15, 2025\nIIIF and Exhibit.so - IliADS, June 24, 2025\nCreative Coding - Intro DH, April 22 2025\nWikidata - Workshop for ASECS DH Caucus, April 5 2025\nCreative Coding with Bitsy - Workshop for COML 281, April 2 2025\n\nMade with Revealjs and Quarto\nView on GitHub"
+  },
+  {
+    "objectID": "wikidata.html#linked-open-data",
+    "href": "wikidata.html#linked-open-data",
+    "title": "Wikidata",
+    "section": "Linked Open Data",
+    "text": "Linked Open Data\n\nThe Linked Open Data CloudView the interactive LOD cloud here"
+  },
+  {
+    "objectID": "wikidata.html#concepts",
+    "href": "wikidata.html#concepts",
+    "title": "Wikidata",
+    "section": "Concepts",
+    "text": "Concepts\n\nData should be described in a standardized way\nURIs refer to the definition of a data category\nInteroperability"
+  },
+  {
+    "objectID": "wikidata.html#wikidata-statements",
+    "href": "wikidata.html#wikidata-statements",
+    "title": "Wikidata",
+    "section": "Wikidata statements",
+    "text": "Wikidata statements\n\n“The sky is blue”\n“The sky has the color blue”\nSemantic triple:\n\nSubject - the sky - Q527\nPredicate - has the color - P462\nObject - blue - Q1088"
+  },
+  {
+    "objectID": "wikidata.html#examples-clarissa",
+    "href": "wikidata.html#examples-clarissa",
+    "title": "Wikidata",
+    "section": "Examples: Clarissa",
+    "text": "Examples: Clarissa\n\nStatements about Clarissa: Q980534\n\nInstance of (P31) written work (Q47461344)\ngenre (P136) epistolary novel (Q465821)\nauthor (P50) Samuel Richardson (Q295941)"
+  },
+  {
+    "objectID": "wikidata.html#eliza-haywood",
+    "href": "wikidata.html#eliza-haywood",
+    "title": "Wikidata",
+    "section": "Eliza Haywood",
+    "text": "Eliza Haywood\n\nID Q1559438\ninstance of (P31) human (Q5)\nimage (P18)\noccupation (P106) novelist (Q6625963)\n\nAlso poet, playwright, actor, editor, philosopher\n\nVIAF cluster ID (P214): 64027723"
+  },
+  {
+    "objectID": "wikidata.html#other-properties",
+    "href": "wikidata.html#other-properties",
+    "title": "Wikidata",
+    "section": "Other properties",
+    "text": "Other properties\n\nGenre: P136\nGender: P21\nArchives at: P485\nDepicted by: P1299\nDescribed by source: P1343\nHas works in the collection: P6379"
+  },
+  {
+    "objectID": "wikidata.html#the-wikidata-api",
+    "href": "wikidata.html#the-wikidata-api",
+    "title": "Wikidata",
+    "section": "The Wikidata API",
+    "text": "The Wikidata API\n\nThe game Wikitrivia by Tom J. Watson uses the Wikidata API"
+  },
+  {
+    "objectID": "wikidata.html#uses",
+    "href": "wikidata.html#uses",
+    "title": "Wikidata",
+    "section": "Uses",
+    "text": "Uses\n\nBuilding open-source web resources\nAdd data and images easily with digital publishing tools like Juncture\nEnhance a dataset: add Wikidata entity IDs to discover more information - e.g. Bryn Mawr edit-a-thon\nDataset discovery: add identifiers from other data resources to wikidata"
+  },
+  {
+    "objectID": "wikidata.html#wikidata-queries",
+    "href": "wikidata.html#wikidata-queries",
+    "title": "Wikidata",
+    "section": "Wikidata Queries",
+    "text": "Wikidata Queries\n\nWikidata Query Service– SPARQL Queries\nWikidata Query Builder – GUI\nWikidata SPARQL tutorial"
+  },
+  {
+    "objectID": "wikidata.html#query-structure",
+    "href": "wikidata.html#query-structure",
+    "title": "Wikidata",
+    "section": "Query structure",
+    "text": "Query structure\nGet the names of all cats in wikidata\nSELECT ?item ?itemLabel # give me the item id and the item label\nWHERE # in instances where\n{\n  ?item wdt:P31 wd:Q146. # instance of cat\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". } \n  # the item label should be in english\n}"
+  },
+  {
+    "objectID": "wikidata.html#queries-for-an-author",
+    "href": "wikidata.html#queries-for-an-author",
+    "title": "Wikidata",
+    "section": "Queries for an author",
+    "text": "Queries for an author\n\nQuery template: Generic queries for authors\nEliza Haywood queries\nEliza Haywood’s timeline\nOther templates listed at Template:Item documentation"
+  },
+  {
+    "objectID": "wikidata.html#getting-started",
+    "href": "wikidata.html#getting-started",
+    "title": "Wikidata",
+    "section": "Getting started",
+    "text": "Getting started\n\nLog in at Wikidata.org Login URL (credentials are the same as Wikipedia)\nTake a Tour: Wikidata Tours"
+  },
+  {
+    "objectID": "wikidata.html#resources",
+    "href": "wikidata.html#resources",
+    "title": "Wikidata",
+    "section": "Resources",
+    "text": "Resources\n\nHow to Edit Wikidata: a step by step guide (pdf slides)\nHow to add references\nNYU Libraries libguide: Wikimedia Toolkit\n“Designing a Wikidata Project: Mapping Black Philly Art”, Synatra Smith (12.15.21)"
+  },
+  {
+    "objectID": "minimalism.html",
+    "href": "minimalism.html",
+    "title": "Maximizing Minimalism",
+    "section": "",
+    "text": "ASECS 2026, Philadelphia"
+  },
+  {
+    "objectID": "minimalism.html#tools-and-platforms",
+    "href": "minimalism.html#tools-and-platforms",
+    "title": "Maximizing Minimalism",
+    "section": "Tools and platforms",
+    "text": "Tools and platforms\n\nDigital scholarship publication\n\nCollectionBuilder - open-source static digital exhibit tool (Jekyll)\nQuire - static digital book or edition tool, created and maintained by the Getty\nEd and Wax - open-source tools for static digital editions and digital exhibitions, respectively, both using Jekyll and created by minicomp\nJuncture - open-source visual essay tool created by JSTOR Labs\nCanopy IIIF - open-source static digital exhibition/essay tool from IIIF manifests and markdown\n\n\n\nOther tools and platforms\n\nPandoc - open-source CLI application for converting between document formats (including from Markdown to HTML, docx, pdf, and more)\nQuarto - open-source tool for building static OERs, computational notebooks, and other simple websites\nNeocities.org - free static webhosting, featuring HTML tutorials and discoverability options\nObsidian - free (for local use) markdown-based knowledge management tool with database-like features\nTwine - open-source tool for creating static text-based games and nonlinear stories (uses WYSIWYG editor and simple markup)\nSimply Static - WordPress plugin to export a WP site as static HTML\nOpen-source static website frameworks: Jekyll, Build Awesome (aka Eleventy), Hugo, Gatsby, VuePress, Pelican"
+  },
+  {
+    "objectID": "minimalism.html#resources",
+    "href": "minimalism.html#resources",
+    "title": "Maximizing Minimalism",
+    "section": "Resources",
+    "text": "Resources\n\nLib-Static: a methodology, a collection, a community\nMinimal Computing - blog with definitions and resources\nSustainable Authorship in Plain Text using Pandoc and Markdown, Programming Historian tutorial by Dennis Tenen and Grant Wythoff"
+  },
+  {
+    "objectID": "minimalism.html#projects",
+    "href": "minimalism.html#projects",
+    "title": "Maximizing Minimalism",
+    "section": "Projects",
+    "text": "Projects\n\nDigital Grainger: An Online Edition of The Sugar-Cane (1764) - minimal edition of James Grainger’s The Sugar-Cane created using Ed by Julie Chun Kim, Cristobal Silva and colleagues at Fordham and Columbia.\nRecusant Readers: Reading with the Finches of Mawdesley - digital collection created using CollectionBuilder by Stonyhurst College Historic Libraries.\nTranspacific Crossings: Art, Trade, and the Manila Galleon, edited by Jorge F. Rivas Pérez, Karina H. Corrigan, and Kathryn Santner, symposium papers from 2024 symposium at the Denver Art Museum focused on Spanish colonialism and trade from 1565-1815. Created using Quire.\nPlant Humanities Lab - visual essays created using Juncture by Dumbarton Oaks."
+  },
+  {
+    "objectID": "minimalism.html#bibliography",
+    "href": "minimalism.html#bibliography",
+    "title": "Maximizing Minimalism",
+    "section": "Bibliography",
+    "text": "Bibliography\n\nRisam, Roopika, and Alex Gil. “Introduction: The Questions of Minimal Computing.” Digital Humanities Quarterly 016, no. 2 (2022).\nKleppman, Martin, Adam Wiggins, Peter van Hardenberg, and Mark McGranaghan. “Local-First Software: You Own Your Data, in Spite of the Cloud.” 2019 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward!). October 2019, 154–78. https://doi.org/doi:10.1145/3359591.3359737.\nDombrowski, Quinn. “Minimizing Computing Maximizes Labor.” Digital Humanities Quarterly, vol. 016, no. 2, June 2022.\nSander, Christoph. “Minimal Computing and Weak AI for Historical Research: The Case of Early Modern Church Administration.” Histories, vol. 5, no. 4, Dec. 2025, p. 59. www.mdpi.com, https://doi.org/10.3390/histories5040059."
+  },
+  {
+    "objectID": "exhibit-iiif.html#examples",
+    "href": "exhibit-iiif.html#examples",
+    "title": "Exhibit.so and IIIF",
+    "section": "Examples",
+    "text": "Examples\n\nLily Petteway (BMC 25), Anchoresses in Medieval Manuscripts\nChloe Sun (BMC 27)Scrapbooking Bryn Mawr: A 1910s Snapshot"
+  },
+  {
+    "objectID": "exhibit-iiif.html#why-its-great",
+    "href": "exhibit-iiif.html#why-its-great",
+    "title": "Exhibit.so and IIIF",
+    "section": "Why it’s great",
+    "text": "Why it’s great\n\nEasy to get started\nBrowser-based; no sign-in required\nIncludes metadata alongside visually-striking content"
+  },
+  {
+    "objectID": "exhibit-iiif.html#challenges",
+    "href": "exhibit-iiif.html#challenges",
+    "title": "Exhibit.so and IIIF",
+    "section": "Challenges",
+    "text": "Challenges\n\nImages have to be published on the web\n…using IIIF specifications"
+  },
+  {
+    "objectID": "exhibit-iiif.html#understanding-iiif",
+    "href": "exhibit-iiif.html#understanding-iiif",
+    "title": "Exhibit.so and IIIF",
+    "section": "Understanding IIIF",
+    "text": "Understanding IIIF\n\nInternational Image Interoperability Framework\nAPIs for publishing reusable images\nZoomable viewers, such as Mirador\nChange color! Rotate images!\nImages, books, video, and more!"
+  },
+  {
+    "objectID": "exhibit-iiif.html#how-it-works",
+    "href": "exhibit-iiif.html#how-it-works",
+    "title": "Exhibit.so and IIIF",
+    "section": "How it works",
+    "text": "How it works\n\nImage API:\n\nImage derivatives are “tiled” so deep zoom is possible\nURLs are structured in a recognizable way\n\nPresentation API:\n\nMetadata is packaged alongside images\nInclude multiple images for one object (book)\n\nManifest: see example\n\nA json file (JavaScript Object Notation) that includes unique IDs and links to images"
+  },
+  {
+    "objectID": "exhibit-iiif.html#finding-iiif-resources",
+    "href": "exhibit-iiif.html#finding-iiif-resources",
+    "title": "Exhibit.so and IIIF",
+    "section": "Finding IIIF Resources",
+    "text": "Finding IIIF Resources\n\nSearching for manifest links!\nTo get started: Guides to finding IIIF resources\nCollection-specific guidelines are not always up-to-date\nExample: Library of Congress, Topographical Map of Ocean Co., New Jersey"
+  },
+  {
+    "objectID": "exhibit-iiif.html#building-your-exhibit.so",
+    "href": "exhibit-iiif.html#building-your-exhibit.so",
+    "title": "Exhibit.so and IIIF",
+    "section": "Building your Exhibit.so",
+    "text": "Building your Exhibit.so\n\nNavigate to www.exhibit.so\nSave your Exhibit URL somewhere safe!\nAdd resources via IIIF manifest urls\nAdd slides for each resource and include text"
+  },
+  {
+    "objectID": "exhibit-iiif.html#resources",
+    "href": "exhibit-iiif.html#resources",
+    "title": "Exhibit.so and IIIF",
+    "section": "Resources",
+    "text": "Resources\n\nIIIF Online Training [https://training.iiif.io/iiif-online-workshop/]\nCanopy - tool for publishing IIIF collection\nExhibit.so self-hosting documentation"
+  },
+  {
+    "objectID": "web-publishing.html",
+    "href": "web-publishing.html",
+    "title": "Web Publishing Extravaganza!",
+    "section": "",
+    "text": "Webhosting tools\n\nGetting started with Domain of One’s Own (Google Slides)\nWeb Publishing with GitHub Pages (text tutorial)\n\nWeb design\n\nDesigning for the Web (Powerpoint)\n\nWeb development\n\nFront-end development with HTML and CSS (text tutorial)\nWeb Development: HTML & CSS (Powerpoint)\n\nWeb publishing tools\n\nDigital Scholarship Publishing Tools (PDF slides)"
+  },
+  {
+    "objectID": "web-publishing.html#choose-your-own-adventure",
+    "href": "web-publishing.html#choose-your-own-adventure",
+    "title": "Web Publishing Extravaganza!",
+    "section": "",
+    "text": "Webhosting tools\n\nGetting started with Domain of One’s Own (Google Slides)\nWeb Publishing with GitHub Pages (text tutorial)\n\nWeb design\n\nDesigning for the Web (Powerpoint)\n\nWeb development\n\nFront-end development with HTML and CSS (text tutorial)\nWeb Development: HTML & CSS (Powerpoint)\n\nWeb publishing tools\n\nDigital Scholarship Publishing Tools (PDF slides)"
+  },
+  {
+    "objectID": "web-publishing.html#concepts-and-background",
+    "href": "web-publishing.html#concepts-and-background",
+    "title": "Web Publishing Extravaganza!",
+    "section": "Concepts and Background",
+    "text": "Concepts and Background\n\nWhat is the Internet and how does it work?\n\nMDN web docs: How does the Internet work?\n\nThe Internet in 5 Minutes (video) by Aaron Titus\nHow does the Internet work? (video)\n\n\n\n\n🕸️ Web Publishing Vocab\n\n\n\n\n\n\n\nTerm\nDefinition\n\n\n\n\nServer\nA computer or system that provides resources, data, services, or programs to other computers (clients) over a network. In web publishing, it hosts websites and delivers content to users.\n\n\nDeployment\nThe process of making a website or web application live and accessible on the internet. This includes uploading files to a server and configuring settings.\n\n\nHTML\nHyperText Markup Language: the standard language used to create and structure content on the web. It defines elements like headings, paragraphs, links, and images.\n\n\nCSS\nCascading Style Sheets: a language used to control the presentation and layout of HTML elements, including colors, fonts, spacing, and responsiveness.\n\n\nUX (User Experience)\nThe overall experience a user has when interacting with a website or application, including ease of use, accessibility, and satisfaction.\n\n\nResponsiveness\nThe ability of a website to adapt its layout and content to different screen sizes and devices (e.g., desktops, tablets, smartphones).\n\n\nBrowser\nA software application (like Chrome, Firefox, Safari) used to access and view websites on the internet. It interprets HTML, CSS, and JavaScript.\n\n\nDomain\nThe human-readable address of a website (e.g., example.com). It maps to an IP address and is used to access websites easily.\n\n\nIP Address\nA unique string of numbers (e.g., 192.168.1.1) that identifies a device or server on a network. Domains are linked to IPs via DNS.\n\n\nDNS\nDomain Name System: an ‘address book’ dor the web that translates domain names into IP addresses so browsers can load internet resources.\n\n\nHosting\nA service that stores website files and makes them accessible on the internet. Hosting providers offer space on servers for this purpose.\n\n\nCMS\nContent Management System: A software platform (like WordPress or Drupal) that allows users to create, manage, and modify website content without needing to code.\n\n\nFrontend\nThe part of a website users interact with directly. It includes everything seen on the screen, built with HTML, CSS, and JavaScript.\n\n\nBackend\nThe server-side part of a website that handles data processing, database interactions, and server logic.\n\n\nSEO\nSearch Engine Optimization: techniques used to improve a website’s visibility in search engine results, increasing traffic and discoverability.\n\n\nStatic Website\nA “static” website contains files that are directly accessed by your browser rather than created on-the-fly by a CMS application. Static websites are faster to load, easier to host, maintain, and archive, and have a lower carbon footprint than dynamic sites.\n\n\nDynamic Website\nA website that generates content in real-time based on user interaction or data. It often uses server-side scripting (like PHP, Node.js) and databases to deliver personalized or interactive content, often in the form of a CMS.\n\n\n\nThis vocab sheet was created in collaboration with Microsoft Copilot."
+  },
+  {
     "objectID": "creative-coding.html#section",
     "href": "creative-coding.html#section",
     "title": "Creative Coding with Bitsy",
@@ -96,418 +481,5 @@
     "title": "Creative Coding with Bitsy",
     "section": "Return to Intro DH Site",
     "text": "Return to Intro DH Site"
-  },
-  {
-    "objectID": "web-publishing.html",
-    "href": "web-publishing.html",
-    "title": "Web Publishing Extravaganza!",
-    "section": "",
-    "text": "Webhosting tools\n\nGetting started with Domain of One’s Own (Google Slides)\nWeb Publishing with GitHub Pages (text tutorial)\n\nWeb design\n\nDesigning for the Web (Powerpoint)\n\nWeb development\n\nFront-end development with HTML and CSS (text tutorial)\nWeb Development: HTML & CSS (Powerpoint)\n\nWeb publishing tools\n\nDigital Scholarship Publishing Tools (PDF slides)"
-  },
-  {
-    "objectID": "web-publishing.html#choose-your-own-adventure",
-    "href": "web-publishing.html#choose-your-own-adventure",
-    "title": "Web Publishing Extravaganza!",
-    "section": "",
-    "text": "Webhosting tools\n\nGetting started with Domain of One’s Own (Google Slides)\nWeb Publishing with GitHub Pages (text tutorial)\n\nWeb design\n\nDesigning for the Web (Powerpoint)\n\nWeb development\n\nFront-end development with HTML and CSS (text tutorial)\nWeb Development: HTML & CSS (Powerpoint)\n\nWeb publishing tools\n\nDigital Scholarship Publishing Tools (PDF slides)"
-  },
-  {
-    "objectID": "web-publishing.html#concepts-and-background",
-    "href": "web-publishing.html#concepts-and-background",
-    "title": "Web Publishing Extravaganza!",
-    "section": "Concepts and Background",
-    "text": "Concepts and Background\n\nWhat is the Internet and how does it work?\n\nMDN web docs: How does the Internet work?\n\nThe Internet in 5 Minutes (video) by Aaron Titus\nHow does the Internet work? (video)\n\n\n\n\n🕸️ Web Publishing Vocab\n\n\n\n\n\n\n\nTerm\nDefinition\n\n\n\n\nServer\nA computer or system that provides resources, data, services, or programs to other computers (clients) over a network. In web publishing, it hosts websites and delivers content to users.\n\n\nDeployment\nThe process of making a website or web application live and accessible on the internet. This includes uploading files to a server and configuring settings.\n\n\nHTML\nHyperText Markup Language: the standard language used to create and structure content on the web. It defines elements like headings, paragraphs, links, and images.\n\n\nCSS\nCascading Style Sheets: a language used to control the presentation and layout of HTML elements, including colors, fonts, spacing, and responsiveness.\n\n\nUX (User Experience)\nThe overall experience a user has when interacting with a website or application, including ease of use, accessibility, and satisfaction.\n\n\nResponsiveness\nThe ability of a website to adapt its layout and content to different screen sizes and devices (e.g., desktops, tablets, smartphones).\n\n\nBrowser\nA software application (like Chrome, Firefox, Safari) used to access and view websites on the internet. It interprets HTML, CSS, and JavaScript.\n\n\nDomain\nThe human-readable address of a website (e.g., example.com). It maps to an IP address and is used to access websites easily.\n\n\nIP Address\nA unique string of numbers (e.g., 192.168.1.1) that identifies a device or server on a network. Domains are linked to IPs via DNS.\n\n\nDNS\nDomain Name System: an ‘address book’ dor the web that translates domain names into IP addresses so browsers can load internet resources.\n\n\nHosting\nA service that stores website files and makes them accessible on the internet. Hosting providers offer space on servers for this purpose.\n\n\nCMS\nContent Management System: A software platform (like WordPress or Drupal) that allows users to create, manage, and modify website content without needing to code.\n\n\nFrontend\nThe part of a website users interact with directly. It includes everything seen on the screen, built with HTML, CSS, and JavaScript.\n\n\nBackend\nThe server-side part of a website that handles data processing, database interactions, and server logic.\n\n\nSEO\nSearch Engine Optimization: techniques used to improve a website’s visibility in search engine results, increasing traffic and discoverability.\n\n\nStatic Website\nA “static” website contains files that are directly accessed by your browser rather than created on-the-fly by a CMS application. Static websites are faster to load, easier to host, maintain, and archive, and have a lower carbon footprint than dynamic sites.\n\n\nDynamic Website\nA website that generates content in real-time based on user interaction or data. It often uses server-side scripting (like PHP, Node.js) and databases to deliver personalized or interactive content, often in the form of a CMS.\n\n\n\nThis vocab sheet was created in collaboration with Microsoft Copilot."
-  },
-  {
-    "objectID": "exhibit-iiif.html#examples",
-    "href": "exhibit-iiif.html#examples",
-    "title": "Exhibit.so and IIIF",
-    "section": "Examples",
-    "text": "Examples\n\nLily Petteway (BMC 25), Anchoresses in Medieval Manuscripts\nChloe Sun (BMC 27)Scrapbooking Bryn Mawr: A 1910s Snapshot"
-  },
-  {
-    "objectID": "exhibit-iiif.html#why-its-great",
-    "href": "exhibit-iiif.html#why-its-great",
-    "title": "Exhibit.so and IIIF",
-    "section": "Why it’s great",
-    "text": "Why it’s great\n\nEasy to get started\nBrowser-based; no sign-in required\nIncludes metadata alongside visually-striking content"
-  },
-  {
-    "objectID": "exhibit-iiif.html#challenges",
-    "href": "exhibit-iiif.html#challenges",
-    "title": "Exhibit.so and IIIF",
-    "section": "Challenges",
-    "text": "Challenges\n\nImages have to be published on the web\n…using IIIF specifications"
-  },
-  {
-    "objectID": "exhibit-iiif.html#understanding-iiif",
-    "href": "exhibit-iiif.html#understanding-iiif",
-    "title": "Exhibit.so and IIIF",
-    "section": "Understanding IIIF",
-    "text": "Understanding IIIF\n\nInternational Image Interoperability Framework\nAPIs for publishing reusable images\nZoomable viewers, such as Mirador\nChange color! Rotate images!\nImages, books, video, and more!"
-  },
-  {
-    "objectID": "exhibit-iiif.html#how-it-works",
-    "href": "exhibit-iiif.html#how-it-works",
-    "title": "Exhibit.so and IIIF",
-    "section": "How it works",
-    "text": "How it works\n\nImage API:\n\nImage derivatives are “tiled” so deep zoom is possible\nURLs are structured in a recognizable way\n\nPresentation API:\n\nMetadata is packaged alongside images\nInclude multiple images for one object (book)\n\nManifest: see example\n\nA json file (JavaScript Object Notation) that includes unique IDs and links to images"
-  },
-  {
-    "objectID": "exhibit-iiif.html#finding-iiif-resources",
-    "href": "exhibit-iiif.html#finding-iiif-resources",
-    "title": "Exhibit.so and IIIF",
-    "section": "Finding IIIF Resources",
-    "text": "Finding IIIF Resources\n\nSearching for manifest links!\nTo get started: Guides to finding IIIF resources\nCollection-specific guidelines are not always up-to-date\nExample: Library of Congress, Topographical Map of Ocean Co., New Jersey"
-  },
-  {
-    "objectID": "exhibit-iiif.html#building-your-exhibit.so",
-    "href": "exhibit-iiif.html#building-your-exhibit.so",
-    "title": "Exhibit.so and IIIF",
-    "section": "Building your Exhibit.so",
-    "text": "Building your Exhibit.so\n\nNavigate to www.exhibit.so\nSave your Exhibit URL somewhere safe!\nAdd resources via IIIF manifest urls\nAdd slides for each resource and include text"
-  },
-  {
-    "objectID": "exhibit-iiif.html#resources",
-    "href": "exhibit-iiif.html#resources",
-    "title": "Exhibit.so and IIIF",
-    "section": "Resources",
-    "text": "Resources\n\nIIIF Online Training [https://training.iiif.io/iiif-online-workshop/]\nCanopy - tool for publishing IIIF collection\nExhibit.so self-hosting documentation"
-  },
-  {
-    "objectID": "minimalism.html",
-    "href": "minimalism.html",
-    "title": "Maximizing Minimalism",
-    "section": "",
-    "text": "ASECS 2026, Philadelphia"
-  },
-  {
-    "objectID": "minimalism.html#tools-and-platforms",
-    "href": "minimalism.html#tools-and-platforms",
-    "title": "Maximizing Minimalism",
-    "section": "Tools and platforms",
-    "text": "Tools and platforms\n\nDigital scholarship publication\n\nCollectionBuilder - open-source static digital exhibit tool (Jekyll)\nQuire - static digital book or edition tool, created and maintained by the Getty\nEd and Wax - open-source tools for static digital editions and digital exhibitions, respectively, both using Jekyll and created by minicomp\nJuncture - open-source visual essay tool created by JSTOR Labs\nCanopy IIIF - open-source static digital exhibition/essay tool from IIIF manifests and markdown\n\n\n\nOther tools and platforms\n\nPandoc - open-source CLI application for converting between document formats (including from Markdown to HTML, docx, pdf, and more)\nQuarto - open-source tool for building static OERs, computational notebooks, and other simple websites\nNeocities.org - free static webhosting, featuring HTML tutorials and discoverability options\nObsidian - free (for local use) markdown-based knowledge management tool with database-like features\nTwine - open-source tool for creating static text-based games and nonlinear stories (uses WYSIWYG editor and simple markup)\nSimply Static - WordPress plugin to export a WP site as static HTML\nOpen-source static website frameworks: Jekyll, Build Awesome (aka Eleventy), Hugo, Gatsby, VuePress, Pelican"
-  },
-  {
-    "objectID": "minimalism.html#resources",
-    "href": "minimalism.html#resources",
-    "title": "Maximizing Minimalism",
-    "section": "Resources",
-    "text": "Resources\n\nLib-Static: a methodology, a collection, a community\nMinimal Computing - blog with definitions and resources\nSustainable Authorship in Plain Text using Pandoc and Markdown, Programming Historian tutorial by Dennis Tenen and Grant Wythoff"
-  },
-  {
-    "objectID": "minimalism.html#projects",
-    "href": "minimalism.html#projects",
-    "title": "Maximizing Minimalism",
-    "section": "Projects",
-    "text": "Projects\n\nDigital Grainger: An Online Edition of The Sugar-Cane (1764) - minimal edition of James Grainger’s The Sugar-Cane created using Ed by Julie Chun Kim, Cristobal Silva and colleagues at Fordham and Columbia.\nRecusant Readers: Reading with the Finches of Mawdesley - digital collection created using CollectionBuilder by Stonyhurst College Historic Libraries.\nTranspacific Crossings: Art, Trade, and the Manila Galleon, edited by Jorge F. Rivas Pérez, Karina H. Corrigan, and Kathryn Santner, symposium papers from 2024 symposium at the Denver Art Museum focused on Spanish colonialism and trade from 1565-1815. Created using Quire.\nPlant Humanities Lab - visual essays created using Juncture by Dumbarton Oaks."
-  },
-  {
-    "objectID": "minimalism.html#bibliography",
-    "href": "minimalism.html#bibliography",
-    "title": "Maximizing Minimalism",
-    "section": "Bibliography",
-    "text": "Bibliography\n\nRisam, Roopika, and Alex Gil. “Introduction: The Questions of Minimal Computing.” Digital Humanities Quarterly 016, no. 2 (2022).\nKleppman, Martin, Adam Wiggins, Peter van Hardenberg, and Mark McGranaghan. “Local-First Software: You Own Your Data, in Spite of the Cloud.” 2019 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward!). October 2019, 154–78. https://doi.org/doi:10.1145/3359591.3359737.\nDombrowski, Quinn. “Minimizing Computing Maximizes Labor.” Digital Humanities Quarterly, vol. 016, no. 2, June 2022.\nSander, Christoph. “Minimal Computing and Weak AI for Historical Research: The Case of Early Modern Church Administration.” Histories, vol. 5, no. 4, Dec. 2025, p. 59. www.mdpi.com, https://doi.org/10.3390/histories5040059."
-  },
-  {
-    "objectID": "wikidata.html#linked-open-data",
-    "href": "wikidata.html#linked-open-data",
-    "title": "Wikidata",
-    "section": "Linked Open Data",
-    "text": "Linked Open Data\n\nThe Linked Open Data CloudView the interactive LOD cloud here"
-  },
-  {
-    "objectID": "wikidata.html#concepts",
-    "href": "wikidata.html#concepts",
-    "title": "Wikidata",
-    "section": "Concepts",
-    "text": "Concepts\n\nData should be described in a standardized way\nURIs refer to the definition of a data category\nInteroperability"
-  },
-  {
-    "objectID": "wikidata.html#wikidata-statements",
-    "href": "wikidata.html#wikidata-statements",
-    "title": "Wikidata",
-    "section": "Wikidata statements",
-    "text": "Wikidata statements\n\n“The sky is blue”\n“The sky has the color blue”\nSemantic triple:\n\nSubject - the sky - Q527\nPredicate - has the color - P462\nObject - blue - Q1088"
-  },
-  {
-    "objectID": "wikidata.html#examples-clarissa",
-    "href": "wikidata.html#examples-clarissa",
-    "title": "Wikidata",
-    "section": "Examples: Clarissa",
-    "text": "Examples: Clarissa\n\nStatements about Clarissa: Q980534\n\nInstance of (P31) written work (Q47461344)\ngenre (P136) epistolary novel (Q465821)\nauthor (P50) Samuel Richardson (Q295941)"
-  },
-  {
-    "objectID": "wikidata.html#eliza-haywood",
-    "href": "wikidata.html#eliza-haywood",
-    "title": "Wikidata",
-    "section": "Eliza Haywood",
-    "text": "Eliza Haywood\n\nID Q1559438\ninstance of (P31) human (Q5)\nimage (P18)\noccupation (P106) novelist (Q6625963)\n\nAlso poet, playwright, actor, editor, philosopher\n\nVIAF cluster ID (P214): 64027723"
-  },
-  {
-    "objectID": "wikidata.html#other-properties",
-    "href": "wikidata.html#other-properties",
-    "title": "Wikidata",
-    "section": "Other properties",
-    "text": "Other properties\n\nGenre: P136\nGender: P21\nArchives at: P485\nDepicted by: P1299\nDescribed by source: P1343\nHas works in the collection: P6379"
-  },
-  {
-    "objectID": "wikidata.html#the-wikidata-api",
-    "href": "wikidata.html#the-wikidata-api",
-    "title": "Wikidata",
-    "section": "The Wikidata API",
-    "text": "The Wikidata API\n\nThe game Wikitrivia by Tom J. Watson uses the Wikidata API"
-  },
-  {
-    "objectID": "wikidata.html#uses",
-    "href": "wikidata.html#uses",
-    "title": "Wikidata",
-    "section": "Uses",
-    "text": "Uses\n\nBuilding open-source web resources\nAdd data and images easily with digital publishing tools like Juncture\nEnhance a dataset: add Wikidata entity IDs to discover more information - e.g. Bryn Mawr edit-a-thon\nDataset discovery: add identifiers from other data resources to wikidata"
-  },
-  {
-    "objectID": "wikidata.html#wikidata-queries",
-    "href": "wikidata.html#wikidata-queries",
-    "title": "Wikidata",
-    "section": "Wikidata Queries",
-    "text": "Wikidata Queries\n\nWikidata Query Service– SPARQL Queries\nWikidata Query Builder – GUI\nWikidata SPARQL tutorial"
-  },
-  {
-    "objectID": "wikidata.html#query-structure",
-    "href": "wikidata.html#query-structure",
-    "title": "Wikidata",
-    "section": "Query structure",
-    "text": "Query structure\nGet the names of all cats in wikidata\nSELECT ?item ?itemLabel # give me the item id and the item label\nWHERE # in instances where\n{\n  ?item wdt:P31 wd:Q146. # instance of cat\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". } \n  # the item label should be in english\n}"
-  },
-  {
-    "objectID": "wikidata.html#queries-for-an-author",
-    "href": "wikidata.html#queries-for-an-author",
-    "title": "Wikidata",
-    "section": "Queries for an author",
-    "text": "Queries for an author\n\nQuery template: Generic queries for authors\nEliza Haywood queries\nEliza Haywood’s timeline\nOther templates listed at Template:Item documentation"
-  },
-  {
-    "objectID": "wikidata.html#getting-started",
-    "href": "wikidata.html#getting-started",
-    "title": "Wikidata",
-    "section": "Getting started",
-    "text": "Getting started\n\nLog in at Wikidata.org Login URL (credentials are the same as Wikipedia)\nTake a Tour: Wikidata Tours"
-  },
-  {
-    "objectID": "wikidata.html#resources",
-    "href": "wikidata.html#resources",
-    "title": "Wikidata",
-    "section": "Resources",
-    "text": "Resources\n\nHow to Edit Wikidata: a step by step guide (pdf slides)\nHow to add references\nNYU Libraries libguide: Wikimedia Toolkit\n“Designing a Wikidata Project: Mapping Black Philly Art”, Synatra Smith (12.15.21)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Workshops and Slides",
-    "section": "",
-    "text": "Senior Digital Scholarship Specialist @ Bryn Mawr College\n\nMaximizing Minimalism: DIY Digital Publishing Tools Starring Markdown - ASECS, April 9, 2026.\nCreative Coding with Twine - Workshop for RUSS 233, February 11, 2026\nWeb Publishing Extravaganza - DTIs, July 15, 2025\nIIIF and Exhibit.so - IliADS, June 24, 2025\nCreative Coding - Intro DH, April 22 2025\nWikidata - Workshop for ASECS DH Caucus, April 5 2025\nCreative Coding with Bitsy - Workshop for COML 281, April 2 2025\n\nMade with Revealjs and Quarto\nView on GitHub"
-  },
-  {
-    "objectID": "bitsy.html#section",
-    "href": "bitsy.html#section",
-    "title": "Creative Coding with Bitsy",
-    "section": "",
-    "text": "CHOPSUEY a Bitsy game by Shiamin Kwa"
-  },
-  {
-    "objectID": "bitsy.html#section-1",
-    "href": "bitsy.html#section-1",
-    "title": "Creative Coding with Bitsy",
-    "section": "",
-    "text": "Kitten-wrangler by Alice McGrath. On GitHub: atmcgrath/kitten-game"
-  },
-  {
-    "objectID": "bitsy.html#features-of-a-bitsy-game",
-    "href": "bitsy.html#features-of-a-bitsy-game",
-    "title": "Creative Coding with Bitsy",
-    "section": "Features of a Bitsy game",
-    "text": "Features of a Bitsy game\n\nMultiple rooms or spaces to move through\nSimple UI text\nNon-player characters to interact with\nObjects to pick up (can be counted)\nExits and entrances (can have conditions/require keys)\nMusic, sound effects, and simple animation options"
-  },
-  {
-    "objectID": "bitsy.html#editor-windows",
-    "href": "bitsy.html#editor-windows",
-    "title": "Creative Coding with Bitsy",
-    "section": "Editor windows",
-    "text": "Editor windows\n\ntools: show the menu of tool windows, select which ones to toggle on\nplay: test out your game\nabout: instructions and documentation\ngame: load or save your game\nroom: the main editor for the space of your game\npaint: design and add your characters and objects\n\navatar: your player\ntile: an obstacle square\nsprite: NPC who can deliver information\nitem: objects you collect\n\nexits & endings: what happens when you finish a room\ncolors: customize colors\ndialog: UI text and narrative elements (interaction conditions)\ntune and blip: music and sound effects\nfind: search among your game resources\ninventory: keep track of items and variables"
-  },
-  {
-    "objectID": "bitsy.html#storyboarding",
-    "href": "bitsy.html#storyboarding",
-    "title": "Creative Coding with Bitsy",
-    "section": "Storyboarding",
-    "text": "Storyboarding\n\nWho is your avatar character?\nWhere are they?\nWhat is their mission?\nWho and what will they interact with?"
-  },
-  {
-    "objectID": "bitsy.html#ux-design",
-    "href": "bitsy.html#ux-design",
-    "title": "Creative Coding with Bitsy",
-    "section": "UX design",
-    "text": "UX design\n\nHow will your player know what to do?\n\nDialogs and Sprite interactions\n\nWhat are the spaces/levels/narrative beats?\n\nRooms, dialogs\n\nSet up challenges and conditions\n\nLocked exits, dialogs, variables"
-  },
-  {
-    "objectID": "bitsy.html#challenges",
-    "href": "bitsy.html#challenges",
-    "title": "Creative Coding with Bitsy",
-    "section": "Challenges",
-    "text": "Challenges\n\nCustomize your colors\nCustomize your avatar, sprites, tiles, and items\nCreate a locked exit\nCustomize music and blips"
-  },
-  {
-    "objectID": "bitsy.html#saving-and-loading-your-game",
-    "href": "bitsy.html#saving-and-loading-your-game",
-    "title": "Creative Coding with Bitsy",
-    "section": "Saving and loading your game",
-    "text": "Saving and loading your game\n\nSelect ‘game’ to open the export-import menu\nSelect ‘save game’ to download your game as .html\nWhen you want to work on it again, it may have been saved in your browser session. Otherwise, you can select ‘load game’ and upload the same html file"
-  },
-  {
-    "objectID": "bitsy.html#publishing-your-game",
-    "href": "bitsy.html#publishing-your-game",
-    "title": "Creative Coding with Bitsy",
-    "section": "Publishing your game",
-    "text": "Publishing your game\nYou have two options for publishing your game on the web:\n\nGitHub offers free webhosting through GitHub Pages\nBiCo folks can get a webhosting account through Domain of One’s Own (BMC) or Haverford Sites (HC)"
-  },
-  {
-    "objectID": "bitsy.html#github-instructions",
-    "href": "bitsy.html#github-instructions",
-    "title": "Creative Coding with Bitsy",
-    "section": "GitHub instructions",
-    "text": "GitHub instructions\n1. Create a new repository\n\nLog in to GitHub.com and create a new repository called “bitsy-game”\nUpload the html file for your game to the repository\nRename the html file index.html\n\n2. Publish your repository\n\nFrom your repository, go to the ‘settings’ tab and scroll down to pages\nUnder ‘Source’ select ‘deploy from a branch’ and select “main” branch, then “save”\nWait for a few minutes for the deployment to finish\nYour site’s url: username.github.io/bitsy-game\n\nNB: this GitHub deployment guide has step-by-step instructions and screenshots"
-  },
-  {
-    "objectID": "bitsy.html#domain-of-ones-own",
-    "href": "bitsy.html#domain-of-ones-own",
-    "title": "Creative Coding with Bitsy",
-    "section": "Domain of One’s Own",
-    "text": "Domain of One’s Own\n\nNavigate to digital.brynmawr.edu or sites.haverford.edu\nClick ‘Get Started’ and sign in with your username\nSelect a personal subdomain name (this will be part of your URL)\nLocate the “File Manager” (in the “Files” section) on the list of tools\nNavigate to the “public_html” folder\nCreate a subfolder called “game”\nRenaim your game file index.html\nUpload it to the “game” folder\nYour site’s url: yourdomain.digital.brynmawr.edu/game"
-  },
-  {
-    "objectID": "bitsy.html#making-changes",
-    "href": "bitsy.html#making-changes",
-    "title": "Creative Coding with Bitsy",
-    "section": "Making changes",
-    "text": "Making changes\n\nLoad your Bitsy game file back into the editor\nWhen you are done, export the html file and replace the old one on GitHub or DoOO"
-  },
-  {
-    "objectID": "bitsy.html#resources",
-    "href": "bitsy.html#resources",
-    "title": "Creative Coding with Bitsy",
-    "section": "Resources",
-    "text": "Resources\nBitsy\n\nThis Bitsy Handout has lots of resources\nRead the Bitsy documentation\nCheck out other Bitsy games\n\nWeb publishing\n\nAskAthena’s Domain of One’s Own documentation\nGuide to GitHub Pages"
-  },
-  {
-    "objectID": "data-vocabularies.html#interoperability",
-    "href": "data-vocabularies.html#interoperability",
-    "title": "Linked Data & Controlled Vocabularies",
-    "section": "Interoperability",
-    "text": "Interoperability\nFor a dataset to be interoperable, it has to have points of agreement with other datasets: pre-defined categories that have meaning outside of that dataset’s context.\nNot only does this help validate the data by using clear and established definitions it also helps users combine data from multiple sources."
-  },
-  {
-    "objectID": "data-vocabularies.html#examples",
-    "href": "data-vocabularies.html#examples",
-    "title": "Linked Data & Controlled Vocabularies",
-    "section": "Examples",
-    "text": "Examples\n\nCervantes Virtual: lod-cloud.net/dataset/BVMC\nFuturistic Fiction: data.post45.org/posts/futuristic-fiction/"
-  },
-  {
-    "objectID": "data-vocabularies.html#library-of-congress-subject-headings",
-    "href": "data-vocabularies.html#library-of-congress-subject-headings",
-    "title": "Linked Data & Controlled Vocabularies",
-    "section": "Library of Congress Subject Headings",
-    "text": "Library of Congress Subject Headings"
-  },
-  {
-    "objectID": "data-vocabularies.html#example-publication-location",
-    "href": "data-vocabularies.html#example-publication-location",
-    "title": "Linked Data & Controlled Vocabularies",
-    "section": "Example: publication location",
-    "text": "Example: publication location\nDisambiguate location names that are similar by providing geographic areas and regions\n\nSearch LC linked data service - geographic\nRevista Ariel - Revista Ariel on Cervantes Virtual\nTegucigalpa: Alcaldía Mayor vs. Francisco Morazán"
-  },
-  {
-    "objectID": "data-vocabularies.html#subject-headings",
-    "href": "data-vocabularies.html#subject-headings",
-    "title": "Linked Data & Controlled Vocabularies",
-    "section": "Subject headings",
-    "text": "Subject headings"
-  },
-  {
-    "objectID": "data-vocabularies.html#example-author-names",
-    "href": "data-vocabularies.html#example-author-names",
-    "title": "Linked Data & Controlled Vocabularies",
-    "section": "Example: author names",
-    "text": "Example: author names\n\nOscar Wilde\nSearch ‘Personal Names’\nVIAF: viaf.org/en/viaf/34464414\nUse the form with the US flag/the most flags: ‘Wilde, Oscar, 1854-1900’\nScroll down for biographical details (gender, nationality, etc.)"
-  },
-  {
-    "objectID": "data-vocabularies.html#example-type-of-publication",
-    "href": "data-vocabularies.html#example-type-of-publication",
-    "title": "Linked Data & Controlled Vocabularies",
-    "section": "Example: type of publication",
-    "text": "Example: type of publication\n\nLCSH - GenreForm\nPeriodical -&gt; “Forma/género: Publicación periódica”"
-  },
-  {
-    "objectID": "data-vocabularies.html#what-if-someone-isnt-in-viaf",
-    "href": "data-vocabularies.html#what-if-someone-isnt-in-viaf",
-    "title": "Linked Data & Controlled Vocabularies",
-    "section": "What if someone isn’t in VIAF?",
-    "text": "What if someone isn’t in VIAF?\n\nCheck your spelling!\nSearch Wikidata: wikidata.org/\nSearch Google (for fuzzy matches) and Wikipedia (for mentions). Include geography or professions.\n\nIf you find a likely match with an alternate name form, try VIAF and Wikidata again.\n\nAdd them to the ‘unknown authors’ tab and explain what you did and what you found\n\nOptional: sleuthing on Google Books and Google"
-  },
-  {
-    "objectID": "data-vocabularies.html#example-mercedes-laínes",
-    "href": "data-vocabularies.html#example-mercedes-laínes",
-    "title": "Linked Data & Controlled Vocabularies",
-    "section": "Example: Mercedes Laínes",
-    "text": "Example: Mercedes Laínes\n\nNot in VIAF\nWikidata ID Q138557563\nGoogle search suggested “Mercedes Lainez Blanco” and brought me to this EcuRed Profile\nOther wikidata entry - Q106614689"
-  },
-  {
-    "objectID": "data-vocabularies.html#viaf",
-    "href": "data-vocabularies.html#viaf",
-    "title": "Linked Data & Controlled Vocabularies",
-    "section": "VIAF",
-    "text": "VIAF\n\nInternational consortium of libraries and professional organizations: see contributors\n\nNB: the US flag symbolizes Library of Congress/NACO\n\nMakes it easier for librarians to catalog new materials by standardizing headings so that alternate forms can be cross-referenced"
-  },
-  {
-    "objectID": "data-vocabularies.html#takeaways",
-    "href": "data-vocabularies.html#takeaways",
-    "title": "Linked Data & Controlled Vocabularies",
-    "section": "## Takeaways",
-    "text": "## Takeaways"
-  },
-  {
-    "objectID": "data-vocabularies.html#linked-open-data",
-    "href": "data-vocabularies.html#linked-open-data",
-    "title": "Linked Data & Controlled Vocabularies",
-    "section": "Linked Open Data",
-    "text": "Linked Open Data\n\nThe Linked Open Data CloudView the interactive LOD cloud here"
-  },
-  {
-    "objectID": "data-vocabularies.html#fair-data",
-    "href": "data-vocabularies.html#fair-data",
-    "title": "Linked Data & Controlled Vocabularies",
-    "section": "FAIR Data",
-    "text": "FAIR Data\n\nF - Findable: well-described and indexed in searchable resources\nA - Accessible: public in a usable form\nI - Interoperable: uses shared categories and vocabularies\nR - Reusable: process documentation and metadata are accurate"
-  },
-  {
-    "objectID": "data-vocabularies.html#wikidata",
-    "href": "data-vocabularies.html#wikidata",
-    "title": "Linked Data & Controlled Vocabularies",
-    "section": "Wikidata",
-    "text": "Wikidata\n“A collaboratively edited multilingual knowledge graph hosted by the Wikimedia Foundation.” (“Wikidata”, Wikipedia.org).\nLike Wikipedia, it’s user generated and controlled: that means we can share back what we have discovered or add references for various statements in existing entries."
-  },
-  {
-    "objectID": "data-vocabularies.html#flowchart",
-    "href": "data-vocabularies.html#flowchart",
-    "title": "Linked Data & Controlled Vocabularies",
-    "section": "Flowchart",
-    "text": "Flowchart\n\n\n\n\n\nflowchart LR\n    Z[Author name] --&gt; A[Search VIAF]\n    A --&gt; |No| C[Search Wikidata]\n    A --&gt; |Yes| B[Add Authority]\n    C --&gt; |Yes|B\n    C --&gt; |No|D[Alternate name?]\n    D --&gt; |Yes|A\n    C --&gt; |No| E\n    D --&gt; |No| E[Add to unknown Authors]"
-  },
-  {
-    "objectID": "data-vocabularies.html#process",
-    "href": "data-vocabularies.html#process",
-    "title": "Linked Data & Controlled Vocabularies",
-    "section": "Process",
-    "text": "Process\n\n\n\n\n\nflowchart LR\n    Z[Author name] --&gt; A[Search VIAF]\n    A --&gt; |No| C[Search Wikidata]\n    A --&gt; |Yes| B[Add Authority]\n    C --&gt; |Yes|B\n    C --&gt; |No|D[Alternate name?]\n    D --&gt; |Yes|A\n    C --&gt; |No| E\n    D --&gt; |No| E[Add to Unknown Authors]"
   }
 ]

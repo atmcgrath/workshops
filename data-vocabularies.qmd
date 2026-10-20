@@ -16,16 +16,16 @@ format:
 
 ## Linked Open Data
 
-![The Linked Open Data Cloud](media/lod-cloud.png)
+![](media/lod-cloud.png)
 
 View the [interactive LOD cloud here](https://lod-cloud.net/clouds/lod-cloud.svg)
 
-## FAIR Data
+## FAIR Data Principles
 
-- F - Findable: well-described and indexed in searchable resources
-- A - Accessible: public in a usable form
-- I - Interoperable: uses shared categories and vocabularies
-- R - Reusable: process documentation and metadata are accurate
+- **F** - Findable: well-described and indexed in searchable resources
+- **A** - Accessible: public in a usable form
+- **I** - Interoperable: uses shared categories and vocabularies
+- **R** - Reusable: process documentation and metadata are accurate
 
 ## Interoperability
 
