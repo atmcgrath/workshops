@@ -1,0 +1,15 @@
+project:
+  output-dir: docs
+  type: website
+
+website:
+  title: "Workshops"
+
+format:
+    revealjs:
+      theme: moon
+      controls: true
+      #embed-resources: true
+      css: "https://alicemcgrath.digital.brynmawr.edu/pres/a3.css"
+    html:
+      theme: darkly
