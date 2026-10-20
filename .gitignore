@@ -4,3 +4,5 @@ test*
 
 gen-ai.html
 data-viz-1.html
+
+**/*.quarto_ipynb
