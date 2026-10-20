@@ -4,7 +4,7 @@ author: Alice McGrath
 format: html
 editor:
     render-on-save: true
-theme: darkly
+
 ---
 
 Senior Digital Scholarship Specialist @ Bryn Mawr College

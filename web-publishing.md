@@ -5,7 +5,7 @@ format: html
 date: 2025.07.15
 editor:
     render-on-save: true
-theme: darkly
+
 ---
 
 ## Choose-your-own adventure

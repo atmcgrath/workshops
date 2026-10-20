@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Workshops"
+  draft-mode: gone
 
 format:
     revealjs:

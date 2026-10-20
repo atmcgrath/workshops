@@ -4,10 +4,7 @@ date: April 2, 2025
 author: Alice McGrath & Cameron Boucher
 subtitle: Food in Translation, Shiamin Kwa
 format: 
-    revealjs:
-        theme: moon
-        controls: true
-css: "https://alicemcgrath.digital.brynmawr.edu/pres/a3.css"
+    revealjs
 editor:
     render-on-save: true
 ---

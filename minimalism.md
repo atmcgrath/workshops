@@ -6,7 +6,6 @@ format: html
 date: 2026.04.09
 editor:
     render-on-save: true
-theme: darkly
 ---
 
 ASECS 2026, Philadelphia

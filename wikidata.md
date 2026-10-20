@@ -4,10 +4,7 @@ date: April 5, 2025
 author: Alice McGrath
 subtitle: ASECS 2025, DH Caucus Session
 format:
-    revealjs:
-        theme: night
-        controls: true
-        embed-resources: true
+    revealjs
 # editor:
 #     render-on-save: true
 ---

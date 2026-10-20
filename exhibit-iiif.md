@@ -4,11 +4,7 @@ date: June 24, 2025
 author: Alice McGrath
 subtitle: ILiADS
 format: 
-    revealjs:
-        theme: moon
-        controls: true
-        #embed-resources: true
-css: "https://alicemcgrath.digital.brynmawr.edu/pres/a3.css"
+    revealjs
 editor:
     render-on-save: true
 ---
