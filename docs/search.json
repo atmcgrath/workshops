@@ -481,5 +481,96 @@
     "title": "Creative Coding with Bitsy",
     "section": "Return to Intro DH Site",
     "text": "Return to Intro DH Site"
+  },
+  {
+    "objectID": "data-vocab.html",
+    "href": "data-vocab.html",
+    "title": "Controlled Vocabularies",
+    "section": "",
+    "text": "What are controlled data vocabularies?\nLCSH (Library of Congress Subject Headings)\nPersonal name authority files (VIAF)\nWalkthrough and supported work time"
+  },
+  {
+    "objectID": "data-vocab.html#fair-data-principles",
+    "href": "data-vocab.html#fair-data-principles",
+    "title": "Controlled Vocabularies",
+    "section": "FAIR Data Principles",
+    "text": "FAIR Data Principles\n\nF - Findable: well-described and indexed in searchable resources\nA - Accessible: public in a usable form, machine-readable\nI - Interoperable: uses shared categories and vocabularies\nR - Reusable: process documentation and metadata are accurate\n\nLearn more about FAIR Data at data.org"
+  },
+  {
+    "objectID": "data-vocab.html#interoperability",
+    "href": "data-vocab.html#interoperability",
+    "title": "Controlled Vocabularies",
+    "section": "Interoperability",
+    "text": "Interoperability\nFor a dataset to be interoperable, it has to have points of agreement with other datasets: pre-defined categories that have meaning outside of that dataset’s context.\nNot only does this help validate the data by using clear and established definitions it also helps users combine data from multiple sources."
+  },
+  {
+    "objectID": "data-vocab.html#linked-open-data",
+    "href": "data-vocab.html#linked-open-data",
+    "title": "Controlled Vocabularies",
+    "section": "Linked Open Data",
+    "text": "Linked Open Data\n\nView the interactive LOD cloud here"
+  },
+  {
+    "objectID": "data-vocab.html#examples",
+    "href": "data-vocab.html#examples",
+    "title": "Controlled Vocabularies",
+    "section": "Examples",
+    "text": "Examples\n\nCervantes Virtual: lod-cloud.net/dataset/BVMC\nFuturistic Fiction: data.post45.org/posts/futuristic-fiction/"
+  },
+  {
+    "objectID": "data-vocab.html#example-publication-location",
+    "href": "data-vocab.html#example-publication-location",
+    "title": "Controlled Vocabularies",
+    "section": "Example: publication location",
+    "text": "Example: publication location\nDisambiguate location names that are similar by providing geographic areas and regions in a standardized way\n\nSearch LC linked data service - geographic\nRevista Ariel - Revista Ariel on Cervantes Virtual\nTegucigalpa: Alcaldía Mayor vs. Francisco Morazán"
+  },
+  {
+    "objectID": "data-vocab.html#example-type-of-publication",
+    "href": "data-vocab.html#example-type-of-publication",
+    "title": "Controlled Vocabularies",
+    "section": "Example: type of publication",
+    "text": "Example: type of publication\n\nLCSH - GenreForm\nPeriodical -&gt; “Forma/género: Publicación periódica”"
+  },
+  {
+    "objectID": "data-vocab.html#viaf",
+    "href": "data-vocab.html#viaf",
+    "title": "Controlled Vocabularies",
+    "section": "VIAF",
+    "text": "VIAF\n\nInternational consortium of libraries and professional organizations: see contributors\n\nNB: the US flag symbolizes Library of Congress/NACO\n\nMakes it easier for librarians to catalog new materials by standardizing headings so that alternate forms can be cross-referenced"
+  },
+  {
+    "objectID": "data-vocab.html#example-author-names",
+    "href": "data-vocab.html#example-author-names",
+    "title": "Controlled Vocabularies",
+    "section": "Example: author names",
+    "text": "Example: author names\n\nOscar Wilde\nSearch ‘Personal Names’\nVIAF: viaf.org/en/viaf/34464414\nUse the form with the US flag/the most flags: ‘Wilde, Oscar, 1854-1900’\nScroll down for biographical details (gender, nationality, etc.)"
+  },
+  {
+    "objectID": "data-vocab.html#what-if-someone-isnt-in-viaf",
+    "href": "data-vocab.html#what-if-someone-isnt-in-viaf",
+    "title": "Controlled Vocabularies",
+    "section": "What if someone isn’t in VIAF?",
+    "text": "What if someone isn’t in VIAF?\n\nCheck your spelling!\nSearch Wikidata: wikidata.org/\nSearch Google (for fuzzy matches) and Wikipedia (for mentions). Include geography or professions.\n\nIf you find a likely match with an alternate name form, try VIAF and Wikidata again.\n\nAdd them to the ‘unknown authors’ tab and explain what you did and what you found\n\nOptional: sleuthing on Google Books and Google"
+  },
+  {
+    "objectID": "data-vocab.html#process",
+    "href": "data-vocab.html#process",
+    "title": "Controlled Vocabularies",
+    "section": "Process",
+    "text": "Process\n\n\n\n\n\nflowchart LR\n    Z[Author name] --&gt; A[Search VIAF]\n    A --&gt; |No| C[Search Wikidata]\n    A --&gt; |Yes| B[Add Authority]\n    C --&gt; |Yes|B\n    C --&gt; |No|D[Alternate name?]\n    D --&gt; |Yes|A\n    C --&gt; |No| E\n    D --&gt; |No| E[Add to Unknown Authors]"
+  },
+  {
+    "objectID": "data-vocab.html#example-mercedes-laínes",
+    "href": "data-vocab.html#example-mercedes-laínes",
+    "title": "Controlled Vocabularies",
+    "section": "Example: Mercedes Laínes",
+    "text": "Example: Mercedes Laínes\n\nNot in VIAF\nWikidata ID Q138557563\nGoogle search suggested “Mercedes Lainez Blanco” and brought me to this EcuRed Profile\nOther wikidata entry - Q106614689"
+  },
+  {
+    "objectID": "data-vocab.html#wikidata",
+    "href": "data-vocab.html#wikidata",
+    "title": "Controlled Vocabularies",
+    "section": "Wikidata",
+    "text": "Wikidata\n“A collaboratively edited multilingual knowledge graph hosted by the Wikimedia Foundation.” (“Wikidata”, Wikipedia.org).\nLike Wikipedia, it’s user generated and controlled: that means we can share back what we have discovered or add references for various statements in existing entries.\nHow to Edit Wikidata: a step by step guide (pdf slides)"
   }
 ]

@@ -3,8 +3,11 @@ title: "Controlled Vocabularies"
 subtitle: "Metadata standards for the GCSFI project"
 author: Alice McGrath
 date: 2026.10.21
-format: 
-    revealjs
+format:
+    revealjs: default
+    html:
+        output-file: data-vocab.html
+    docx: default
 ---
 
 # Outline
