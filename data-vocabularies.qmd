@@ -1,6 +1,6 @@
 ---
-title: "Linked Data & Controlled Vocabularies"
-subtitle: "Data gathering for the GCSFI project"
+title: "Controlled Vocabularies"
+subtitle: "Metadata standards for the GCSFI project"
 author: Alice McGrath
 date: 2026.10.21
 format: 
@@ -9,29 +9,38 @@ format:
 
 # Outline
 
-1. What and why: linked data and controlled vocabularies
+1. What are controlled data vocabularies?
 2. LCSH (Library of Congress Subject Headings)
 3. Personal name authority files (VIAF)
 4. Walkthrough and supported work time
 
-## Linked Open Data
+# Controlled vocabularies
 
-![](media/lod-cloud.png)
+- Taxonomies: standardized ways to describe things in metadata
+- Subject heading lists ([LCSH](https://id.loc.gov/authorities/subjects.html)), authority files ([VIAF](https://viaf.org/en)), controlled terms
+- Maintained by organizations like the [Library of Congress](https://www.loc.gov/librarians/controlled-vocabularies/)
 
-View the [interactive LOD cloud here](https://lod-cloud.net/clouds/lod-cloud.svg)
 
 ## FAIR Data Principles
 
 - **F** - Findable: well-described and indexed in searchable resources
-- **A** - Accessible: public in a usable form
+- **A** - Accessible: public in a usable form, machine-readable
 - **I** - Interoperable: uses shared categories and vocabularies
 - **R** - Reusable: process documentation and metadata are accurate
+
+Learn more about [FAIR Data at data.org](https://data.org/resources/the-fair-data-principles/)
 
 ## Interoperability
 
 For a dataset to be interoperable, it has to have points of agreement with other datasets: pre-defined categories that have meaning outside of that dataset's context.
 
 Not only does this help validate the data by using clear and established definitions it also helps users combine data from multiple sources.
+
+## Linked Open Data
+
+![](media/lod-cloud.png)
+
+View the [interactive LOD cloud here](https://lod-cloud.net/clouds/lod-cloud.svg)
 
 ## Examples
 
@@ -46,7 +55,7 @@ Library of Congress Subject Headings
 
 ## Example: publication location
 
-Disambiguate location names that are similar by providing geographic areas and regions
+Disambiguate location names that are similar by providing geographic areas and regions in a standardized way
 
 - Search [LC linked data service - geographic](https://id.loc.gov/search/?q=memberOf:http://id.loc.gov/authorities/subjects/collection_GeographicSubdivisions)
 - *Revista Ariel* - [*Revista Ariel* on Cervantes Virtual](https://www.cervantesvirtual.com/obra/revista-ariel-923925/)
@@ -112,6 +121,8 @@ flowchart LR
 *"A collaboratively edited multilingual knowledge graph hosted by the Wikimedia Foundation."* (["Wikidata"](https://en.wikipedia.org/wiki/Wikidata), Wikipedia.org).
 
 Like Wikipedia, it's user generated and controlled: that means we can share back what we have discovered or add references for various statements in existing entries.
+
+[How to Edit Wikidata: a step by step guide (pdf slides)](https://upload.wikimedia.org/wikipedia/commons/9/94/How_to_Edit_Wikidata.pdf)
 
 # Supported work time
 
