@@ -9,6 +9,7 @@ editor:
 
 Senior Digital Scholarship Specialist @ Bryn Mawr College
 
+- [Web Publishing with Scalar](https://brynmawr-my.sharepoint.com/:p:/g/personal/amcgrath1_brynmawr_edu/IQBcqDMbA6M2SrqHPB-RMR_sATENQI-MV23E1irlczRd4xo?e=p9kPfl) - Workshop for Energy Afterlives 360, October 22, 2026
 - [Data Vocabularies for GCSFI](data-vocabularies.html) - Workshop for SPAN 305, October 21, 2026
 - [Maximizing Minimalism: DIY Digital Publishing Tools Starring Markdown](minimalism.html) - ASECS, April 9, 2026.
 - [Creative Coding with Twine](https://digbmc.github.io/twine-workshop/) - Workshop for RUSS 233, February 11, 2026
