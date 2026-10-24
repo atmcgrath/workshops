@@ -14,3 +14,6 @@ format:
       css: "https://alicemcgrath.digital.brynmawr.edu/pres/a3.css"
     html:
       theme: darkly
+
+execute:
+  freeze: auto
