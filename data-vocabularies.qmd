@@ -7,7 +7,7 @@ format:
     revealjs: default
     html:
         output-file: data-vocab.html
-    docx: default
+    # docx: default
 ---
 
 # Outline
