@@ -9,8 +9,9 @@ editor:
 
 Senior Digital Scholarship Specialist @ Bryn Mawr College
 
-- [Web Publishing with Scalar](https://brynmawr-my.sharepoint.com/:p:/g/personal/amcgrath1_brynmawr_edu/IQBcqDMbA6M2SrqHPB-RMR_sATENQI-MV23E1irlczRd4xo?e=p9kPfl) - Workshop for Energy Afterlives 360, October 22, 2026
+- [Web Publishing with Scalar (powerpoint)](https://brynmawr-my.sharepoint.com/:p:/g/personal/amcgrath1_brynmawr_edu/IQBcqDMbA6M2SrqHPB-RMR_sATENQI-MV23E1irlczRd4xo?e=p9kPfl) - Workshop for Energy Afterlives 360, October 22, 2026
 - [Data Vocabularies for GCSFI](data-vocabularies.html) - Workshop for SPAN 305, October 21, 2026
+- [Digital Humanities and Literary Data (powerpoint)](https://brynmawr-my.sharepoint.com/:p:/g/personal/amcgrath1_brynmawr_edu/IQAIoorSQ3DsTJAiaIPCvpW2AWADD5K9uKtcX27g16Khx0Q?e=sC2qQr) - Workshop for SPAN 305, September 30, 2026
 - [Maximizing Minimalism: DIY Digital Publishing Tools Starring Markdown](minimalism.html) - ASECS, April 9, 2026.
 - [Creative Coding with Twine](https://digbmc.github.io/twine-workshop/) - Workshop for RUSS 233, February 11, 2026
 - [Web Publishing Extravaganza](web-publishing.html) - DTIs, July 15, 2025
