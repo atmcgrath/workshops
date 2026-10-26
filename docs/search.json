@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "data-clean-viz.html#whats-in-our-data",
+    "href": "data-clean-viz.html#whats-in-our-data",
+    "title": "Data Cleaning and Visualization",
+    "section": "What’s in our data?",
+    "text": "What’s in our data?\n\nWhat types of data do we have?\n\nnumeric | categoric | geographic | relationships | temporal\n\nHow many variables do we have?\nHow do our variables relate to each other?\n\nquantities/distribution | correlation | part of a whole | change over time | relationships\n\nWhat questions can we ask of this dataset?"
+  },
+  {
+    "objectID": "data-clean-viz.html#data-types",
+    "href": "data-clean-viz.html#data-types",
+    "title": "Data Cleaning and Visualization",
+    "section": "Data types",
+    "text": "Data types\nWTF CSV: a tool for basic data summaries - databasic.io/wtfcsv\n\nDownload the dataset as a csv\nUpload it into WTF CSV (or use this link: GCSFI in WTF CSV)\nWhat do you notice? What can you observe here?"
+  },
+  {
+    "objectID": "data-clean-viz.html#relationships",
+    "href": "data-clean-viz.html#relationships",
+    "title": "Data Cleaning and Visualization",
+    "section": "Relationships",
+    "text": "Relationships\nNineteen: simple count visualizations - usenineteen.com\n\nUpload the dataset as a csv\nWhat categories can we compare?\nWhat do you notice about the results?"
+  },
+  {
+    "objectID": "data-clean-viz.html#text-fields",
+    "href": "data-clean-viz.html#text-fields",
+    "title": "Data Cleaning and Visualization",
+    "section": "Text fields",
+    "text": "Text fields\nVoyant: a tool for text analysis and visualization - voyant-tools.org\n\nTry visualizing one column at a time\nStopwords: select ‘Spanish’"
+  },
+  {
+    "objectID": "data-clean-viz.html#next-steps",
+    "href": "data-clean-viz.html#next-steps",
+    "title": "Data Cleaning and Visualization",
+    "section": "Next steps",
+    "text": "Next steps\nWhat types of cleaning, organization, or summarizing do we need to do?\n\nSimple accuracy?\nImproved machine-readability?\nAnalysis and summary?\nBringing in context?"
+  },
+  {
+    "objectID": "data-clean-viz.html#data-visualization-process",
+    "href": "data-clean-viz.html#data-visualization-process",
+    "title": "Data Cleaning and Visualization",
+    "section": "Data visualization process",
+    "text": "Data visualization process\n\n\n\n\n\ngraph LR\n    A(Collect data) --&gt; B(Clean & &lt;br&gt;document data)\n    C(Find a&lt;br&gt; dataset)--&gt; B\n    B--&gt;D[Analyze&lt;br&gt;data]\n    D--&gt;H(Decide what&lt;br&gt; to show)\n    H--&gt;E(Choose &lt;br&gt;visualization&lt;br&gt;type)\n    E--&gt;I(Customize it)\n    H--&gt;F(Design a viz&lt;br&gt; from scratch)\n    F--&gt;G(Tell the &lt;br&gt;data story)\n    I--&gt;G"
+  },
+  {
     "objectID": "data-vocabularies.html#fair-data-principles",
     "href": "data-vocabularies.html#fair-data-principles",
     "title": "Controlled Vocabularies",
@@ -79,6 +121,97 @@
   {
     "objectID": "data-vocabularies.html#wikidata",
     "href": "data-vocabularies.html#wikidata",
+    "title": "Controlled Vocabularies",
+    "section": "Wikidata",
+    "text": "Wikidata\n“A collaboratively edited multilingual knowledge graph hosted by the Wikimedia Foundation.” (“Wikidata”, Wikipedia.org).\nLike Wikipedia, it’s user generated and controlled: that means we can share back what we have discovered or add references for various statements in existing entries.\nHow to Edit Wikidata: a step by step guide (pdf slides)"
+  },
+  {
+    "objectID": "data-vocab.html",
+    "href": "data-vocab.html",
+    "title": "Controlled Vocabularies",
+    "section": "",
+    "text": "What are controlled data vocabularies?\nLCSH (Library of Congress Subject Headings)\nPersonal name authority files (VIAF)\nWalkthrough and supported work time"
+  },
+  {
+    "objectID": "data-vocab.html#fair-data-principles",
+    "href": "data-vocab.html#fair-data-principles",
+    "title": "Controlled Vocabularies",
+    "section": "FAIR Data Principles",
+    "text": "FAIR Data Principles\n\nF - Findable: well-described and indexed in searchable resources\nA - Accessible: public in a usable form, machine-readable\nI - Interoperable: uses shared categories and vocabularies\nR - Reusable: process documentation and metadata are accurate\n\nLearn more about FAIR Data at data.org"
+  },
+  {
+    "objectID": "data-vocab.html#interoperability",
+    "href": "data-vocab.html#interoperability",
+    "title": "Controlled Vocabularies",
+    "section": "Interoperability",
+    "text": "Interoperability\nFor a dataset to be interoperable, it has to have points of agreement with other datasets: pre-defined categories that have meaning outside of that dataset’s context.\nNot only does this help validate the data by using clear and established definitions it also helps users combine data from multiple sources."
+  },
+  {
+    "objectID": "data-vocab.html#linked-open-data",
+    "href": "data-vocab.html#linked-open-data",
+    "title": "Controlled Vocabularies",
+    "section": "Linked Open Data",
+    "text": "Linked Open Data\n\nView the interactive LOD cloud here"
+  },
+  {
+    "objectID": "data-vocab.html#examples",
+    "href": "data-vocab.html#examples",
+    "title": "Controlled Vocabularies",
+    "section": "Examples",
+    "text": "Examples\n\nCervantes Virtual: lod-cloud.net/dataset/BVMC\nFuturistic Fiction: data.post45.org/posts/futuristic-fiction/"
+  },
+  {
+    "objectID": "data-vocab.html#example-publication-location",
+    "href": "data-vocab.html#example-publication-location",
+    "title": "Controlled Vocabularies",
+    "section": "Example: publication location",
+    "text": "Example: publication location\nDisambiguate location names that are similar by providing geographic areas and regions in a standardized way\n\nSearch LC linked data service - geographic\nRevista Ariel - Revista Ariel on Cervantes Virtual\nTegucigalpa: Alcaldía Mayor vs. Francisco Morazán"
+  },
+  {
+    "objectID": "data-vocab.html#example-type-of-publication",
+    "href": "data-vocab.html#example-type-of-publication",
+    "title": "Controlled Vocabularies",
+    "section": "Example: type of publication",
+    "text": "Example: type of publication\n\nLCSH - GenreForm\nPeriodical -&gt; “Forma/género: Publicación periódica”"
+  },
+  {
+    "objectID": "data-vocab.html#viaf",
+    "href": "data-vocab.html#viaf",
+    "title": "Controlled Vocabularies",
+    "section": "VIAF",
+    "text": "VIAF\n\nInternational consortium of libraries and professional organizations: see contributors\n\nNB: the US flag symbolizes Library of Congress/NACO\n\nMakes it easier for librarians to catalog new materials by standardizing headings so that alternate forms can be cross-referenced"
+  },
+  {
+    "objectID": "data-vocab.html#example-author-names",
+    "href": "data-vocab.html#example-author-names",
+    "title": "Controlled Vocabularies",
+    "section": "Example: author names",
+    "text": "Example: author names\n\nOscar Wilde\nSearch ‘Personal Names’\nVIAF: viaf.org/en/viaf/34464414\nUse the form with the US flag/the most flags: ‘Wilde, Oscar, 1854-1900’\nScroll down for biographical details (gender, nationality, etc.)"
+  },
+  {
+    "objectID": "data-vocab.html#what-if-someone-isnt-in-viaf",
+    "href": "data-vocab.html#what-if-someone-isnt-in-viaf",
+    "title": "Controlled Vocabularies",
+    "section": "What if someone isn’t in VIAF?",
+    "text": "What if someone isn’t in VIAF?\n\nCheck your spelling!\nSearch Wikidata: wikidata.org/\nSearch Google (for fuzzy matches) and Wikipedia (for mentions). Include geography or professions.\n\nIf you find a likely match with an alternate name form, try VIAF and Wikidata again.\n\nAdd them to the ‘unknown authors’ tab and explain what you did and what you found\n\nOptional: sleuthing on Google Books and Google"
+  },
+  {
+    "objectID": "data-vocab.html#process",
+    "href": "data-vocab.html#process",
+    "title": "Controlled Vocabularies",
+    "section": "Process",
+    "text": "Process\n\n\n\n\n\nflowchart LR\n    Z[Author name] --&gt; A[Search VIAF]\n    A --&gt; |No| C[Search Wikidata]\n    A --&gt; |Yes| B[Add Authority]\n    C --&gt; |Yes|B\n    C --&gt; |No|D[Alternate name?]\n    D --&gt; |Yes|A\n    C --&gt; |No| E\n    D --&gt; |No| E[Add to Unknown Authors]"
+  },
+  {
+    "objectID": "data-vocab.html#example-mercedes-laínes",
+    "href": "data-vocab.html#example-mercedes-laínes",
+    "title": "Controlled Vocabularies",
+    "section": "Example: Mercedes Laínes",
+    "text": "Example: Mercedes Laínes\n\nNot in VIAF\nWikidata ID Q138557563\nGoogle search suggested “Mercedes Lainez Blanco” and brought me to this EcuRed Profile\nOther wikidata entry - Q106614689"
+  },
+  {
+    "objectID": "data-vocab.html#wikidata",
+    "href": "data-vocab.html#wikidata",
     "title": "Controlled Vocabularies",
     "section": "Wikidata",
     "text": "Wikidata\n“A collaboratively edited multilingual knowledge graph hosted by the Wikimedia Foundation.” (“Wikidata”, Wikipedia.org).\nLike Wikipedia, it’s user generated and controlled: that means we can share back what we have discovered or add references for various statements in existing entries.\nHow to Edit Wikidata: a step by step guide (pdf slides)"
@@ -179,7 +312,21 @@
     "href": "index.html",
     "title": "Workshops and Slides",
     "section": "",
-    "text": "Senior Digital Scholarship Specialist @ Bryn Mawr College\n\nWeb Publishing with Scalar (powerpoint) - Workshop for Energy Afterlives 360, October 22, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nDigital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nMaximizing Minimalism: DIY Digital Publishing Tools Starring Markdown - ASECS, April 9, 2026.\nCreative Coding with Twine - Workshop for RUSS 233, February 11, 2026\nWeb Publishing Extravaganza - DTIs, July 15, 2025\nIIIF and Exhibit.so - IliADS, June 24, 2025\nCreative Coding - Intro DH, April 22 2025\nWikidata - Workshop for ASECS DH Caucus, April 5 2025\nCreative Coding with Bitsy - Workshop for COML 281, April 2 2025\n\nMade with Revealjs and Quarto\nView on GitHub"
+    "text": "Senior Digital Scholarship Specialist @ Bryn Mawr College"
+  },
+  {
+    "objectID": "index.html#workshop-links",
+    "href": "index.html#workshop-links",
+    "title": "Workshops and Slides",
+    "section": "Workshop links",
+    "text": "Workshop links\n\nWeb Publishing with Scalar (powerpoint) - Workshop for Energy Afterlives 360, October 22, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nDigital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nMaximizing Minimalism: DIY Digital Publishing Tools Starring Markdown - ASECS, April 9, 2026.\nCreative Coding with Twine - Workshop for RUSS 233, February 11, 2026\nWeb Publishing Extravaganza - DTIs, July 15, 2025\nIIIF and Exhibit.so - IliADS, June 24, 2025\nCreative Coding - Intro DH, April 22 2025\nWikidata - Workshop for ASECS DH Caucus, April 5 2025\nCreative Coding with Bitsy - Workshop for COML 281, April 2 2025"
+  },
+  {
+    "objectID": "index.html#courses",
+    "href": "index.html#courses",
+    "title": "Workshops and Slides",
+    "section": "Courses",
+    "text": "Courses\n\nSPAN 305: el cuento corto en la Cuenca del Caraibe - Chavez, Fall 2026\n\nMade with Revealjs and Quarto\nView on GitHub"
   },
   {
     "objectID": "wikidata.html#linked-open-data",
@@ -483,94 +630,17 @@
     "text": "Return to Intro DH Site"
   },
   {
-    "objectID": "data-vocab.html",
-    "href": "data-vocab.html",
-    "title": "Controlled Vocabularies",
+    "objectID": "span-305.html",
+    "href": "span-305.html",
+    "title": "Workshop links for SPAN 305",
     "section": "",
-    "text": "What are controlled data vocabularies?\nLCSH (Library of Congress Subject Headings)\nPersonal name authority files (VIAF)\nWalkthrough and supported work time"
+    "text": "Digital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nData Cleaning and Visualization - Workshop for SPAN 305, October 26-28, 2026"
   },
   {
-    "objectID": "data-vocab.html#fair-data-principles",
-    "href": "data-vocab.html#fair-data-principles",
-    "title": "Controlled Vocabularies",
-    "section": "FAIR Data Principles",
-    "text": "FAIR Data Principles\n\nF - Findable: well-described and indexed in searchable resources\nA - Accessible: public in a usable form, machine-readable\nI - Interoperable: uses shared categories and vocabularies\nR - Reusable: process documentation and metadata are accurate\n\nLearn more about FAIR Data at data.org"
-  },
-  {
-    "objectID": "data-vocab.html#interoperability",
-    "href": "data-vocab.html#interoperability",
-    "title": "Controlled Vocabularies",
-    "section": "Interoperability",
-    "text": "Interoperability\nFor a dataset to be interoperable, it has to have points of agreement with other datasets: pre-defined categories that have meaning outside of that dataset’s context.\nNot only does this help validate the data by using clear and established definitions it also helps users combine data from multiple sources."
-  },
-  {
-    "objectID": "data-vocab.html#linked-open-data",
-    "href": "data-vocab.html#linked-open-data",
-    "title": "Controlled Vocabularies",
-    "section": "Linked Open Data",
-    "text": "Linked Open Data\n\nView the interactive LOD cloud here"
-  },
-  {
-    "objectID": "data-vocab.html#examples",
-    "href": "data-vocab.html#examples",
-    "title": "Controlled Vocabularies",
-    "section": "Examples",
-    "text": "Examples\n\nCervantes Virtual: lod-cloud.net/dataset/BVMC\nFuturistic Fiction: data.post45.org/posts/futuristic-fiction/"
-  },
-  {
-    "objectID": "data-vocab.html#example-publication-location",
-    "href": "data-vocab.html#example-publication-location",
-    "title": "Controlled Vocabularies",
-    "section": "Example: publication location",
-    "text": "Example: publication location\nDisambiguate location names that are similar by providing geographic areas and regions in a standardized way\n\nSearch LC linked data service - geographic\nRevista Ariel - Revista Ariel on Cervantes Virtual\nTegucigalpa: Alcaldía Mayor vs. Francisco Morazán"
-  },
-  {
-    "objectID": "data-vocab.html#example-type-of-publication",
-    "href": "data-vocab.html#example-type-of-publication",
-    "title": "Controlled Vocabularies",
-    "section": "Example: type of publication",
-    "text": "Example: type of publication\n\nLCSH - GenreForm\nPeriodical -&gt; “Forma/género: Publicación periódica”"
-  },
-  {
-    "objectID": "data-vocab.html#viaf",
-    "href": "data-vocab.html#viaf",
-    "title": "Controlled Vocabularies",
-    "section": "VIAF",
-    "text": "VIAF\n\nInternational consortium of libraries and professional organizations: see contributors\n\nNB: the US flag symbolizes Library of Congress/NACO\n\nMakes it easier for librarians to catalog new materials by standardizing headings so that alternate forms can be cross-referenced"
-  },
-  {
-    "objectID": "data-vocab.html#example-author-names",
-    "href": "data-vocab.html#example-author-names",
-    "title": "Controlled Vocabularies",
-    "section": "Example: author names",
-    "text": "Example: author names\n\nOscar Wilde\nSearch ‘Personal Names’\nVIAF: viaf.org/en/viaf/34464414\nUse the form with the US flag/the most flags: ‘Wilde, Oscar, 1854-1900’\nScroll down for biographical details (gender, nationality, etc.)"
-  },
-  {
-    "objectID": "data-vocab.html#what-if-someone-isnt-in-viaf",
-    "href": "data-vocab.html#what-if-someone-isnt-in-viaf",
-    "title": "Controlled Vocabularies",
-    "section": "What if someone isn’t in VIAF?",
-    "text": "What if someone isn’t in VIAF?\n\nCheck your spelling!\nSearch Wikidata: wikidata.org/\nSearch Google (for fuzzy matches) and Wikipedia (for mentions). Include geography or professions.\n\nIf you find a likely match with an alternate name form, try VIAF and Wikidata again.\n\nAdd them to the ‘unknown authors’ tab and explain what you did and what you found\n\nOptional: sleuthing on Google Books and Google"
-  },
-  {
-    "objectID": "data-vocab.html#process",
-    "href": "data-vocab.html#process",
-    "title": "Controlled Vocabularies",
-    "section": "Process",
-    "text": "Process\n\n\n\n\n\nflowchart LR\n    Z[Author name] --&gt; A[Search VIAF]\n    A --&gt; |No| C[Search Wikidata]\n    A --&gt; |Yes| B[Add Authority]\n    C --&gt; |Yes|B\n    C --&gt; |No|D[Alternate name?]\n    D --&gt; |Yes|A\n    C --&gt; |No| E\n    D --&gt; |No| E[Add to Unknown Authors]"
-  },
-  {
-    "objectID": "data-vocab.html#example-mercedes-laínes",
-    "href": "data-vocab.html#example-mercedes-laínes",
-    "title": "Controlled Vocabularies",
-    "section": "Example: Mercedes Laínes",
-    "text": "Example: Mercedes Laínes\n\nNot in VIAF\nWikidata ID Q138557563\nGoogle search suggested “Mercedes Lainez Blanco” and brought me to this EcuRed Profile\nOther wikidata entry - Q106614689"
-  },
-  {
-    "objectID": "data-vocab.html#wikidata",
-    "href": "data-vocab.html#wikidata",
-    "title": "Controlled Vocabularies",
-    "section": "Wikidata",
-    "text": "Wikidata\n“A collaboratively edited multilingual knowledge graph hosted by the Wikimedia Foundation.” (“Wikidata”, Wikipedia.org).\nLike Wikipedia, it’s user generated and controlled: that means we can share back what we have discovered or add references for various statements in existing entries.\nHow to Edit Wikidata: a step by step guide (pdf slides)"
+    "objectID": "span-305.html#workshop-slides",
+    "href": "span-305.html#workshop-slides",
+    "title": "Workshop links for SPAN 305",
+    "section": "",
+    "text": "Digital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nData Cleaning and Visualization - Workshop for SPAN 305, October 26-28, 2026"
   }
 ]

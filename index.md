@@ -9,6 +9,8 @@ editor:
 
 Senior Digital Scholarship Specialist @ Bryn Mawr College
 
+## Workshop links
+
 - [Web Publishing with Scalar (powerpoint)](https://brynmawr-my.sharepoint.com/:p:/g/personal/amcgrath1_brynmawr_edu/IQBcqDMbA6M2SrqHPB-RMR_sATENQI-MV23E1irlczRd4xo?e=p9kPfl) - Workshop for Energy Afterlives 360, October 22, 2026
 - [Data Vocabularies for GCSFI](data-vocabularies.html) - Workshop for SPAN 305, October 21, 2026
 - [Digital Humanities and Literary Data (powerpoint)](https://brynmawr-my.sharepoint.com/:p:/g/personal/amcgrath1_brynmawr_edu/IQAIoorSQ3DsTJAiaIPCvpW2AWADD5K9uKtcX27g16Khx0Q?e=sC2qQr) - Workshop for SPAN 305, September 30, 2026
@@ -20,6 +22,9 @@ Senior Digital Scholarship Specialist @ Bryn Mawr College
 - [Wikidata](wikidata.html) - Workshop for ASECS DH Caucus, April 5 2025
 - [Creative Coding with Bitsy](bitsy.html) - Workshop for COML 281, April 2 2025
 
+## Courses
+
+1. [SPAN 305: el cuento corto en la Cuenca del Caraibe](/span-305.html) - Chavez, Fall 2026
 
 Made with Revealjs and Quarto
 

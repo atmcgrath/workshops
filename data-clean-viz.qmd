@@ -1,0 +1,71 @@
+---
+title: "Data Cleaning and Visualization"
+subtitle: "Processing data for the GCSFI project"
+author: Alice McGrath
+date: 2026.10.26
+format:
+    revealjs: default
+---
+
+# Data Cleaning & Analysis
+
+Monday 2026.10.26
+
+- What can you quantify? 
+- What can you observe for close analysis?
+- What questions would you like to answer?
+
+## What's in our data?
+
+- What types of data do we have? 
+	- | numeric | categoric | geographic | relationships | temporal
+- How many variables do we have? 
+- How do our variables relate to each other? 
+	- | quantities/distribution | correlation | part of a whole | change over time | relationships
+- What questions can we ask of this dataset?
+
+## Data types
+
+WTF CSV: a tool for basic data summaries - [databasic.io/wtfcsv](https://www.databasic.io/es/wtfcsv/)
+
+- Download the dataset as a csv 
+- Upload it into [WTF CSV](https://www.databasic.io/en/wtfcsv/) (or use this link: [GCSFI in WTF CSV](https://www.databasic.io/en/wtfcsv/results/6adf65e435cec4457e7aa401))
+- What do you notice? What can you observe here? 
+
+## Relationships
+Nineteen: simple count visualizations - [usenineteen.com](https://usenineteen.com/)
+
+- Upload the dataset as a csv
+- What categories can we compare?
+- What do you notice about the results?
+
+## Text fields
+
+Voyant: a tool for text analysis and visualization - [voyant-tools.org](https://voyant-tools.org/)
+
+- Try visualizing one column at a time
+- Stopwords: select 'Spanish'
+
+## Next steps
+ 
+What types of cleaning, organization, or summarizing do we need to do?
+
+- Simple accuracy?
+- Improved machine-readability?
+- Analysis and summary?
+- Bringing in context?
+
+## Data visualization process {background-color="white"}
+
+```{mermaid}
+graph LR
+	A(Collect data) --> B(Clean & <br>document data)
+	C(Find a<br> dataset)--> B
+	B-->D[Analyze<br>data]
+	D-->H(Decide what<br> to show)
+	H-->E(Choose <br>visualization<br>type)
+	E-->I(Customize it)
+	H-->F(Design a viz<br> from scratch)
+	F-->G(Tell the <br>data story)
+	I-->G
+```
