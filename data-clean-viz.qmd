@@ -7,9 +7,14 @@ format:
     revealjs: default
 ---
 
-# Data Cleaning & Analysis
+# Outline
 
-Monday 2026.10.26
+Part I: Data Exploration (Monday 2026.10.26)
+
+Part II: Data Visualization (Wednesday 2026.10.26)
+
+
+# Data Exploration
 
 - What can you quantify? 
 - What can you observe for close analysis?
@@ -33,6 +38,7 @@ WTF CSV: a tool for basic data summaries - [databasic.io/wtfcsv](https://www.dat
 - What do you notice? What can you observe here? 
 
 ## Relationships
+
 Nineteen: simple count visualizations - [usenineteen.com](https://usenineteen.com/)
 
 - Upload the dataset as a csv
@@ -69,3 +75,43 @@ graph LR
 	F-->G(Tell the <br>data story)
 	I-->G
 ```
+
+# Data Visualization
+
+Wednesday, October 28, 2026
+
+[from Data to Viz](https://www.data-to-viz.com/)
+
+## Planning a visualization
+
+- What will you show? 
+- What graph types would best communicate your data story?
+- How will you design your visualization?
+
+## What will you show?
+
+- All variables?
+- Relationships between variables? 
+- Summaries? Every data point?
+
+## What type of graph?
+
+- Useful resource: [From Data to Viz](https://www.data-to-viz.com/)
+- Use your imagination! Draw your visualization on paper.
+- For inspiration: [Dear Data project](http://www.dear-data.com/theproject), Georgia Lupi & Stefanie Posavec; the winners of the [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/)
+
+
+## Design considerations
+
+- What methods can you use to convey your variables?
+- How can you make the results visually compelling and communicative?
+- How can you make them more accessible?
+
+## Draw your data
+
+
+## Data visualization tools
+
+
+## Resources
+- [Hands-on Data Visualization: Interactive Storytelling from Spreadsheets to Code](https://handsondataviz.org/) - 
