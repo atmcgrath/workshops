@@ -118,12 +118,13 @@ What types of cleaning, organization, or summarizing do we need to do?
 
 ## Examples
 
-Bryn Mawr projects:
+From Bryn Mawr:
+
 - [Paul Thomas Annotated data essays](https://ptannotated.com/essays.html)
 - [Text Mining the College News projects](https://digitalscholarship.brynmawr.edu/collegenews/)
 - [Energy Afterlives 360 visualizations](https://jvergara.digital.brynmawr.edu/scalarexhibitions/con/coil-oil-nuclear-energy-extraction/data-physicalizations-and-visualizations-1)
 
-[Data Art slides](https://www.canva.com/design/DAG0jzSbJuA/lOicU0jF9xGlaXnvQ7A3bg/view?utm_content=DAG0jzSbJuA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he9cdd02159)
+In the wild - [Data Art slides](https://www.canva.com/design/DAG0jzSbJuA/lOicU0jF9xGlaXnvQ7A3bg/view?utm_content=DAG0jzSbJuA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he9cdd02159)
 
 ## Draw your data!
 - Choose a question you'd like to answer
@@ -141,6 +142,12 @@ Bryn Mawr projects:
 ## Resources
 - [Hands-on Data Visualization: Interactive Storytelling from Spreadsheets to Code](https://handsondataviz.org/) - textbook with many tutorials
 - [From Data to Viz](https://www.data-to-viz.com/) - help selecting visualizations and identifying tools
-- WTF CSV: a tool for basic data summaries - [databasic.io/wtfcsv](https://www.databasic.io/es/wtfcsv/)
-- Voyant: a tool for text analysis and visualization - [voyant-tools.org](https://voyant-tools.org/)
-- Nineteen: simple count visualizations - [usenineteen.com](https://usenineteen.com/)
+- WTF CSV - [databasic.io/wtfcsv](https://www.databasic.io/es/wtfcsv/)
+- Voyant - [voyant-tools.org](https://voyant-tools.org/)
+- Nineteen - [usenineteen.com](https://usenineteen.com/)
+
+## A warning
+
+![Correlation is not causation](https://atmcgrath.github.io/intro-dh/slides/media/nic-cage-pool-drowning.png)
+
+[Spurious Correlations](https://www.tylervigen.com/spurious-correlations), by Tyler Vigen.

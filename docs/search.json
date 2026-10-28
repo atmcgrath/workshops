@@ -74,7 +74,7 @@
     "href": "data-clean-viz.html#examples",
     "title": "Data Cleaning and Visualization",
     "section": "Examples",
-    "text": "Examples\nBryn Mawr projects: - Paul Thomas Annotated data essays - Text Mining the College News projects - Energy Afterlives 360 visualizations\nData Art slides"
+    "text": "Examples\nFrom Bryn Mawr:\n\nPaul Thomas Annotated data essays\nText Mining the College News projects\nEnergy Afterlives 360 visualizations\n\nIn the wild - Data Art slides"
   },
   {
     "objectID": "data-clean-viz.html#draw-your-data",
@@ -95,7 +95,14 @@
     "href": "data-clean-viz.html#resources",
     "title": "Data Cleaning and Visualization",
     "section": "Resources",
-    "text": "Resources\n\nHands-on Data Visualization: Interactive Storytelling from Spreadsheets to Code - textbook with many tutorials\nFrom Data to Viz - help selecting visualizations and identifying tools\nWTF CSV: a tool for basic data summaries - databasic.io/wtfcsv\nVoyant: a tool for text analysis and visualization - voyant-tools.org\nNineteen: simple count visualizations - usenineteen.com"
+    "text": "Resources\n\nHands-on Data Visualization: Interactive Storytelling from Spreadsheets to Code - textbook with many tutorials\nFrom Data to Viz - help selecting visualizations and identifying tools\nWTF CSV - databasic.io/wtfcsv\nVoyant - voyant-tools.org\nNineteen - usenineteen.com"
+  },
+  {
+    "objectID": "data-clean-viz.html#a-warning",
+    "href": "data-clean-viz.html#a-warning",
+    "title": "Data Cleaning and Visualization",
+    "section": "A warning",
+    "text": "A warning\n\nCorrelation is not causationSpurious Correlations, by Tyler Vigen."
   },
   {
     "objectID": "data-vocabularies.html#fair-data-principles",
