@@ -11,7 +11,7 @@ format:
 
 Part I: Data Exploration (Monday 2026.10.26)
 
-Part II: Data Visualization (Wednesday 2026.10.26)
+Part II: [Data Visualization](#data-visualization) (Wednesday 2026.10.26)
 
 
 # Data Exploration
@@ -52,14 +52,9 @@ Voyant: a tool for text analysis and visualization - [voyant-tools.org](https://
 - Try visualizing one column at a time
 - Stopwords: select 'Spanish'
 
-## Next steps
- 
-What types of cleaning, organization, or summarizing do we need to do?
+# Data visualization
 
-- Simple accuracy?
-- Improved machine-readability?
-- Analysis and summary?
-- Bringing in context?
+Wednesday, October 28
 
 ## Data visualization process {background-color="white"}
 
@@ -75,10 +70,23 @@ graph LR
 	F-->G(Tell the <br>data story)
 	I-->G
 ```
+## Next steps
 
-# Data Visualization
+What types of cleaning, organization, or summarizing do we need to do?
 
-Wednesday, October 28, 2026
+- Simple accuracy?
+- Improved machine-readability?
+- Analysis and summary?
+- Bringing in context?
+
+# Data Cleaning
+
+- Numbers, dates, geocoordinates
+- Standardizing spelling and controlled terms
+- Creating new columns
+- Adding contextual data
+
+# Choosing visualizations
 
 [from Data to Viz](https://www.data-to-viz.com/)
 
@@ -100,18 +108,32 @@ Wednesday, October 28, 2026
 - Use your imagination! Draw your visualization on paper.
 - For inspiration: [Dear Data project](http://www.dear-data.com/theproject), Georgia Lupi & Stefanie Posavec; the winners of the [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/)
 
-
 ## Design considerations
 
 - What methods can you use to convey your variables?
 - How can you make the results visually compelling and communicative?
 - How can you make them more accessible?
 
+## Examples
+- [Data Art slides](https://www.canva.com/design/DAG0jzSbJuA/lOicU0jF9xGlaXnvQ7A3bg/view?utm_content=DAG0jzSbJuA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he9cdd02159)
+- [Paul Thomas Annotated data essays](https://ptannotated.com/essays.html) (Bryn Mawr)
+- [Text Mining the College News projects](https://digitalscholarship.brynmawr.edu/collegenews/)
+- [Energy strings (Energy Afterlives 360)](https://jvergara.digital.brynmawr.edu/scalarexhibitions/con/coil-oil-nuclear-energy-extraction/energy-strings)
+
 ## Draw your data
 
 
 ## Data visualization tools
-
+- [RawGraphs.io](https://www.rawgraphs.io/)
+- Google Sheets
+- Microsoft Excel
+- [Datawrapper](https://www.datawrapper.de/)
+- [Palladio](https://hdlab.stanford.edu/palladio/)
+- [GephiLite](https://gephi.org/lite/) - network graphs
 
 ## Resources
-- [Hands-on Data Visualization: Interactive Storytelling from Spreadsheets to Code](https://handsondataviz.org/) - 
+- [Hands-on Data Visualization: Interactive Storytelling from Spreadsheets to Code](https://handsondataviz.org/)
+- [From Data to Viz](https://www.data-to-viz.com/)
+- WTF CSV: a tool for basic data summaries - [databasic.io/wtfcsv](https://www.databasic.io/es/wtfcsv/)
+- Voyant: a tool for text analysis and visualization - [voyant-tools.org](https://voyant-tools.org/)
+- Nineteen: simple count visualizations - [usenineteen.com](https://usenineteen.com/)

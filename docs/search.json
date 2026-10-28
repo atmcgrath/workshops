@@ -642,5 +642,61 @@
     "title": "Workshop links for SPAN 305",
     "section": "",
     "text": "Digital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nData Cleaning and Visualization - Workshop for SPAN 305, October 26-28, 2026"
+  },
+  {
+    "objectID": "data-clean-viz.html#planning-a-visualization",
+    "href": "data-clean-viz.html#planning-a-visualization",
+    "title": "Data Cleaning and Visualization",
+    "section": "Planning a visualization",
+    "text": "Planning a visualization\n\nWhat will you show?\nWhat graph types would best communicate your data story?\nHow will you design your visualization?"
+  },
+  {
+    "objectID": "data-clean-viz.html#what-will-you-show",
+    "href": "data-clean-viz.html#what-will-you-show",
+    "title": "Data Cleaning and Visualization",
+    "section": "What will you show?",
+    "text": "What will you show?\n\nAll variables?\nRelationships between variables?\nSummaries? Every data point?"
+  },
+  {
+    "objectID": "data-clean-viz.html#what-type-of-graph",
+    "href": "data-clean-viz.html#what-type-of-graph",
+    "title": "Data Cleaning and Visualization",
+    "section": "What type of graph?",
+    "text": "What type of graph?\n\nUseful resource: From Data to Viz\nUse your imagination! Draw your visualization on paper.\nFor inspiration: Dear Data project, Georgia Lupi & Stefanie Posavec; the winners of the Information is Beautiful Awards"
+  },
+  {
+    "objectID": "data-clean-viz.html#design-considerations",
+    "href": "data-clean-viz.html#design-considerations",
+    "title": "Data Cleaning and Visualization",
+    "section": "Design considerations",
+    "text": "Design considerations\n\nWhat methods can you use to convey your variables?\nHow can you make the results visually compelling and communicative?\nHow can you make them more accessible?"
+  },
+  {
+    "objectID": "data-clean-viz.html#draw-your-data",
+    "href": "data-clean-viz.html#draw-your-data",
+    "title": "Data Cleaning and Visualization",
+    "section": "Draw your data",
+    "text": "Draw your data"
+  },
+  {
+    "objectID": "data-clean-viz.html#data-visualization-tools",
+    "href": "data-clean-viz.html#data-visualization-tools",
+    "title": "Data Cleaning and Visualization",
+    "section": "Data visualization tools",
+    "text": "Data visualization tools\n\nRawGraphs.io\nGoogle Sheets\nMicrosoft Excel\nDatawrapper\nPalladio\nGephiLite - network graphs"
+  },
+  {
+    "objectID": "data-clean-viz.html#resources",
+    "href": "data-clean-viz.html#resources",
+    "title": "Data Cleaning and Visualization",
+    "section": "Resources",
+    "text": "Resources\n\nHands-on Data Visualization: Interactive Storytelling from Spreadsheets to Code\nFrom Data to Viz\nWTF CSV: a tool for basic data summaries - databasic.io/wtfcsv\nVoyant: a tool for text analysis and visualization - voyant-tools.org\nNineteen: simple count visualizations - usenineteen.com"
+  },
+  {
+    "objectID": "data-clean-viz.html#examples",
+    "href": "data-clean-viz.html#examples",
+    "title": "Data Cleaning and Visualization",
+    "section": "Examples",
+    "text": "Examples\n\nData Art slides\nPaul Thomas Annotated data essays (Bryn Mawr)\nText Mining the College News projects\nEnergy strings (Energy Afterlives 360)"
   }
 ]
