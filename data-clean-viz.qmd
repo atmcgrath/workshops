@@ -85,6 +85,7 @@ What types of cleaning, organization, or summarizing do we need to do?
 - Standardizing spelling and controlled terms
 - Creating new columns
 - Adding contextual data
+- Summarizing data
 
 # Choosing visualizations
 
@@ -100,7 +101,8 @@ What types of cleaning, organization, or summarizing do we need to do?
 
 - All variables?
 - Relationships between variables? 
-- Summaries? Every data point?
+- Summaries?
+- Every data point?
 
 ## What type of graph?
 
@@ -115,13 +117,18 @@ What types of cleaning, organization, or summarizing do we need to do?
 - How can you make them more accessible?
 
 ## Examples
-- [Data Art slides](https://www.canva.com/design/DAG0jzSbJuA/lOicU0jF9xGlaXnvQ7A3bg/view?utm_content=DAG0jzSbJuA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he9cdd02159)
-- [Paul Thomas Annotated data essays](https://ptannotated.com/essays.html) (Bryn Mawr)
+
+Bryn Mawr projects:
+- [Paul Thomas Annotated data essays](https://ptannotated.com/essays.html)
 - [Text Mining the College News projects](https://digitalscholarship.brynmawr.edu/collegenews/)
-- [Energy strings (Energy Afterlives 360)](https://jvergara.digital.brynmawr.edu/scalarexhibitions/con/coil-oil-nuclear-energy-extraction/energy-strings)
+- [Energy Afterlives 360 visualizations](https://jvergara.digital.brynmawr.edu/scalarexhibitions/con/coil-oil-nuclear-energy-extraction/data-physicalizations-and-visualizations-1)
 
-## Draw your data
+[Data Art slides](https://www.canva.com/design/DAG0jzSbJuA/lOicU0jF9xGlaXnvQ7A3bg/view?utm_content=DAG0jzSbJuA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he9cdd02159)
 
+## Draw your data!
+- Choose a question you'd like to answer
+- Choose a method to visualize
+- Sketch it out with pen and paper
 
 ## Data visualization tools
 - [RawGraphs.io](https://www.rawgraphs.io/)
@@ -132,8 +139,8 @@ What types of cleaning, organization, or summarizing do we need to do?
 - [GephiLite](https://gephi.org/lite/) - network graphs
 
 ## Resources
-- [Hands-on Data Visualization: Interactive Storytelling from Spreadsheets to Code](https://handsondataviz.org/)
-- [From Data to Viz](https://www.data-to-viz.com/)
+- [Hands-on Data Visualization: Interactive Storytelling from Spreadsheets to Code](https://handsondataviz.org/) - textbook with many tutorials
+- [From Data to Viz](https://www.data-to-viz.com/) - help selecting visualizations and identifying tools
 - WTF CSV: a tool for basic data summaries - [databasic.io/wtfcsv](https://www.databasic.io/es/wtfcsv/)
 - Voyant: a tool for text analysis and visualization - [voyant-tools.org](https://voyant-tools.org/)
 - Nineteen: simple count visualizations - [usenineteen.com](https://usenineteen.com/)
