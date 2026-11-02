@@ -4,10 +4,10 @@ subtitle: "Processing data for the GCSFI project"
 author: Alice McGrath
 date: 2026.10.26
 format:
-    revealjs: default
-   #  html:
-	#   output-file: data-clean-gcsfi.html
-	#   toc: true
+   revealjs: default
+   html:
+      output-file: data-clean-gcsfi.html
+      toc: true
 ---
 
 # Outline
@@ -246,6 +246,9 @@ Monday, November 2
 - Change your chart type
 - Give it a title
 
+## Next steps
+
+To learn more, check out [*Hands on Data Visualization*: Summarize Data with Pivot Tables](https://handsondataviz.org/pivot.html)
 
 ## A warning
 

@@ -89,8 +89,56 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="data-clean-viz.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#outline" id="toc-outline" class="nav-link active" data-scroll-target="#outline">Outline</a></li>
+  <li><a href="#data-exploration" id="toc-data-exploration" class="nav-link" data-scroll-target="#data-exploration">Data Exploration</a>
+  <ul class="collapse">
+  <li><a href="#whats-in-our-data" id="toc-whats-in-our-data" class="nav-link" data-scroll-target="#whats-in-our-data">What’s in our data?</a></li>
+  <li><a href="#data-types" id="toc-data-types" class="nav-link" data-scroll-target="#data-types">Data types</a></li>
+  <li><a href="#relationships" id="toc-relationships" class="nav-link" data-scroll-target="#relationships">Relationships</a></li>
+  <li><a href="#text-fields" id="toc-text-fields" class="nav-link" data-scroll-target="#text-fields">Text fields</a></li>
+  </ul></li>
+  <li><a href="#data-visualization" id="toc-data-visualization" class="nav-link" data-scroll-target="#data-visualization">Data visualization</a>
+  <ul class="collapse">
+  <li><a href="#data-visualization-process" id="toc-data-visualization-process" class="nav-link" data-scroll-target="#data-visualization-process">Data visualization process</a></li>
+  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">Next steps</a></li>
+  </ul></li>
+  <li><a href="#data-cleaning" id="toc-data-cleaning" class="nav-link" data-scroll-target="#data-cleaning">Data Cleaning</a></li>
+  <li><a href="#choosing-visualizations" id="toc-choosing-visualizations" class="nav-link" data-scroll-target="#choosing-visualizations">Choosing visualizations</a>
+  <ul class="collapse">
+  <li><a href="#planning-a-visualization" id="toc-planning-a-visualization" class="nav-link" data-scroll-target="#planning-a-visualization">Planning a visualization</a></li>
+  <li><a href="#what-will-you-show" id="toc-what-will-you-show" class="nav-link" data-scroll-target="#what-will-you-show">What will you show?</a></li>
+  <li><a href="#what-type-of-graph" id="toc-what-type-of-graph" class="nav-link" data-scroll-target="#what-type-of-graph">What type of graph?</a></li>
+  <li><a href="#design-considerations" id="toc-design-considerations" class="nav-link" data-scroll-target="#design-considerations">Design considerations</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  <li><a href="#draw-your-data" id="toc-draw-your-data" class="nav-link" data-scroll-target="#draw-your-data">Draw your data!</a></li>
+  <li><a href="#data-analysis-and-cleaning-tools" id="toc-data-analysis-and-cleaning-tools" class="nav-link" data-scroll-target="#data-analysis-and-cleaning-tools">Data analysis and cleaning tools</a></li>
+  <li><a href="#data-visualization-tools" id="toc-data-visualization-tools" class="nav-link" data-scroll-target="#data-visualization-tools">Data visualization tools</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  </ul></li>
+  <li><a href="#iii.-strategizing" id="toc-iii.-strategizing" class="nav-link" data-scroll-target="#iii.-strategizing">III. Strategizing</a>
+  <ul class="collapse">
+  <li><a href="#questions---gcsfi" id="toc-questions---gcsfi" class="nav-link" data-scroll-target="#questions---gcsfi">Questions - GCSFI</a></li>
+  <li><a href="#questions---updated" id="toc-questions---updated" class="nav-link" data-scroll-target="#questions---updated">Questions - updated</a></li>
+  <li><a href="#questions---updated-1" id="toc-questions---updated-1" class="nav-link" data-scroll-target="#questions---updated-1">Questions - updated</a></li>
+  <li><a href="#other-options" id="toc-other-options" class="nav-link" data-scroll-target="#other-options">Other options</a></li>
+  <li><a href="#using-keywords-for-analysis-a-few-options" id="toc-using-keywords-for-analysis-a-few-options" class="nav-link" data-scroll-target="#using-keywords-for-analysis-a-few-options">Using keywords for analysis: a few options</a></li>
+  <li><a href="#turning-keywords-into-columns" id="toc-turning-keywords-into-columns" class="nav-link" data-scroll-target="#turning-keywords-into-columns">Turning keywords into columns</a></li>
+  </ul></li>
+  <li><a href="#pivot-tables" id="toc-pivot-tables" class="nav-link" data-scroll-target="#pivot-tables">Pivot tables</a>
+  <ul class="collapse">
+  <li><a href="#grouping-by-yeardecade" id="toc-grouping-by-yeardecade" class="nav-link" data-scroll-target="#grouping-by-yeardecade">Grouping by year/decade</a></li>
+  <li><a href="#grouping-by-author-nationality-and-gender" id="toc-grouping-by-author-nationality-and-gender" class="nav-link" data-scroll-target="#grouping-by-author-nationality-and-gender">Grouping by author nationality and Gender</a></li>
+  <li><a href="#visualization-from-pivot-table" id="toc-visualization-from-pivot-table" class="nav-link" data-scroll-target="#visualization-from-pivot-table">Visualization from pivot table</a></li>
+  <li><a href="#next-steps-1" id="toc-next-steps-1" class="nav-link" data-scroll-target="#next-steps-1">Next steps</a></li>
+  <li><a href="#a-warning" id="toc-a-warning" class="nav-link" data-scroll-target="#a-warning">A warning</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="data-clean-viz.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -394,6 +442,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Select ‘add data field’</li>
 <li>Repeat for however many keywords you want to use</li>
 </ul></li>
+<li>When you are done, download the dataset as a csv to use in another visualization tool</li>
 </ul>
 </section>
 </section>
@@ -438,6 +487,10 @@ ul.task-list li input[type="checkbox"] {
 <li>Change your chart type</li>
 <li>Give it a title</li>
 </ul>
+</section>
+<section id="next-steps-1" class="level2">
+<h2 class="anchored" data-anchor-id="next-steps-1">Next steps</h2>
+<p>To learn more, check out <a href="https://handsondataviz.org/pivot.html"><em>Hands on Data Visualization</em>: Summarize Data with Pivot Tables</a></p>
 </section>
 <section id="a-warning" class="level2">
 <h2 class="anchored" data-anchor-id="a-warning">A warning</h2>

@@ -326,7 +326,7 @@
     "href": "data-clean-gcsfi.html#turning-keywords-into-columns",
     "title": "Data Cleaning and Visualization",
     "section": "Turning keywords into columns",
-    "text": "Turning keywords into columns\n\nUsing Nineteen, select ‘Palabras clave’ to group or color-code items and scroll all the way to the bottom\nCheck “‘Palabras clave’ holds lists of values” and ‘Use “Palabras clave” for tags’\nClick on the tags icon on the right-hand bar\nFor each tag you want, select the three dots on the right next to that tag\n\nSelect ‘Convert this tag into a data field’\nCheck ‘keep the tag too’\nSelect ‘add data field’\nRepeat for however many keywords you want to use"
+    "text": "Turning keywords into columns\n\nUsing Nineteen, select ‘Palabras clave’ to group or color-code items and scroll all the way to the bottom\nCheck “‘Palabras clave’ holds lists of values” and ‘Use “Palabras clave” for tags’\nClick on the tags icon on the right-hand bar\nFor each tag you want, select the three dots on the right next to that tag\n\nSelect ‘Convert this tag into a data field’\nCheck ‘keep the tag too’\nSelect ‘add data field’\nRepeat for however many keywords you want to use\n\nWhen you are done, download the dataset as a csv to use in another visualization tool"
   },
   {
     "objectID": "data-clean-gcsfi.html#grouping-by-yeardecade",
@@ -957,5 +957,19 @@
     "title": "Workshop links for SPAN 305",
     "section": "",
     "text": "Digital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nData Cleaning and Visualization - Workshop for SPAN 305, October 26-28, 2026 - see simple html version"
+  },
+  {
+    "objectID": "data-clean-viz.html#next-steps-1",
+    "href": "data-clean-viz.html#next-steps-1",
+    "title": "Data Cleaning and Visualization",
+    "section": "Next steps",
+    "text": "Next steps\nTo learn more, check out Hands on Data Visualization: Summarize Data with Pivot Tables"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#next-steps-1",
+    "href": "data-clean-gcsfi.html#next-steps-1",
+    "title": "Data Cleaning and Visualization",
+    "section": "Next steps",
+    "text": "Next steps\nTo learn more, check out Hands on Data Visualization: Summarize Data with Pivot Tables"
   }
 ]
