@@ -84,6 +84,13 @@
     "text": "Draw your data!\n\nChoose a question you’d like to answer\nChoose a method to visualize\nSketch it out with pen and paper"
   },
   {
+    "objectID": "data-clean-viz.html#data-analysis-and-cleaning-tools",
+    "href": "data-clean-viz.html#data-analysis-and-cleaning-tools",
+    "title": "Data Cleaning and Visualization",
+    "section": "Data analysis and cleaning tools",
+    "text": "Data analysis and cleaning tools\n\nGoogle Sheets - pivot table to summarize\nMicrosoft Excel - pivot table to summarize\nusenineteen.com"
+  },
+  {
     "objectID": "data-clean-viz.html#data-visualization-tools",
     "href": "data-clean-viz.html#data-visualization-tools",
     "title": "Data Cleaning and Visualization",
@@ -98,11 +105,256 @@
     "text": "Resources\n\nHands-on Data Visualization: Interactive Storytelling from Spreadsheets to Code - textbook with many tutorials\nFrom Data to Viz - help selecting visualizations and identifying tools\nWTF CSV - databasic.io/wtfcsv\nVoyant - voyant-tools.org\nNineteen - usenineteen.com"
   },
   {
+    "objectID": "data-clean-viz.html#questions---gcsfi",
+    "href": "data-clean-viz.html#questions---gcsfi",
+    "title": "Data Cleaning and Visualization",
+    "section": "Questions - GCSFI",
+    "text": "Questions - GCSFI\n\nWhich author nationalities are published by which magazines?\nWhat are the topics that emerge across different publications from different areas?\nMen vs. women authors; the dates that they were born and active?\nSubjective data: themes and thematic keywords (subject) vs. demographic info? Other patterns?\nDates - compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?\nAverage length of the stories - what is considered a “short” story?\nTranslated works - choosing to represent a translated text?"
+  },
+  {
+    "objectID": "data-clean-viz.html#questions---updated",
+    "href": "data-clean-viz.html#questions---updated",
+    "title": "Data Cleaning and Visualization",
+    "section": "Questions - updated",
+    "text": "Questions - updated\n\nWhich author nationalities are published by which magazines?\nWhat are the topics that emerge across different publications in different areas?\n\nHow does diegetic level compare across different publication areas?\n\nMen vs. women authors over time; when were they born and active?\n\nHow does author gender change over time?\n\nSubjective data: themes and thematic keywords vs. demographic info?\n\nHow does narrative temporality compare to author nationality or author gender?"
+  },
+  {
+    "objectID": "data-clean-viz.html#questions---updated-1",
+    "href": "data-clean-viz.html#questions---updated-1",
+    "title": "Data Cleaning and Visualization",
+    "section": "Questions - updated",
+    "text": "Questions - updated\n\nDates - compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?\n\nHow does narrative temporality change over time?\nMore difficult: identify 1-2 keywords or plot terms to chart\n\nAverage length of the stories - requires cleaning and additional data\nTranslated works\n\nWhich publications or venue editors are translating more works?\nAre there regional differences between translated and untranslated?"
+  },
+  {
+    "objectID": "data-clean-viz.html#other-options",
+    "href": "data-clean-viz.html#other-options",
+    "title": "Data Cleaning and Visualization",
+    "section": "Other options",
+    "text": "Other options\n\nHow is distribution of author gender or author nationality different for different publications? For different regions? Years?\nLiterary form:\n\nIs there a relationship between diegetic level and anachronisms?\nHow does either compare to translations? To time?"
+  },
+  {
+    "objectID": "data-clean-viz.html#using-keywords-for-analysis-a-few-options",
+    "href": "data-clean-viz.html#using-keywords-for-analysis-a-few-options",
+    "title": "Data Cleaning and Visualization",
+    "section": "Using keywords for analysis: a few options",
+    "text": "Using keywords for analysis: a few options\n\nComparison: split the dataset by category (i.e. decade, author gender, publication location) and use Voyant to identify the top keywords in each sub-corpus.\nSelection: pick out a few top keywords and create a column for each one (True or False)\nHierarchy: put the keywords into larger categories or visualize only the first one on the list (create a new column for these values)"
+  },
+  {
+    "objectID": "data-clean-viz.html#turning-keywords-into-columns",
+    "href": "data-clean-viz.html#turning-keywords-into-columns",
+    "title": "Data Cleaning and Visualization",
+    "section": "Turning keywords into columns",
+    "text": "Turning keywords into columns\n\nUsing Nineteen, select ‘Palabras clave’ to group or color-code items and scroll all the way to the bottom\nCheck “‘Palabras clave’ holds lists of values” and ‘Use “Palabras clave” for tags’\nClick on the tags icon on the right-hand bar\nFor each tag you want, select the three dots on the right next to that tag\n\nSelect ‘Convert this tag into a data field’\nCheck ‘keep the tag too’\nSelect ‘add data field’\nRepeat for however many keywords you want to use\n\nWhen you are done, download the dataset as a csv to use in another visualization tool"
+  },
+  {
+    "objectID": "data-clean-viz.html#grouping-by-yeardecade",
+    "href": "data-clean-viz.html#grouping-by-yeardecade",
+    "title": "Data Cleaning and Visualization",
+    "section": "Grouping by year/decade",
+    "text": "Grouping by year/decade\n\nUnder “Rows” add ‘Year’\nUnder “Columns” add ‘Venue’\nUnder “Values” add ‘Venue’\n\nMake sure it has ‘count’ selected under “Summarize by”\n\nNow you have values for year and venue. But what if you wanted to group by decade?\nUnder ‘Year’ select ‘Create grouping rule’\nUnder ‘Interval size’ enter 10"
+  },
+  {
+    "objectID": "data-clean-viz.html#grouping-by-author-nationality-and-gender",
+    "href": "data-clean-viz.html#grouping-by-author-nationality-and-gender",
+    "title": "Data Cleaning and Visualization",
+    "section": "Grouping by author nationality and Gender",
+    "text": "Grouping by author nationality and Gender\n\nUnder “Rows” select “Nationality”\nUnder “Columns” select “Gender”\nWhat if you want just Spanish-speaking authors?\n\nUnder “Filter” select “Translation” and check “No”"
+  },
+  {
+    "objectID": "data-clean-viz.html#visualization-from-pivot-table",
+    "href": "data-clean-viz.html#visualization-from-pivot-table",
+    "title": "Data Cleaning and Visualization",
+    "section": "Visualization from pivot table",
+    "text": "Visualization from pivot table\n\nSelect your table\nGo to “Insert” -&gt; “Chart”\nChange your chart type\nGive it a title"
+  },
+  {
     "objectID": "data-clean-viz.html#a-warning",
     "href": "data-clean-viz.html#a-warning",
     "title": "Data Cleaning and Visualization",
     "section": "A warning",
     "text": "A warning\n\nCorrelation is not causationSpurious Correlations, by Tyler Vigen."
+  },
+  {
+    "objectID": "data-clean-gcsfi.html",
+    "href": "data-clean-gcsfi.html",
+    "title": "Data Cleaning and Visualization",
+    "section": "",
+    "text": "Part I: Data Exploration (Monday 2026.10.26)\nPart II: Data Visualization (Wednesday 2026.10.26)\nPart III: Strategizing (Monday 2026.11.02)"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#whats-in-our-data",
+    "href": "data-clean-gcsfi.html#whats-in-our-data",
+    "title": "Data Cleaning and Visualization",
+    "section": "What’s in our data?",
+    "text": "What’s in our data?\n\nWhat types of data do we have?\n\nnumeric | categoric | geographic | relationships | temporal\n\nHow many variables do we have?\nHow do our variables relate to each other?\n\nquantities/distribution | correlation | part of a whole | change over time | relationships\n\nWhat questions can we ask of this dataset?"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#data-types",
+    "href": "data-clean-gcsfi.html#data-types",
+    "title": "Data Cleaning and Visualization",
+    "section": "Data types",
+    "text": "Data types\nWTF CSV: a tool for basic data summaries - databasic.io/wtfcsv\n\nDownload the dataset as a csv\nUpload it into WTF CSV (or use this link: GCSFI in WTF CSV)\nWhat do you notice? What can you observe here?"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#relationships",
+    "href": "data-clean-gcsfi.html#relationships",
+    "title": "Data Cleaning and Visualization",
+    "section": "Relationships",
+    "text": "Relationships\nNineteen: simple count visualizations - usenineteen.com\n\nUpload the dataset as a csv\nWhat categories can we compare?\nWhat do you notice about the results?"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#text-fields",
+    "href": "data-clean-gcsfi.html#text-fields",
+    "title": "Data Cleaning and Visualization",
+    "section": "Text fields",
+    "text": "Text fields\nVoyant: a tool for text analysis and visualization - voyant-tools.org\n\nTry visualizing one column at a time\nStopwords: select ‘Spanish’"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#data-visualization-process",
+    "href": "data-clean-gcsfi.html#data-visualization-process",
+    "title": "Data Cleaning and Visualization",
+    "section": "Data visualization process",
+    "text": "Data visualization process\n\n\n\n\n\ngraph LR\n    A(Collect data) --&gt; B(Clean & &lt;br&gt;document data)\n    C(Find a&lt;br&gt; dataset)--&gt; B\n    B--&gt;D[Analyze&lt;br&gt;data]\n    D--&gt;H(Decide what&lt;br&gt; to show)\n    H--&gt;E(Choose &lt;br&gt;visualization&lt;br&gt;type)\n    E--&gt;I(Customize it)\n    H--&gt;F(Design a viz&lt;br&gt; from scratch)\n    F--&gt;G(Tell the &lt;br&gt;data story)\n    I--&gt;G"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#next-steps",
+    "href": "data-clean-gcsfi.html#next-steps",
+    "title": "Data Cleaning and Visualization",
+    "section": "Next steps",
+    "text": "Next steps\nWhat types of cleaning, organization, or summarizing do we need to do?\n\nSimple accuracy?\nImproved machine-readability?\nAnalysis and summary?\nBringing in context?"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#planning-a-visualization",
+    "href": "data-clean-gcsfi.html#planning-a-visualization",
+    "title": "Data Cleaning and Visualization",
+    "section": "Planning a visualization",
+    "text": "Planning a visualization\n\nWhat will you show?\nWhat graph types would best communicate your data story?\nHow will you design your visualization?"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#what-will-you-show",
+    "href": "data-clean-gcsfi.html#what-will-you-show",
+    "title": "Data Cleaning and Visualization",
+    "section": "What will you show?",
+    "text": "What will you show?\n\nAll variables?\nRelationships between variables?\nSummaries?\nEvery data point?"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#what-type-of-graph",
+    "href": "data-clean-gcsfi.html#what-type-of-graph",
+    "title": "Data Cleaning and Visualization",
+    "section": "What type of graph?",
+    "text": "What type of graph?\n\nUseful resource: From Data to Viz\nUse your imagination! Draw your visualization on paper.\nFor inspiration: Dear Data project, Georgia Lupi & Stefanie Posavec; the winners of the Information is Beautiful Awards"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#design-considerations",
+    "href": "data-clean-gcsfi.html#design-considerations",
+    "title": "Data Cleaning and Visualization",
+    "section": "Design considerations",
+    "text": "Design considerations\n\nWhat methods can you use to convey your variables?\nHow can you make the results visually compelling and communicative?\nHow can you make them more accessible?"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#examples",
+    "href": "data-clean-gcsfi.html#examples",
+    "title": "Data Cleaning and Visualization",
+    "section": "Examples",
+    "text": "Examples\nFrom Bryn Mawr:\n\nPaul Thomas Annotated data essays\nText Mining the College News projects\nEnergy Afterlives 360 visualizations\n\nIn the wild - Data Art slides"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#draw-your-data",
+    "href": "data-clean-gcsfi.html#draw-your-data",
+    "title": "Data Cleaning and Visualization",
+    "section": "Draw your data!",
+    "text": "Draw your data!\n\nChoose a question you’d like to answer\nChoose a method to visualize\nSketch it out with pen and paper"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#data-analysis-and-cleaning-tools",
+    "href": "data-clean-gcsfi.html#data-analysis-and-cleaning-tools",
+    "title": "Data Cleaning and Visualization",
+    "section": "Data analysis and cleaning tools",
+    "text": "Data analysis and cleaning tools\n\nGoogle Sheets - pivot table to summarize\nMicrosoft Excel - pivot table to summarize\nusenineteen.com"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#data-visualization-tools",
+    "href": "data-clean-gcsfi.html#data-visualization-tools",
+    "title": "Data Cleaning and Visualization",
+    "section": "Data visualization tools",
+    "text": "Data visualization tools\n\nRawGraphs.io\nGoogle Sheets\nMicrosoft Excel\nDatawrapper\nPalladio\nGephiLite - network graphs"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#resources",
+    "href": "data-clean-gcsfi.html#resources",
+    "title": "Data Cleaning and Visualization",
+    "section": "Resources",
+    "text": "Resources\n\nHands-on Data Visualization: Interactive Storytelling from Spreadsheets to Code - textbook with many tutorials\nFrom Data to Viz - help selecting visualizations and identifying tools\nWTF CSV - databasic.io/wtfcsv\nVoyant - voyant-tools.org\nNineteen - usenineteen.com"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#questions---gcsfi",
+    "href": "data-clean-gcsfi.html#questions---gcsfi",
+    "title": "Data Cleaning and Visualization",
+    "section": "Questions - GCSFI",
+    "text": "Questions - GCSFI\n\nWhich author nationalities are published by which magazines?\nWhat are the topics that emerge across different publications from different areas?\nMen vs. women authors; the dates that they were born and active?\nSubjective data: themes and thematic keywords (subject) vs. demographic info? Other patterns?\nDates - compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?\nAverage length of the stories - what is considered a “short” story?\nTranslated works - choosing to represent a translated text?"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#questions---updated",
+    "href": "data-clean-gcsfi.html#questions---updated",
+    "title": "Data Cleaning and Visualization",
+    "section": "Questions - updated",
+    "text": "Questions - updated\n\nWhich author nationalities are published by which magazines?\nWhat are the topics that emerge across different publications in different areas?\n\nHow does diegetic level compare across different publication areas?\n\nMen vs. women authors over time; when were they born and active?\n\nHow does author gender change over time?\n\nSubjective data: themes and thematic keywords vs. demographic info?\n\nHow does narrative temporality compare to author nationality or author gender?"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#questions---updated-1",
+    "href": "data-clean-gcsfi.html#questions---updated-1",
+    "title": "Data Cleaning and Visualization",
+    "section": "Questions - updated",
+    "text": "Questions - updated\n\nDates - compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?\n\nHow does narrative temporality change over time?\nMore difficult: identify 1-2 keywords or plot terms to chart\n\nAverage length of the stories - requires cleaning and additional data\nTranslated works\n\nWhich publications or venue editors are translating more works?\nAre there regional differences between translated and untranslated?"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#other-options",
+    "href": "data-clean-gcsfi.html#other-options",
+    "title": "Data Cleaning and Visualization",
+    "section": "Other options",
+    "text": "Other options\n\nHow is distribution of author gender or author nationality different for different publications? For different regions? Years?\nLiterary form:\n\nIs there a relationship between diegetic level and anachronisms?\nHow does either compare to translations? To time?"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#using-keywords-for-analysis-a-few-options",
+    "href": "data-clean-gcsfi.html#using-keywords-for-analysis-a-few-options",
+    "title": "Data Cleaning and Visualization",
+    "section": "Using keywords for analysis: a few options",
+    "text": "Using keywords for analysis: a few options\n\nComparison: split the dataset by category (i.e. decade, author gender, publication location) and use Voyant to identify the top keywords in each sub-corpus.\nSelection: pick out a few top keywords and create a column for each one (True or False)\nHierarchy: put the keywords into larger categories or visualize only the first one on the list (create a new column for these values)"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#turning-keywords-into-columns",
+    "href": "data-clean-gcsfi.html#turning-keywords-into-columns",
+    "title": "Data Cleaning and Visualization",
+    "section": "Turning keywords into columns",
+    "text": "Turning keywords into columns\n\nUsing Nineteen, select ‘Palabras clave’ to group or color-code items and scroll all the way to the bottom\nCheck “‘Palabras clave’ holds lists of values” and ‘Use “Palabras clave” for tags’\nClick on the tags icon on the right-hand bar\nFor each tag you want, select the three dots on the right next to that tag\n\nSelect ‘Convert this tag into a data field’\nCheck ‘keep the tag too’\nSelect ‘add data field’\nRepeat for however many keywords you want to use"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#grouping-by-yeardecade",
+    "href": "data-clean-gcsfi.html#grouping-by-yeardecade",
+    "title": "Data Cleaning and Visualization",
+    "section": "Grouping by year/decade",
+    "text": "Grouping by year/decade\n\nUnder “Rows” add ‘Year’\nUnder “Columns” add ‘Venue’\nUnder “Values” add ‘Venue’\n\nMake sure it has ‘count’ selected under “Summarize by”\n\nNow you have values for year and venue. But what if you wanted to group by decade?\nUnder ‘Year’ select ‘Create grouping rule’\nUnder ‘Interval size’ enter 10"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#grouping-by-author-nationality-and-gender",
+    "href": "data-clean-gcsfi.html#grouping-by-author-nationality-and-gender",
+    "title": "Data Cleaning and Visualization",
+    "section": "Grouping by author nationality and Gender",
+    "text": "Grouping by author nationality and Gender\n\nUnder “Rows” select “Nationality”\nUnder “Columns” select “Gender”\nWhat if you want just Spanish-speaking authors?\n\nUnder “Filter” select “Translation” and check “No”"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#visualization-from-pivot-table",
+    "href": "data-clean-gcsfi.html#visualization-from-pivot-table",
+    "title": "Data Cleaning and Visualization",
+    "section": "Visualization from pivot table",
+    "text": "Visualization from pivot table\n\nSelect your table\nGo to “Insert” -&gt; “Chart”\nChange your chart type\nGive it a title"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#a-warning",
+    "href": "data-clean-gcsfi.html#a-warning",
+    "title": "Data Cleaning and Visualization",
+    "section": "A warning",
+    "text": "A warning\n\n\n\nCorrelation is not causation\n\n\nSpurious Correlations, by Tyler Vigen."
   },
   {
     "objectID": "data-vocabularies.html#fair-data-principles",
@@ -697,90 +949,13 @@
     "href": "span-305.html",
     "title": "Workshop links for SPAN 305",
     "section": "",
-    "text": "Digital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nData Cleaning and Visualization - Workshop for SPAN 305, October 26-28, 2026"
+    "text": "Digital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nData Cleaning and Visualization - Workshop for SPAN 305, October 26-28, 2026 - see simple html version"
   },
   {
     "objectID": "span-305.html#workshop-slides",
     "href": "span-305.html#workshop-slides",
     "title": "Workshop links for SPAN 305",
     "section": "",
-    "text": "Digital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nData Cleaning and Visualization - Workshop for SPAN 305, October 26-28, 2026"
-  },
-  {
-    "objectID": "data-clean-viz.html#data-analysis-and-cleaning-tools",
-    "href": "data-clean-viz.html#data-analysis-and-cleaning-tools",
-    "title": "Data Cleaning and Visualization",
-    "section": "Data analysis and cleaning tools",
-    "text": "Data analysis and cleaning tools\n\nGoogle Sheets - pivot table to summarize\nMicrosoft Excel - pivot table to summarize\nusenineteen.com"
-  },
-  {
-    "objectID": "data-clean-viz.html#questions---gcsfi",
-    "href": "data-clean-viz.html#questions---gcsfi",
-    "title": "Data Cleaning and Visualization",
-    "section": "Questions - GCSFI",
-    "text": "Questions - GCSFI\n\nWhich author nationalities are published by which magazines?\nWhat are the topics that emerge across different publications from different areas?\nMen vs. women authors; the dates that they were born and active?\nSubjective data: themes and thematic keywords (subject) vs. demographic info? Other patterns?\nDates - compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?\nAverage length of the stories - what is considered a “short” story?\nTranslated works - choosing to represent a translated text?"
-  },
-  {
-    "objectID": "data-clean-viz.html#questions---updated",
-    "href": "data-clean-viz.html#questions---updated",
-    "title": "Data Cleaning and Visualization",
-    "section": "Questions - updated",
-    "text": "Questions - updated\n\nWhich author nationalities are published by which magazines?\nWhat are the topics that emerge across different publications in different areas?\n\nHow does diegetic level compare across different publication areas?\n\nMen vs. women authors over time; when were they born and active?\n\nHow does author gender change over time?\n\nSubjective data: themes and thematic keywords vs. demographic info?\n\nHow does narrative temporality compare to author nationality or author gender?"
-  },
-  {
-    "objectID": "data-clean-viz.html#other-options",
-    "href": "data-clean-viz.html#other-options",
-    "title": "Data Cleaning and Visualization",
-    "section": "Other options",
-    "text": "Other options\n\nHow is distribution of author gender or author nationality different for different publications? For different regions? Years?\nLiterary form:\n\nIs there a relationship between diegetic level and anachronisms?\nHow does either compare to translations? To time?"
-  },
-  {
-    "objectID": "data-clean-viz.html#pivot-tables",
-    "href": "data-clean-viz.html#pivot-tables",
-    "title": "Data Cleaning and Visualization",
-    "section": "Pivot tables",
-    "text": "Pivot tables\n\nCopy the ‘cuentos’ tab to a new googlesheets document\nGive it a name and save it\nSelect your data\nFrom the top menu, go to ‘Insert -&gt; Pivot Table.’ Create it in a new sheet\n\nGrouping by year/decade\n\nUnder “Rows” add ‘Year’\nUnder “Columns” add ‘Venue’\nUnder “Values” add ‘Venue’\n\nMake sure it has ‘count’ selected under “Summarize by”\n\nNow you have values for year and venue. But what if you wanted to group by decade?\nUnder ‘Year’ select ‘Create grouping rule’\nUnder ‘Interval size’ enter 10\n\nGrouping by author nationality and Gender\n\nUnder “Rows” select “Nationality”\nUnder “Columns” select “Gender”\nWhat if you want just Spanish-speaking authors?\n\nUnder “Filter” select “Translation” and check “No”\n\n\nVisualization from pivot table\n\nSelect your table\nGo to “Insert” -&gt; “Chart”\nChange your chart type\nGive it a title"
-  },
-  {
-    "objectID": "data-clean-viz.html#questions---gcsfi-smaller",
-    "href": "data-clean-viz.html#questions---gcsfi-smaller",
-    "title": "Data Cleaning and Visualization",
-    "section": "Questions - GCSFI {smaller}",
-    "text": "Questions - GCSFI {smaller}\n\nWhich author nationalities are published by which magazines?\nWhat are the topics that emerge across different publications from different areas?\nMen vs. women authors; the dates that they were born and active?\nSubjective data: themes and thematic keywords (subject) vs. demographic info? Other patterns?\nDates - compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?\nAverage length of the stories - what is considered a “short” story?\nTranslated works - choosing to represent a translated text?"
-  },
-  {
-    "objectID": "data-clean-viz.html#questions---updated-1",
-    "href": "data-clean-viz.html#questions---updated-1",
-    "title": "Data Cleaning and Visualization",
-    "section": "Questions - updated",
-    "text": "Questions - updated\n\nDates - compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?\n\nHow does narrative temporality change over time?\nMore difficult: identify 1-2 keywords or plot terms to chart\n\nAverage length of the stories - requires cleaning and additional data\nTranslated works\n\nWhich publications or venue editors are translating more works?\nAre there regional differences between translated and untranslated?"
-  },
-  {
-    "objectID": "data-clean-viz.html#using-keywords-for-analysis-a-few-options",
-    "href": "data-clean-viz.html#using-keywords-for-analysis-a-few-options",
-    "title": "Data Cleaning and Visualization",
-    "section": "Using keywords for analysis: a few options",
-    "text": "Using keywords for analysis: a few options\n\nComparison: split the dataset by category (i.e. decade, author gender, publication location) and use Voyant to identify the top keywords in each sub-corpus.\nSelection: pick out a few top keywords and create a column for each one (True or False)\nHierarchy: put the keywords into larger categories or visualize only the first one on the list (create a new column for these values)"
-  },
-  {
-    "objectID": "data-clean-viz.html#grouping-by-yeardecade",
-    "href": "data-clean-viz.html#grouping-by-yeardecade",
-    "title": "Data Cleaning and Visualization",
-    "section": "Grouping by year/decade",
-    "text": "Grouping by year/decade\n\nUnder “Rows” add ‘Year’\nUnder “Columns” add ‘Venue’\nUnder “Values” add ‘Venue’\n\nMake sure it has ‘count’ selected under “Summarize by”\n\nNow you have values for year and venue. But what if you wanted to group by decade?\nUnder ‘Year’ select ‘Create grouping rule’\nUnder ‘Interval size’ enter 10"
-  },
-  {
-    "objectID": "data-clean-viz.html#grouping-by-author-nationality-and-gender",
-    "href": "data-clean-viz.html#grouping-by-author-nationality-and-gender",
-    "title": "Data Cleaning and Visualization",
-    "section": "Grouping by author nationality and Gender",
-    "text": "Grouping by author nationality and Gender\n\nUnder “Rows” select “Nationality”\nUnder “Columns” select “Gender”\nWhat if you want just Spanish-speaking authors?\n\nUnder “Filter” select “Translation” and check “No”"
-  },
-  {
-    "objectID": "data-clean-viz.html#visualization-from-pivot-table",
-    "href": "data-clean-viz.html#visualization-from-pivot-table",
-    "title": "Data Cleaning and Visualization",
-    "section": "Visualization from pivot table",
-    "text": "Visualization from pivot table\n\nSelect your table\nGo to “Insert” -&gt; “Chart”\nChange your chart type\nGive it a title"
+    "text": "Digital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nData Cleaning and Visualization - Workshop for SPAN 305, October 26-28, 2026 - see simple html version"
   }
 ]

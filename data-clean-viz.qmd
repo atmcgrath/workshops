@@ -5,6 +5,9 @@ author: Alice McGrath
 date: 2026.10.26
 format:
     revealjs: default
+   #  html:
+	#   output-file: data-clean-gcsfi.html
+	#   toc: true
 ---
 
 # Outline
@@ -199,6 +202,18 @@ Monday, November 2
 1. Comparison: split the dataset by category (i.e. decade, author gender, publication location) and use Voyant to identify the top keywords in each sub-corpus.
 2. Selection: pick out a few top keywords and create a column for each one (True or False)
 3. Hierarchy: put the keywords into larger categories or visualize only the first one on the list (create a new column for these values)
+
+## Turning keywords into columns {.smaller}
+
+- Using [Nineteen](https://usenineteen.com/), select 'Palabras clave' to group or color-code items and scroll all the way to the bottom
+- Check "'Palabras clave' holds lists of values" and 'Use "Palabras clave" for tags'
+- Click on the tags icon on the right-hand bar
+- For each tag you want, select the three dots on the right next to that tag
+  - Select 'Convert this tag into a data field'
+  - Check 'keep the tag too'
+  - Select 'add data field'
+  - Repeat for however many keywords you want to use
+- When you are done, download the dataset as a csv to use in another visualization tool
 
 # Pivot tables
 
