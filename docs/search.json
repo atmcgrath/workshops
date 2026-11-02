@@ -732,7 +732,7 @@
     "href": "data-clean-viz.html#other-options",
     "title": "Data Cleaning and Visualization",
     "section": "Other options",
-    "text": "Other options\n\nHow is distribution of author gender or author nationality different for different publications? For different regions? Years?\nLiterary form:\n\nIs there a relationship between diegetic level and anachronisms?\nHow does either compare to translations? To time?\n\n\nUsing keywords for analysis: a few options\n\nComparison: split the dataset by category (i.e. decade, author gender, publication location) and use Voyant to identify the top keywords in each sub-corpus.\nSelection: pick out a few top keywords and create a column for each one (True or False)\nHierarchy: put the keywords into larger categories or visualize only the first one on the list (create a new column for these values)"
+    "text": "Other options\n\nHow is distribution of author gender or author nationality different for different publications? For different regions? Years?\nLiterary form:\n\nIs there a relationship between diegetic level and anachronisms?\nHow does either compare to translations? To time?"
   },
   {
     "objectID": "data-clean-viz.html#pivot-tables",
@@ -754,5 +754,33 @@
     "title": "Data Cleaning and Visualization",
     "section": "Questions - updated",
     "text": "Questions - updated\n\nDates - compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?\n\nHow does narrative temporality change over time?\nMore difficult: identify 1-2 keywords or plot terms to chart\n\nAverage length of the stories - requires cleaning and additional data\nTranslated works\n\nWhich publications or venue editors are translating more works?\nAre there regional differences between translated and untranslated?"
+  },
+  {
+    "objectID": "data-clean-viz.html#using-keywords-for-analysis-a-few-options",
+    "href": "data-clean-viz.html#using-keywords-for-analysis-a-few-options",
+    "title": "Data Cleaning and Visualization",
+    "section": "Using keywords for analysis: a few options",
+    "text": "Using keywords for analysis: a few options\n\nComparison: split the dataset by category (i.e. decade, author gender, publication location) and use Voyant to identify the top keywords in each sub-corpus.\nSelection: pick out a few top keywords and create a column for each one (True or False)\nHierarchy: put the keywords into larger categories or visualize only the first one on the list (create a new column for these values)"
+  },
+  {
+    "objectID": "data-clean-viz.html#grouping-by-yeardecade",
+    "href": "data-clean-viz.html#grouping-by-yeardecade",
+    "title": "Data Cleaning and Visualization",
+    "section": "Grouping by year/decade",
+    "text": "Grouping by year/decade\n\nUnder “Rows” add ‘Year’\nUnder “Columns” add ‘Venue’\nUnder “Values” add ‘Venue’\n\nMake sure it has ‘count’ selected under “Summarize by”\n\nNow you have values for year and venue. But what if you wanted to group by decade?\nUnder ‘Year’ select ‘Create grouping rule’\nUnder ‘Interval size’ enter 10"
+  },
+  {
+    "objectID": "data-clean-viz.html#grouping-by-author-nationality-and-gender",
+    "href": "data-clean-viz.html#grouping-by-author-nationality-and-gender",
+    "title": "Data Cleaning and Visualization",
+    "section": "Grouping by author nationality and Gender",
+    "text": "Grouping by author nationality and Gender\n\nUnder “Rows” select “Nationality”\nUnder “Columns” select “Gender”\nWhat if you want just Spanish-speaking authors?\n\nUnder “Filter” select “Translation” and check “No”"
+  },
+  {
+    "objectID": "data-clean-viz.html#visualization-from-pivot-table",
+    "href": "data-clean-viz.html#visualization-from-pivot-table",
+    "title": "Data Cleaning and Visualization",
+    "section": "Visualization from pivot table",
+    "text": "Visualization from pivot table\n\nSelect your table\nGo to “Insert” -&gt; “Chart”\nChange your chart type\nGive it a title"
   }
 ]

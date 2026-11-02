@@ -194,20 +194,20 @@ Monday, November 2
   - Is there a relationship between diegetic level and anachronisms?
   - How does either compare to translations? To time?
 
-### Using keywords for analysis: a few options
+## Using keywords for analysis: a few options
 
 1. Comparison: split the dataset by category (i.e. decade, author gender, publication location) and use Voyant to identify the top keywords in each sub-corpus.
 2. Selection: pick out a few top keywords and create a column for each one (True or False)
 3. Hierarchy: put the keywords into larger categories or visualize only the first one on the list (create a new column for these values)
 
-## Pivot tables
+# Pivot tables
 
 1. Copy the 'cuentos' tab to a new googlesheets document
 2. Give it a name and save it
 3. Select your data
 4. From the top menu, go to 'Insert -> Pivot Table.' Create it in a new sheet
 
-### Grouping by year/decade
+## Grouping by year/decade
 
 1. Under "Rows" add 'Year'
 2. Under "Columns" add 'Venue'
@@ -217,21 +217,19 @@ Monday, November 2
 5. Under 'Year' select 'Create grouping rule'
 6. Under 'Interval size' enter 10
 
-### Grouping by author nationality and Gender
+## Grouping by author nationality and Gender
 
 - Under "Rows" select "Nationality"
-
 - Under "Columns" select "Gender"
 - What if you want just Spanish-speaking authors?
   - Under "Filter" select "Translation" and check "No"
 
-### Visualization from pivot table
+## Visualization from pivot table
 
 - Select your table
 - Go to "Insert" -> "Chart"
 - Change your chart type
 - Give it a title
-
 
 
 ## A warning
