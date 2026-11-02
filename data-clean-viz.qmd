@@ -13,6 +13,7 @@ Part I: Data Exploration (Monday 2026.10.26)
 
 Part II: [Data Visualization](#data-visualization) (Wednesday 2026.10.26)
 
+Part III: [Strategizing](#iii.-strategizing) (Monday 2026.11.02)
 
 # Data Exploration
 
@@ -131,6 +132,12 @@ In the wild - [Data Art slides](https://www.canva.com/design/DAG0jzSbJuA/lOicU0j
 - Choose a method to visualize
 - Sketch it out with pen and paper
 
+## Data analysis and cleaning tools
+
+- Google Sheets - [pivot table to summarize](https://handsondataviz.org/pivot.html)
+- Microsoft Excel - pivot table to summarize
+- [usenineteen.com](https://usenineteen.com/)
+
 ## Data visualization tools
 - [RawGraphs.io](https://www.rawgraphs.io/)
 - Google Sheets
@@ -145,6 +152,87 @@ In the wild - [Data Art slides](https://www.canva.com/design/DAG0jzSbJuA/lOicU0j
 - WTF CSV - [databasic.io/wtfcsv](https://www.databasic.io/es/wtfcsv/)
 - Voyant - [voyant-tools.org](https://voyant-tools.org/)
 - Nineteen - [usenineteen.com](https://usenineteen.com/)
+
+# III. Strategizing
+
+Monday, November 2
+
+## Questions - GCSFI {.smaller}
+
+1. Which author nationalities are published by which magazines? 
+2. What are the topics that emerge across different publications from different areas? 
+3. Men vs. women authors; the dates that they were born and active?
+4. Subjective data: themes and thematic keywords (subject) vs. demographic info? Other patterns?
+5. Dates - compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?
+6. Average length of the stories - what is considered a "short" story?
+7. Translated works - choosing to represent a translated text?
+
+## Questions - updated {.smaller}
+
+1. Which author nationalities are published by which magazines?
+2. *What are the topics that emerge across different publications in different areas?*
+   - How does diegetic level compare across different publication areas?
+3. Men vs. women authors over time; *when were they born and active?*
+   - How does author gender change over time?
+4. Subjective data: themes and thematic keywords vs. demographic info?
+   - How does narrative temporality compare to author nationality or author gender?
+
+## Questions - updated {.smaller}
+
+5. Dates - *compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?*
+   - How does narrative temporality change over time?
+   - *More difficult*: identify 1-2 keywords or plot terms to chart
+6. *Average length of the stories* - requires cleaning and additional data
+7. Translated works
+   - Which publications or venue editors are translating more works? 
+   - Are there regional differences between translated and untranslated?
+
+## Other options
+
+- How is distribution of author gender or author nationality different for different publications? For different regions? Years?
+- Literary form:
+  - Is there a relationship between diegetic level and anachronisms?
+  - How does either compare to translations? To time?
+
+### Using keywords for analysis: a few options
+
+1. Comparison: split the dataset by category (i.e. decade, author gender, publication location) and use Voyant to identify the top keywords in each sub-corpus.
+2. Selection: pick out a few top keywords and create a column for each one (True or False)
+3. Hierarchy: put the keywords into larger categories or visualize only the first one on the list (create a new column for these values)
+
+## Pivot tables
+
+1. Copy the 'cuentos' tab to a new googlesheets document
+2. Give it a name and save it
+3. Select your data
+4. From the top menu, go to 'Insert -> Pivot Table.' Create it in a new sheet
+
+### Grouping by year/decade
+
+1. Under "Rows" add 'Year'
+2. Under "Columns" add 'Venue'
+3. Under "Values" add 'Venue'
+   1. Make sure it has 'count' selected under "Summarize by"
+4. Now you have values for year and venue. But what if you wanted to group by decade?
+5. Under 'Year' select 'Create grouping rule'
+6. Under 'Interval size' enter 10
+
+### Grouping by author nationality and Gender
+
+- Under "Rows" select "Nationality"
+
+- Under "Columns" select "Gender"
+- What if you want just Spanish-speaking authors?
+  - Under "Filter" select "Translation" and check "No"
+
+### Visualization from pivot table
+
+- Select your table
+- Go to "Insert" -> "Chart"
+- Change your chart type
+- Give it a title
+
+
 
 ## A warning
 

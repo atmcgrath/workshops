@@ -155,6 +155,7 @@ Alice McGrath
 <h1>Outline</h1>
 <p>Part I: Data Exploration (Monday 2026.10.26)</p>
 <p>Part II: <a href="#/data-visualization">Data Visualization</a> (Wednesday 2026.10.26)</p>
+<p>Part III: <a href="#/iii.-strategizing">Strategizing</a> (Monday 2026.11.02)</p>
 </section>
 
 <section>
@@ -313,6 +314,14 @@ Alice McGrath
 <li>Sketch it out with pen and paper</li>
 </ul>
 </section>
+<section id="data-analysis-and-cleaning-tools" class="slide level2">
+<h2>Data analysis and cleaning tools</h2>
+<ul>
+<li>Google Sheets - <a href="https://handsondataviz.org/pivot.html">pivot table to summarize</a></li>
+<li>Microsoft Excel - pivot table to summarize</li>
+<li><a href="https://usenineteen.com/">usenineteen.com</a></li>
+</ul>
+</section>
 <section id="data-visualization-tools" class="slide level2">
 <h2>Data visualization tools</h2>
 <ul>
@@ -332,6 +341,111 @@ Alice McGrath
 <li>WTF CSV - <a href="https://www.databasic.io/es/wtfcsv/">databasic.io/wtfcsv</a></li>
 <li>Voyant - <a href="https://voyant-tools.org/">voyant-tools.org</a></li>
 <li>Nineteen - <a href="https://usenineteen.com/">usenineteen.com</a></li>
+</ul>
+</section></section>
+<section>
+<section id="iii.-strategizing" class="title-slide slide level1 center">
+<h1>III. Strategizing</h1>
+<p>Monday, November 2</p>
+</section>
+<section id="questions---gcsfi" class="slide level2 smaller">
+<h2>Questions - GCSFI</h2>
+<ol type="1">
+<li>Which author nationalities are published by which magazines?</li>
+<li>What are the topics that emerge across different publications from different areas?</li>
+<li>Men vs.&nbsp;women authors; the dates that they were born and active?</li>
+<li>Subjective data: themes and thematic keywords (subject) vs.&nbsp;demographic info? Other patterns?</li>
+<li>Dates - compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?</li>
+<li>Average length of the stories - what is considered a “short” story?</li>
+<li>Translated works - choosing to represent a translated text?</li>
+</ol>
+</section>
+<section id="questions---updated" class="slide level2 smaller">
+<h2>Questions - updated</h2>
+<ol type="1">
+<li>Which author nationalities are published by which magazines?</li>
+<li><em>What are the topics that emerge across different publications in different areas?</em>
+<ul>
+<li>How does diegetic level compare across different publication areas?</li>
+</ul></li>
+<li>Men vs.&nbsp;women authors over time; <em>when were they born and active?</em>
+<ul>
+<li>How does author gender change over time?</li>
+</ul></li>
+<li>Subjective data: themes and thematic keywords vs.&nbsp;demographic info?
+<ul>
+<li>How does narrative temporality compare to author nationality or author gender?</li>
+</ul></li>
+</ol>
+</section>
+<section id="questions---updated-1" class="slide level2 smaller">
+<h2>Questions - updated</h2>
+<ol start="5" type="1">
+<li>Dates - <em>compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?</em>
+<ul>
+<li>How does narrative temporality change over time?</li>
+<li><em>More difficult</em>: identify 1-2 keywords or plot terms to chart</li>
+</ul></li>
+<li><em>Average length of the stories</em> - requires cleaning and additional data</li>
+<li>Translated works
+<ul>
+<li>Which publications or venue editors are translating more works?</li>
+<li>Are there regional differences between translated and untranslated?</li>
+</ul></li>
+</ol>
+</section>
+<section id="other-options" class="slide level2">
+<h2>Other options</h2>
+<ul>
+<li>How is distribution of author gender or author nationality different for different publications? For different regions? Years?</li>
+<li>Literary form:
+<ul>
+<li>Is there a relationship between diegetic level and anachronisms?</li>
+<li>How does either compare to translations? To time?</li>
+</ul></li>
+</ul>
+<h3 id="using-keywords-for-analysis-a-few-options">Using keywords for analysis: a few options</h3>
+<ol type="1">
+<li>Comparison: split the dataset by category (i.e.&nbsp;decade, author gender, publication location) and use Voyant to identify the top keywords in each sub-corpus.</li>
+<li>Selection: pick out a few top keywords and create a column for each one (True or False)</li>
+<li>Hierarchy: put the keywords into larger categories or visualize only the first one on the list (create a new column for these values)</li>
+</ol>
+</section>
+<section id="pivot-tables" class="slide level2">
+<h2>Pivot tables</h2>
+<ol type="1">
+<li>Copy the ‘cuentos’ tab to a new googlesheets document</li>
+<li>Give it a name and save it</li>
+<li>Select your data</li>
+<li>From the top menu, go to ‘Insert -&gt; Pivot Table.’ Create it in a new sheet</li>
+</ol>
+<h3 id="grouping-by-yeardecade">Grouping by year/decade</h3>
+<ol type="1">
+<li>Under “Rows” add ‘Year’</li>
+<li>Under “Columns” add ‘Venue’</li>
+<li>Under “Values” add ‘Venue’
+<ol type="1">
+<li>Make sure it has ‘count’ selected under “Summarize by”</li>
+</ol></li>
+<li>Now you have values for year and venue. But what if you wanted to group by decade?</li>
+<li>Under ‘Year’ select ‘Create grouping rule’</li>
+<li>Under ‘Interval size’ enter 10</li>
+</ol>
+<h3 id="grouping-by-author-nationality-and-gender">Grouping by author nationality and Gender</h3>
+<ul>
+<li><p>Under “Rows” select “Nationality”</p></li>
+<li><p>Under “Columns” select “Gender”</p></li>
+<li><p>What if you want just Spanish-speaking authors?</p>
+<ul>
+<li>Under “Filter” select “Translation” and check “No”</li>
+</ul></li>
+</ul>
+<h3 id="visualization-from-pivot-table">Visualization from pivot table</h3>
+<ul>
+<li>Select your table</li>
+<li>Go to “Insert” -&gt; “Chart”</li>
+<li>Change your chart type</li>
+<li>Give it a title</li>
 </ul>
 </section>
 <section id="a-warning" class="slide level2">
