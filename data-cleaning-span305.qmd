@@ -1,0 +1,174 @@
+---
+title: "Data Cleaning Tools and Resources"
+subtitle: "Processing data for the GCSFI project"
+author: Alice McGrath
+date: 2026.11.03
+format:
+   #revealjs: default
+   html:
+      output-file: data-cleaning-handout-span305.html
+      toc: true
+      toc-depth: 3
+---
+
+## What's in our data?
+
+- What types of data do we have? 
+	- | numeric | categoric | geographic | relationships | temporal
+- How many variables do we have? 
+- How do our variables relate to each other? 
+	- | quantities/distribution | correlation | part of a whole | change over time | relationships
+- What questions can we ask of this dataset?
+
+### Data types - WTF CSV
+
+WTF CSV: a tool for basic data summaries - [databasic.io/wtfcsv](https://www.databasic.io/es/wtfcsv/)
+
+- Download the dataset as a csv 
+- Upload it into [WTF CSV](https://www.databasic.io/en/wtfcsv/) (or use this link: [GCSFI in WTF CSV](https://www.databasic.io/en/wtfcsv/results/6adf65e435cec4457e7aa401))
+- What do you notice? What can you observe here? 
+
+### Variable Relationships - Nineteen
+
+Nineteen: simple count visualizations - [usenineteen.com](https://usenineteen.com/)
+
+- Upload the dataset as a csv
+- What categories can we compare?
+- What do you notice about the results?
+
+### Text fields - Voyant
+
+Voyant: a tool for text analysis and visualization - [voyant-tools.org](https://voyant-tools.org/)
+
+- Try visualizing one column at a time
+- Stopwords: select 'Spanish'
+
+
+## Cleaning data
+
+- Numbers, dates, geocoordinates
+- Standardizing spelling and controlled terms
+- Creating new columns
+- Adding contextual data
+- Summarizing data
+
+
+### Tools and resources for data analysis and cleaning
+
+- Google Sheets
+- Microsoft Excel
+- [usenineteen.com](https://usenineteen.com/)
+- [OpenRefine](https://openrefine.org/)
+- [Hands-on Data Visualization: Interactive Storytelling from Spreadsheets to Code](https://handsondataviz.org/) - textbook with many tutorials
+  - [Google Sheets pivot table tutorial](https://handsondataviz.org/pivot.html)
+
+### Turning keywords into columns using Nineteen
+
+- Using [Nineteen](https://usenineteen.com/), select 'Palabras clave' to group or color-code items and scroll all the way to the bottom
+- Check "'Palabras clave' holds lists of values" and 'Use "Palabras clave" for tags'
+- Click on the tags icon on the right-hand bar
+- For each tag you want, select the three dots on the right next to that tag
+  - Select 'Convert this tag into a data field'
+  - Check 'keep the tag too'
+  - Select 'add data field'
+  - Repeat for however many keywords you want to use
+- When you are done, download the dataset as a csv to use in another visualization tool
+
+## Summarizing data with pivot tables
+
+### Create a pivot table
+
+1. Copy the 'cuentos' tab to a new googlesheets document
+2. Give it a name and save it
+3. Select your data
+4. From the top menu, go to 'Insert -> Pivot Table.' Create it in a new sheet
+
+### Grouping by year/decade
+
+1. Under "Rows" add 'Year'
+2. Under "Columns" add 'Venue'
+3. Under "Values" add 'Venue'
+   1. Make sure it has 'count' selected under "Summarize by"
+4. Now you have values for year and venue. But what if you wanted to group by decade?
+5. Under 'Year' select 'Create grouping rule'
+6. Under 'Interval size' enter 10
+
+### Grouping by author nationality and Gender
+
+- Under "Rows" select "Nationality"
+- Under "Columns" select "Gender"
+- What if you want just Spanish-speaking authors?
+  - Under "Filter" select "Translation" and check "No"
+
+### Visualization from pivot table
+
+- Select your table
+- Go to "Insert" -> "Chart"
+- Change your chart type
+- Give it a title
+
+### Next steps
+
+To learn more about pivot tables, check out [*Hands on Data Visualization*: Summarize Data with Pivot Tables](https://handsondataviz.org/pivot.html)
+
+## GCSFI Questions
+
+### Original questions
+
+1. Which author nationalities are published by which magazines? 
+2. What are the topics that emerge across different publications from different areas? 
+3. Men vs. women authors; the dates that they were born and active?
+4. Subjective data: themes and thematic keywords (subject) vs. demographic info? Other patterns?
+5. Dates - compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?
+6. Average length of the stories - what is considered a "short" story?
+7. Translated works - choosing to represent a translated text?
+
+### Questions - updated
+
+1. Which author nationalities are published by which magazines?
+2. *What are the topics that emerge across different publications in different areas?*
+   - How does diegetic level compare across different publication areas?
+3. Men vs. women authors over time; *when were they born and active?*
+   - How does author gender change over time?
+4. Subjective data: themes and thematic keywords vs. demographic info?
+   - How does narrative temporality compare to author nationality or author gender?
+5. Dates - *compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?*
+   - How does narrative temporality change over time?
+   - *More difficult*: identify 1-2 keywords or plot terms to chart
+6. *Average length of the stories* - requires cleaning and additional data
+7. Translated works
+   - Which publications or venue editors are translating more works? 
+   - Are there regional differences between translated and untranslated?
+
+### Other options
+
+- How is distribution of author gender or author nationality different for different publications? For different regions? Years?
+- Literary form:
+  - Is there a relationship between diegetic level and anachronisms?
+  - How does either compare to translations? To time?
+
+## Using keywords for analysis
+
+1. *Comparison*: split the dataset by category (i.e. decade, author gender, publication location) and use Voyant to identify the top keywords in each sub-corpus.
+2. *Selection*: pick out a few top keywords and create a column for each one (True or False)
+3. *Hierarchy*: put the keywords into larger categories or visualize only the first one on the list (create a new column for these values)
+
+## Visualization resources & tools
+
+### Resources and inspiration
+
+- [From Data to Viz](https://www.data-to-viz.com/)
+- Use your imagination! Draw your visualization on paper.
+- For inspiration: [Dear Data project](http://www.dear-data.com/theproject), Georgia Lupi & Stefanie Posavec; the winners of the [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/)
+
+### Data visualization tools
+
+- [RawGraphs.io](https://www.rawgraphs.io/)
+- Google Sheets
+- Microsoft Excel
+- [Datawrapper](https://www.datawrapper.de/)
+- [Palladio](https://hdlab.stanford.edu/palladio/)
+- [GephiLite](https://gephi.org/lite/) - network graphs
+- [Timeline JS](https://timeline.knightlab.com/)
+- Wordclouds: [WordClouds.com](https://www.wordclouds.com/)
+  - Includes phrases: [Toolbook.io wordclouds](https://toolbook.io/tools/word-cloud?bi=true)

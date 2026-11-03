@@ -140,6 +140,7 @@ In the wild - [Data Art slides](https://www.canva.com/design/DAG0jzSbJuA/lOicU0j
 - Google Sheets - [pivot table to summarize](https://handsondataviz.org/pivot.html)
 - Microsoft Excel - pivot table to summarize
 - [usenineteen.com](https://usenineteen.com/)
+- [OpenRefine](https://openrefine.org/)
 
 ## Data visualization tools
 - [RawGraphs.io](https://www.rawgraphs.io/)

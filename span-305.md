@@ -13,4 +13,6 @@ date: October 2026
 
 2. [Data Vocabularies for GCSFI](data-vocabularies.html) - Workshop for SPAN 305, October 21, 2026
 
-3. [Data Cleaning and Visualization](data-clean-viz.html) - Workshop for SPAN 305, October 26-28, 2026 - see [simple html version](data-clean-gcsfi.html)
+3. [Data Cleaning and Visualization](data-clean-viz.html) - Workshop for SPAN 305, October 26-28, 2026. See also [simple html version](data-clean-gcsfi.html).
+
+4. [Data Cleaning Handout](data-cleaning-handout-span305.html) 

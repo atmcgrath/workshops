@@ -88,7 +88,7 @@
     "href": "data-clean-viz.html#data-analysis-and-cleaning-tools",
     "title": "Data Cleaning and Visualization",
     "section": "Data analysis and cleaning tools",
-    "text": "Data analysis and cleaning tools\n\nGoogle Sheets - pivot table to summarize\nMicrosoft Excel - pivot table to summarize\nusenineteen.com"
+    "text": "Data analysis and cleaning tools\n\nGoogle Sheets - pivot table to summarize\nMicrosoft Excel - pivot table to summarize\nusenineteen.com\nOpenRefine"
   },
   {
     "objectID": "data-clean-viz.html#data-visualization-tools",
@@ -166,6 +166,13 @@
     "title": "Data Cleaning and Visualization",
     "section": "Visualization from pivot table",
     "text": "Visualization from pivot table\n\nSelect your table\nGo to “Insert” -&gt; “Chart”\nChange your chart type\nGive it a title"
+  },
+  {
+    "objectID": "data-clean-viz.html#next-steps-1",
+    "href": "data-clean-viz.html#next-steps-1",
+    "title": "Data Cleaning and Visualization",
+    "section": "Next steps",
+    "text": "Next steps\nTo learn more, check out Hands on Data Visualization: Summarize Data with Pivot Tables"
   },
   {
     "objectID": "data-clean-viz.html#a-warning",
@@ -270,7 +277,7 @@
     "href": "data-clean-gcsfi.html#data-analysis-and-cleaning-tools",
     "title": "Data Cleaning and Visualization",
     "section": "Data analysis and cleaning tools",
-    "text": "Data analysis and cleaning tools\n\nGoogle Sheets - pivot table to summarize\nMicrosoft Excel - pivot table to summarize\nusenineteen.com"
+    "text": "Data analysis and cleaning tools\n\nGoogle Sheets - pivot table to summarize\nMicrosoft Excel - pivot table to summarize\nusenineteen.com\nOpenRefine"
   },
   {
     "objectID": "data-clean-gcsfi.html#data-visualization-tools",
@@ -348,6 +355,13 @@
     "title": "Data Cleaning and Visualization",
     "section": "Visualization from pivot table",
     "text": "Visualization from pivot table\n\nSelect your table\nGo to “Insert” -&gt; “Chart”\nChange your chart type\nGive it a title"
+  },
+  {
+    "objectID": "data-clean-gcsfi.html#next-steps-1",
+    "href": "data-clean-gcsfi.html#next-steps-1",
+    "title": "Data Cleaning and Visualization",
+    "section": "Next steps",
+    "text": "Next steps\nTo learn more, check out Hands on Data Visualization: Summarize Data with Pivot Tables"
   },
   {
     "objectID": "data-clean-gcsfi.html#a-warning",
@@ -623,25 +637,144 @@
     "text": "Resources\nBitsy\n\nThis Bitsy Handout has lots of resources\nRead the Bitsy documentation\nCheck out other Bitsy games\n\nWeb publishing\n\nAskAthena’s Domain of One’s Own documentation\nGuide to GitHub Pages"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Workshops and Slides",
+    "objectID": "data-cleaning-handout-span305.html",
+    "href": "data-cleaning-handout-span305.html",
+    "title": "Data Cleaning Tools and Resources",
     "section": "",
-    "text": "Senior Digital Scholarship Specialist @ Bryn Mawr College"
+    "text": "What types of data do we have?\n\nnumeric | categoric | geographic | relationships | temporal\n\nHow many variables do we have?\nHow do our variables relate to each other?\n\nquantities/distribution | correlation | part of a whole | change over time | relationships\n\nWhat questions can we ask of this dataset?\n\n\n\nWTF CSV: a tool for basic data summaries - databasic.io/wtfcsv\n\nDownload the dataset as a csv\nUpload it into WTF CSV (or use this link: GCSFI in WTF CSV)\nWhat do you notice? What can you observe here?\n\n\n\n\nNineteen: simple count visualizations - usenineteen.com\n\nUpload the dataset as a csv\nWhat categories can we compare?\nWhat do you notice about the results?\n\n\n\n\nVoyant: a tool for text analysis and visualization - voyant-tools.org\n\nTry visualizing one column at a time\nStopwords: select ‘Spanish’"
   },
   {
-    "objectID": "index.html#workshop-links",
-    "href": "index.html#workshop-links",
-    "title": "Workshops and Slides",
-    "section": "Workshop links",
-    "text": "Workshop links\n\nWeb Publishing with Scalar (powerpoint) - Workshop for Energy Afterlives 360, October 22, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nDigital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nMaximizing Minimalism: DIY Digital Publishing Tools Starring Markdown - ASECS, April 9, 2026.\nCreative Coding with Twine - Workshop for RUSS 233, February 11, 2026\nWeb Publishing Extravaganza - DTIs, July 15, 2025\nIIIF and Exhibit.so - IliADS, June 24, 2025\nCreative Coding - Intro DH, April 22 2025\nWikidata - Workshop for ASECS DH Caucus, April 5 2025\nCreative Coding with Bitsy - Workshop for COML 281, April 2 2025"
+    "objectID": "data-cleaning-handout-span305.html#whats-in-our-data",
+    "href": "data-cleaning-handout-span305.html#whats-in-our-data",
+    "title": "Data Cleaning Tools and Resources",
+    "section": "",
+    "text": "What types of data do we have?\n\nnumeric | categoric | geographic | relationships | temporal\n\nHow many variables do we have?\nHow do our variables relate to each other?\n\nquantities/distribution | correlation | part of a whole | change over time | relationships\n\nWhat questions can we ask of this dataset?\n\n\n\nWTF CSV: a tool for basic data summaries - databasic.io/wtfcsv\n\nDownload the dataset as a csv\nUpload it into WTF CSV (or use this link: GCSFI in WTF CSV)\nWhat do you notice? What can you observe here?\n\n\n\n\nNineteen: simple count visualizations - usenineteen.com\n\nUpload the dataset as a csv\nWhat categories can we compare?\nWhat do you notice about the results?\n\n\n\n\nVoyant: a tool for text analysis and visualization - voyant-tools.org\n\nTry visualizing one column at a time\nStopwords: select ‘Spanish’"
   },
   {
-    "objectID": "index.html#courses",
-    "href": "index.html#courses",
-    "title": "Workshops and Slides",
-    "section": "Courses",
-    "text": "Courses\n\nSPAN 305: el cuento corto en la Cuenca del Caraibe - Chavez, Fall 2026\n\nMade with Revealjs and Quarto\nView on GitHub"
+    "objectID": "data-cleaning-handout-span305.html#cleaning-data",
+    "href": "data-cleaning-handout-span305.html#cleaning-data",
+    "title": "Data Cleaning Tools and Resources",
+    "section": "Cleaning data",
+    "text": "Cleaning data\n\nNumbers, dates, geocoordinates\nStandardizing spelling and controlled terms\nCreating new columns\nAdding contextual data\nSummarizing data\n\n\nTools and resources for data analysis and cleaning\n\nGoogle Sheets\nMicrosoft Excel\nusenineteen.com\nOpenRefine\nHands-on Data Visualization: Interactive Storytelling from Spreadsheets to Code - textbook with many tutorials\n\nGoogle Sheets pivot table tutorial\n\n\n\n\nTurning keywords into columns using Nineteen\n\nUsing Nineteen, select ‘Palabras clave’ to group or color-code items and scroll all the way to the bottom\nCheck “‘Palabras clave’ holds lists of values” and ‘Use “Palabras clave” for tags’\nClick on the tags icon on the right-hand bar\nFor each tag you want, select the three dots on the right next to that tag\n\nSelect ‘Convert this tag into a data field’\nCheck ‘keep the tag too’\nSelect ‘add data field’\nRepeat for however many keywords you want to use\n\nWhen you are done, download the dataset as a csv to use in another visualization tool"
+  },
+  {
+    "objectID": "data-cleaning-handout-span305.html#summarizing-data-with-pivot-tables",
+    "href": "data-cleaning-handout-span305.html#summarizing-data-with-pivot-tables",
+    "title": "Data Cleaning Tools and Resources",
+    "section": "Summarizing data with pivot tables",
+    "text": "Summarizing data with pivot tables\n\nCreate a pivot table\n\nCopy the ‘cuentos’ tab to a new googlesheets document\nGive it a name and save it\nSelect your data\nFrom the top menu, go to ‘Insert -&gt; Pivot Table.’ Create it in a new sheet\n\n\n\nGrouping by year/decade\n\nUnder “Rows” add ‘Year’\nUnder “Columns” add ‘Venue’\nUnder “Values” add ‘Venue’\n\nMake sure it has ‘count’ selected under “Summarize by”\n\nNow you have values for year and venue. But what if you wanted to group by decade?\nUnder ‘Year’ select ‘Create grouping rule’\nUnder ‘Interval size’ enter 10\n\n\n\nGrouping by author nationality and Gender\n\nUnder “Rows” select “Nationality”\nUnder “Columns” select “Gender”\nWhat if you want just Spanish-speaking authors?\n\nUnder “Filter” select “Translation” and check “No”\n\n\n\n\nVisualization from pivot table\n\nSelect your table\nGo to “Insert” -&gt; “Chart”\nChange your chart type\nGive it a title\n\n\n\nNext steps\nTo learn more about pivot tables, check out Hands on Data Visualization: Summarize Data with Pivot Tables"
+  },
+  {
+    "objectID": "data-cleaning-handout-span305.html#gcsfi-questions",
+    "href": "data-cleaning-handout-span305.html#gcsfi-questions",
+    "title": "Data Cleaning Tools and Resources",
+    "section": "GCSFI Questions",
+    "text": "GCSFI Questions\n\nOriginal questions\n\nWhich author nationalities are published by which magazines?\nWhat are the topics that emerge across different publications from different areas?\nMen vs. women authors; the dates that they were born and active?\nSubjective data: themes and thematic keywords (subject) vs. demographic info? Other patterns?\nDates - compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?\nAverage length of the stories - what is considered a “short” story?\nTranslated works - choosing to represent a translated text?\n\n\n\nQuestions - updated\n\nWhich author nationalities are published by which magazines?\nWhat are the topics that emerge across different publications in different areas?\n\nHow does diegetic level compare across different publication areas?\n\nMen vs. women authors over time; when were they born and active?\n\nHow does author gender change over time?\n\nSubjective data: themes and thematic keywords vs. demographic info?\n\nHow does narrative temporality compare to author nationality or author gender?\n\nDates - compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?\n\nHow does narrative temporality change over time?\nMore difficult: identify 1-2 keywords or plot terms to chart\n\nAverage length of the stories - requires cleaning and additional data\nTranslated works\n\nWhich publications or venue editors are translating more works?\nAre there regional differences between translated and untranslated?\n\n\n\n\nOther options\n\nHow is distribution of author gender or author nationality different for different publications? For different regions? Years?\nLiterary form:\n\nIs there a relationship between diegetic level and anachronisms?\nHow does either compare to translations? To time?"
+  },
+  {
+    "objectID": "data-cleaning-handout-span305.html#using-keywords-for-analysis",
+    "href": "data-cleaning-handout-span305.html#using-keywords-for-analysis",
+    "title": "Data Cleaning Tools and Resources",
+    "section": "Using keywords for analysis",
+    "text": "Using keywords for analysis\n\nComparison: split the dataset by category (i.e. decade, author gender, publication location) and use Voyant to identify the top keywords in each sub-corpus.\nSelection: pick out a few top keywords and create a column for each one (True or False)\nHierarchy: put the keywords into larger categories or visualize only the first one on the list (create a new column for these values)"
+  },
+  {
+    "objectID": "data-cleaning-handout-span305.html#visualization-resources-tools",
+    "href": "data-cleaning-handout-span305.html#visualization-resources-tools",
+    "title": "Data Cleaning Tools and Resources",
+    "section": "Visualization resources & tools",
+    "text": "Visualization resources & tools\n\nResources and inspiration\n\nFrom Data to Viz\nUse your imagination! Draw your visualization on paper.\nFor inspiration: Dear Data project, Georgia Lupi & Stefanie Posavec; the winners of the Information is Beautiful Awards\n\n\n\nData visualization tools\n\nRawGraphs.io\nGoogle Sheets\nMicrosoft Excel\nDatawrapper\nPalladio\nGephiLite - network graphs\nTimeline JS\nWordclouds: WordClouds.com\n\nIncludes phrases: Toolbook.io wordclouds"
+  },
+  {
+    "objectID": "exhibit-iiif.html#examples",
+    "href": "exhibit-iiif.html#examples",
+    "title": "Exhibit.so and IIIF",
+    "section": "Examples",
+    "text": "Examples\n\nLily Petteway (BMC 25), Anchoresses in Medieval Manuscripts\nChloe Sun (BMC 27)Scrapbooking Bryn Mawr: A 1910s Snapshot"
+  },
+  {
+    "objectID": "exhibit-iiif.html#why-its-great",
+    "href": "exhibit-iiif.html#why-its-great",
+    "title": "Exhibit.so and IIIF",
+    "section": "Why it’s great",
+    "text": "Why it’s great\n\nEasy to get started\nBrowser-based; no sign-in required\nIncludes metadata alongside visually-striking content"
+  },
+  {
+    "objectID": "exhibit-iiif.html#challenges",
+    "href": "exhibit-iiif.html#challenges",
+    "title": "Exhibit.so and IIIF",
+    "section": "Challenges",
+    "text": "Challenges\n\nImages have to be published on the web\n…using IIIF specifications"
+  },
+  {
+    "objectID": "exhibit-iiif.html#understanding-iiif",
+    "href": "exhibit-iiif.html#understanding-iiif",
+    "title": "Exhibit.so and IIIF",
+    "section": "Understanding IIIF",
+    "text": "Understanding IIIF\n\nInternational Image Interoperability Framework\nAPIs for publishing reusable images\nZoomable viewers, such as Mirador\nChange color! Rotate images!\nImages, books, video, and more!"
+  },
+  {
+    "objectID": "exhibit-iiif.html#how-it-works",
+    "href": "exhibit-iiif.html#how-it-works",
+    "title": "Exhibit.so and IIIF",
+    "section": "How it works",
+    "text": "How it works\n\nImage API:\n\nImage derivatives are “tiled” so deep zoom is possible\nURLs are structured in a recognizable way\n\nPresentation API:\n\nMetadata is packaged alongside images\nInclude multiple images for one object (book)\n\nManifest: see example\n\nA json file (JavaScript Object Notation) that includes unique IDs and links to images"
+  },
+  {
+    "objectID": "exhibit-iiif.html#finding-iiif-resources",
+    "href": "exhibit-iiif.html#finding-iiif-resources",
+    "title": "Exhibit.so and IIIF",
+    "section": "Finding IIIF Resources",
+    "text": "Finding IIIF Resources\n\nSearching for manifest links!\nTo get started: Guides to finding IIIF resources\nCollection-specific guidelines are not always up-to-date\nExample: Library of Congress, Topographical Map of Ocean Co., New Jersey"
+  },
+  {
+    "objectID": "exhibit-iiif.html#building-your-exhibit.so",
+    "href": "exhibit-iiif.html#building-your-exhibit.so",
+    "title": "Exhibit.so and IIIF",
+    "section": "Building your Exhibit.so",
+    "text": "Building your Exhibit.so\n\nNavigate to www.exhibit.so\nSave your Exhibit URL somewhere safe!\nAdd resources via IIIF manifest urls\nAdd slides for each resource and include text"
+  },
+  {
+    "objectID": "exhibit-iiif.html#resources",
+    "href": "exhibit-iiif.html#resources",
+    "title": "Exhibit.so and IIIF",
+    "section": "Resources",
+    "text": "Resources\n\nIIIF Online Training [https://training.iiif.io/iiif-online-workshop/]\nCanopy - tool for publishing IIIF collection\nExhibit.so self-hosting documentation"
+  },
+  {
+    "objectID": "minimalism.html",
+    "href": "minimalism.html",
+    "title": "Maximizing Minimalism",
+    "section": "",
+    "text": "ASECS 2026, Philadelphia"
+  },
+  {
+    "objectID": "minimalism.html#tools-and-platforms",
+    "href": "minimalism.html#tools-and-platforms",
+    "title": "Maximizing Minimalism",
+    "section": "Tools and platforms",
+    "text": "Tools and platforms\n\nDigital scholarship publication\n\nCollectionBuilder - open-source static digital exhibit tool (Jekyll)\nQuire - static digital book or edition tool, created and maintained by the Getty\nEd and Wax - open-source tools for static digital editions and digital exhibitions, respectively, both using Jekyll and created by minicomp\nJuncture - open-source visual essay tool created by JSTOR Labs\nCanopy IIIF - open-source static digital exhibition/essay tool from IIIF manifests and markdown\n\n\n\nOther tools and platforms\n\nPandoc - open-source CLI application for converting between document formats (including from Markdown to HTML, docx, pdf, and more)\nQuarto - open-source tool for building static OERs, computational notebooks, and other simple websites\nNeocities.org - free static webhosting, featuring HTML tutorials and discoverability options\nObsidian - free (for local use) markdown-based knowledge management tool with database-like features\nTwine - open-source tool for creating static text-based games and nonlinear stories (uses WYSIWYG editor and simple markup)\nSimply Static - WordPress plugin to export a WP site as static HTML\nOpen-source static website frameworks: Jekyll, Build Awesome (aka Eleventy), Hugo, Gatsby, VuePress, Pelican"
+  },
+  {
+    "objectID": "minimalism.html#resources",
+    "href": "minimalism.html#resources",
+    "title": "Maximizing Minimalism",
+    "section": "Resources",
+    "text": "Resources\n\nLib-Static: a methodology, a collection, a community\nMinimal Computing - blog with definitions and resources\nSustainable Authorship in Plain Text using Pandoc and Markdown, Programming Historian tutorial by Dennis Tenen and Grant Wythoff"
+  },
+  {
+    "objectID": "minimalism.html#projects",
+    "href": "minimalism.html#projects",
+    "title": "Maximizing Minimalism",
+    "section": "Projects",
+    "text": "Projects\n\nDigital Grainger: An Online Edition of The Sugar-Cane (1764) - minimal edition of James Grainger’s The Sugar-Cane created using Ed by Julie Chun Kim, Cristobal Silva and colleagues at Fordham and Columbia.\nRecusant Readers: Reading with the Finches of Mawdesley - digital collection created using CollectionBuilder by Stonyhurst College Historic Libraries.\nTranspacific Crossings: Art, Trade, and the Manila Galleon, edited by Jorge F. Rivas Pérez, Karina H. Corrigan, and Kathryn Santner, symposium papers from 2024 symposium at the Denver Art Museum focused on Spanish colonialism and trade from 1565-1815. Created using Quire.\nPlant Humanities Lab - visual essays created using Juncture by Dumbarton Oaks."
+  },
+  {
+    "objectID": "minimalism.html#bibliography",
+    "href": "minimalism.html#bibliography",
+    "title": "Maximizing Minimalism",
+    "section": "Bibliography",
+    "text": "Bibliography\n\nRisam, Roopika, and Alex Gil. “Introduction: The Questions of Minimal Computing.” Digital Humanities Quarterly 016, no. 2 (2022).\nKleppman, Martin, Adam Wiggins, Peter van Hardenberg, and Mark McGranaghan. “Local-First Software: You Own Your Data, in Spite of the Cloud.” 2019 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward!). October 2019, 154–78. https://doi.org/doi:10.1145/3359591.3359737.\nDombrowski, Quinn. “Minimizing Computing Maximizes Labor.” Digital Humanities Quarterly, vol. 016, no. 2, June 2022.\nSander, Christoph. “Minimal Computing and Weak AI for Historical Research: The Case of Early Modern Church Administration.” Histories, vol. 5, no. 4, Dec. 2025, p. 59. www.mdpi.com, https://doi.org/10.3390/histories5040059."
   },
   {
     "objectID": "wikidata.html#linked-open-data",
@@ -735,95 +868,25 @@
     "text": "Resources\n\nHow to Edit Wikidata: a step by step guide (pdf slides)\nHow to add references\nNYU Libraries libguide: Wikimedia Toolkit\n“Designing a Wikidata Project: Mapping Black Philly Art”, Synatra Smith (12.15.21)"
   },
   {
-    "objectID": "minimalism.html",
-    "href": "minimalism.html",
-    "title": "Maximizing Minimalism",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Workshops and Slides",
     "section": "",
-    "text": "ASECS 2026, Philadelphia"
+    "text": "Senior Digital Scholarship Specialist @ Bryn Mawr College"
   },
   {
-    "objectID": "minimalism.html#tools-and-platforms",
-    "href": "minimalism.html#tools-and-platforms",
-    "title": "Maximizing Minimalism",
-    "section": "Tools and platforms",
-    "text": "Tools and platforms\n\nDigital scholarship publication\n\nCollectionBuilder - open-source static digital exhibit tool (Jekyll)\nQuire - static digital book or edition tool, created and maintained by the Getty\nEd and Wax - open-source tools for static digital editions and digital exhibitions, respectively, both using Jekyll and created by minicomp\nJuncture - open-source visual essay tool created by JSTOR Labs\nCanopy IIIF - open-source static digital exhibition/essay tool from IIIF manifests and markdown\n\n\n\nOther tools and platforms\n\nPandoc - open-source CLI application for converting between document formats (including from Markdown to HTML, docx, pdf, and more)\nQuarto - open-source tool for building static OERs, computational notebooks, and other simple websites\nNeocities.org - free static webhosting, featuring HTML tutorials and discoverability options\nObsidian - free (for local use) markdown-based knowledge management tool with database-like features\nTwine - open-source tool for creating static text-based games and nonlinear stories (uses WYSIWYG editor and simple markup)\nSimply Static - WordPress plugin to export a WP site as static HTML\nOpen-source static website frameworks: Jekyll, Build Awesome (aka Eleventy), Hugo, Gatsby, VuePress, Pelican"
+    "objectID": "index.html#workshop-links",
+    "href": "index.html#workshop-links",
+    "title": "Workshops and Slides",
+    "section": "Workshop links",
+    "text": "Workshop links\n\nWeb Publishing with Scalar (powerpoint) - Workshop for Energy Afterlives 360, October 22, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nDigital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nMaximizing Minimalism: DIY Digital Publishing Tools Starring Markdown - ASECS, April 9, 2026.\nCreative Coding with Twine - Workshop for RUSS 233, February 11, 2026\nWeb Publishing Extravaganza - DTIs, July 15, 2025\nIIIF and Exhibit.so - IliADS, June 24, 2025\nCreative Coding - Intro DH, April 22 2025\nWikidata - Workshop for ASECS DH Caucus, April 5 2025\nCreative Coding with Bitsy - Workshop for COML 281, April 2 2025"
   },
   {
-    "objectID": "minimalism.html#resources",
-    "href": "minimalism.html#resources",
-    "title": "Maximizing Minimalism",
-    "section": "Resources",
-    "text": "Resources\n\nLib-Static: a methodology, a collection, a community\nMinimal Computing - blog with definitions and resources\nSustainable Authorship in Plain Text using Pandoc and Markdown, Programming Historian tutorial by Dennis Tenen and Grant Wythoff"
-  },
-  {
-    "objectID": "minimalism.html#projects",
-    "href": "minimalism.html#projects",
-    "title": "Maximizing Minimalism",
-    "section": "Projects",
-    "text": "Projects\n\nDigital Grainger: An Online Edition of The Sugar-Cane (1764) - minimal edition of James Grainger’s The Sugar-Cane created using Ed by Julie Chun Kim, Cristobal Silva and colleagues at Fordham and Columbia.\nRecusant Readers: Reading with the Finches of Mawdesley - digital collection created using CollectionBuilder by Stonyhurst College Historic Libraries.\nTranspacific Crossings: Art, Trade, and the Manila Galleon, edited by Jorge F. Rivas Pérez, Karina H. Corrigan, and Kathryn Santner, symposium papers from 2024 symposium at the Denver Art Museum focused on Spanish colonialism and trade from 1565-1815. Created using Quire.\nPlant Humanities Lab - visual essays created using Juncture by Dumbarton Oaks."
-  },
-  {
-    "objectID": "minimalism.html#bibliography",
-    "href": "minimalism.html#bibliography",
-    "title": "Maximizing Minimalism",
-    "section": "Bibliography",
-    "text": "Bibliography\n\nRisam, Roopika, and Alex Gil. “Introduction: The Questions of Minimal Computing.” Digital Humanities Quarterly 016, no. 2 (2022).\nKleppman, Martin, Adam Wiggins, Peter van Hardenberg, and Mark McGranaghan. “Local-First Software: You Own Your Data, in Spite of the Cloud.” 2019 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward!). October 2019, 154–78. https://doi.org/doi:10.1145/3359591.3359737.\nDombrowski, Quinn. “Minimizing Computing Maximizes Labor.” Digital Humanities Quarterly, vol. 016, no. 2, June 2022.\nSander, Christoph. “Minimal Computing and Weak AI for Historical Research: The Case of Early Modern Church Administration.” Histories, vol. 5, no. 4, Dec. 2025, p. 59. www.mdpi.com, https://doi.org/10.3390/histories5040059."
-  },
-  {
-    "objectID": "exhibit-iiif.html#examples",
-    "href": "exhibit-iiif.html#examples",
-    "title": "Exhibit.so and IIIF",
-    "section": "Examples",
-    "text": "Examples\n\nLily Petteway (BMC 25), Anchoresses in Medieval Manuscripts\nChloe Sun (BMC 27)Scrapbooking Bryn Mawr: A 1910s Snapshot"
-  },
-  {
-    "objectID": "exhibit-iiif.html#why-its-great",
-    "href": "exhibit-iiif.html#why-its-great",
-    "title": "Exhibit.so and IIIF",
-    "section": "Why it’s great",
-    "text": "Why it’s great\n\nEasy to get started\nBrowser-based; no sign-in required\nIncludes metadata alongside visually-striking content"
-  },
-  {
-    "objectID": "exhibit-iiif.html#challenges",
-    "href": "exhibit-iiif.html#challenges",
-    "title": "Exhibit.so and IIIF",
-    "section": "Challenges",
-    "text": "Challenges\n\nImages have to be published on the web\n…using IIIF specifications"
-  },
-  {
-    "objectID": "exhibit-iiif.html#understanding-iiif",
-    "href": "exhibit-iiif.html#understanding-iiif",
-    "title": "Exhibit.so and IIIF",
-    "section": "Understanding IIIF",
-    "text": "Understanding IIIF\n\nInternational Image Interoperability Framework\nAPIs for publishing reusable images\nZoomable viewers, such as Mirador\nChange color! Rotate images!\nImages, books, video, and more!"
-  },
-  {
-    "objectID": "exhibit-iiif.html#how-it-works",
-    "href": "exhibit-iiif.html#how-it-works",
-    "title": "Exhibit.so and IIIF",
-    "section": "How it works",
-    "text": "How it works\n\nImage API:\n\nImage derivatives are “tiled” so deep zoom is possible\nURLs are structured in a recognizable way\n\nPresentation API:\n\nMetadata is packaged alongside images\nInclude multiple images for one object (book)\n\nManifest: see example\n\nA json file (JavaScript Object Notation) that includes unique IDs and links to images"
-  },
-  {
-    "objectID": "exhibit-iiif.html#finding-iiif-resources",
-    "href": "exhibit-iiif.html#finding-iiif-resources",
-    "title": "Exhibit.so and IIIF",
-    "section": "Finding IIIF Resources",
-    "text": "Finding IIIF Resources\n\nSearching for manifest links!\nTo get started: Guides to finding IIIF resources\nCollection-specific guidelines are not always up-to-date\nExample: Library of Congress, Topographical Map of Ocean Co., New Jersey"
-  },
-  {
-    "objectID": "exhibit-iiif.html#building-your-exhibit.so",
-    "href": "exhibit-iiif.html#building-your-exhibit.so",
-    "title": "Exhibit.so and IIIF",
-    "section": "Building your Exhibit.so",
-    "text": "Building your Exhibit.so\n\nNavigate to www.exhibit.so\nSave your Exhibit URL somewhere safe!\nAdd resources via IIIF manifest urls\nAdd slides for each resource and include text"
-  },
-  {
-    "objectID": "exhibit-iiif.html#resources",
-    "href": "exhibit-iiif.html#resources",
-    "title": "Exhibit.so and IIIF",
-    "section": "Resources",
-    "text": "Resources\n\nIIIF Online Training [https://training.iiif.io/iiif-online-workshop/]\nCanopy - tool for publishing IIIF collection\nExhibit.so self-hosting documentation"
+    "objectID": "index.html#courses",
+    "href": "index.html#courses",
+    "title": "Workshops and Slides",
+    "section": "Courses",
+    "text": "Courses\n\nSPAN 305: el cuento corto en la Cuenca del Caraibe - Chavez, Fall 2026\n\nMade with Revealjs and Quarto\nView on GitHub"
   },
   {
     "objectID": "web-publishing.html",
@@ -949,27 +1012,13 @@
     "href": "span-305.html",
     "title": "Workshop links for SPAN 305",
     "section": "",
-    "text": "Digital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nData Cleaning and Visualization - Workshop for SPAN 305, October 26-28, 2026 - see simple html version"
+    "text": "Digital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nData Cleaning and Visualization - Workshop for SPAN 305, October 26-28, 2026. See also simple html version.\nData Cleaning Handout"
   },
   {
     "objectID": "span-305.html#workshop-slides",
     "href": "span-305.html#workshop-slides",
     "title": "Workshop links for SPAN 305",
     "section": "",
-    "text": "Digital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nData Cleaning and Visualization - Workshop for SPAN 305, October 26-28, 2026 - see simple html version"
-  },
-  {
-    "objectID": "data-clean-viz.html#next-steps-1",
-    "href": "data-clean-viz.html#next-steps-1",
-    "title": "Data Cleaning and Visualization",
-    "section": "Next steps",
-    "text": "Next steps\nTo learn more, check out Hands on Data Visualization: Summarize Data with Pivot Tables"
-  },
-  {
-    "objectID": "data-clean-gcsfi.html#next-steps-1",
-    "href": "data-clean-gcsfi.html#next-steps-1",
-    "title": "Data Cleaning and Visualization",
-    "section": "Next steps",
-    "text": "Next steps\nTo learn more, check out Hands on Data Visualization: Summarize Data with Pivot Tables"
+    "text": "Digital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nData Cleaning and Visualization - Workshop for SPAN 305, October 26-28, 2026. See also simple html version.\nData Cleaning Handout"
   }
 ]
