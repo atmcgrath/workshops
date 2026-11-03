@@ -147,7 +147,7 @@ To learn more about pivot tables, check out [*Hands on Data Visualization*: Summ
   - Is there a relationship between diegetic level and anachronisms?
   - How does either compare to translations? To time?
 
-## Using keywords for analysis
+### Using keywords for analysis
 
 1. *Comparison*: split the dataset by category (i.e. decade, author gender, publication location) and use Voyant to identify the top keywords in each sub-corpus.
 2. *Selection*: pick out a few top keywords and create a column for each one (True or False)

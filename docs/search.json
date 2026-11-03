@@ -669,14 +669,7 @@
     "href": "data-cleaning-handout-span305.html#gcsfi-questions",
     "title": "Data Cleaning Tools and Resources",
     "section": "GCSFI Questions",
-    "text": "GCSFI Questions\n\nOriginal questions\n\nWhich author nationalities are published by which magazines?\nWhat are the topics that emerge across different publications from different areas?\nMen vs. women authors; the dates that they were born and active?\nSubjective data: themes and thematic keywords (subject) vs. demographic info? Other patterns?\nDates - compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?\nAverage length of the stories - what is considered a “short” story?\nTranslated works - choosing to represent a translated text?\n\n\n\nQuestions - updated\n\nWhich author nationalities are published by which magazines?\nWhat are the topics that emerge across different publications in different areas?\n\nHow does diegetic level compare across different publication areas?\n\nMen vs. women authors over time; when were they born and active?\n\nHow does author gender change over time?\n\nSubjective data: themes and thematic keywords vs. demographic info?\n\nHow does narrative temporality compare to author nationality or author gender?\n\nDates - compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?\n\nHow does narrative temporality change over time?\nMore difficult: identify 1-2 keywords or plot terms to chart\n\nAverage length of the stories - requires cleaning and additional data\nTranslated works\n\nWhich publications or venue editors are translating more works?\nAre there regional differences between translated and untranslated?\n\n\n\n\nOther options\n\nHow is distribution of author gender or author nationality different for different publications? For different regions? Years?\nLiterary form:\n\nIs there a relationship between diegetic level and anachronisms?\nHow does either compare to translations? To time?"
-  },
-  {
-    "objectID": "data-cleaning-handout-span305.html#using-keywords-for-analysis",
-    "href": "data-cleaning-handout-span305.html#using-keywords-for-analysis",
-    "title": "Data Cleaning Tools and Resources",
-    "section": "Using keywords for analysis",
-    "text": "Using keywords for analysis\n\nComparison: split the dataset by category (i.e. decade, author gender, publication location) and use Voyant to identify the top keywords in each sub-corpus.\nSelection: pick out a few top keywords and create a column for each one (True or False)\nHierarchy: put the keywords into larger categories or visualize only the first one on the list (create a new column for these values)"
+    "text": "GCSFI Questions\n\nOriginal questions\n\nWhich author nationalities are published by which magazines?\nWhat are the topics that emerge across different publications from different areas?\nMen vs. women authors; the dates that they were born and active?\nSubjective data: themes and thematic keywords (subject) vs. demographic info? Other patterns?\nDates - compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?\nAverage length of the stories - what is considered a “short” story?\nTranslated works - choosing to represent a translated text?\n\n\n\nQuestions - updated\n\nWhich author nationalities are published by which magazines?\nWhat are the topics that emerge across different publications in different areas?\n\nHow does diegetic level compare across different publication areas?\n\nMen vs. women authors over time; when were they born and active?\n\nHow does author gender change over time?\n\nSubjective data: themes and thematic keywords vs. demographic info?\n\nHow does narrative temporality compare to author nationality or author gender?\n\nDates - compare subjects/topics around same time period? E.g. 1960s, resistance/revolution?\n\nHow does narrative temporality change over time?\nMore difficult: identify 1-2 keywords or plot terms to chart\n\nAverage length of the stories - requires cleaning and additional data\nTranslated works\n\nWhich publications or venue editors are translating more works?\nAre there regional differences between translated and untranslated?\n\n\n\n\nOther options\n\nHow is distribution of author gender or author nationality different for different publications? For different regions? Years?\nLiterary form:\n\nIs there a relationship between diegetic level and anachronisms?\nHow does either compare to translations? To time?\n\n\n\n\nUsing keywords for analysis\n\nComparison: split the dataset by category (i.e. decade, author gender, publication location) and use Voyant to identify the top keywords in each sub-corpus.\nSelection: pick out a few top keywords and create a column for each one (True or False)\nHierarchy: put the keywords into larger categories or visualize only the first one on the list (create a new column for these values)"
   },
   {
     "objectID": "data-cleaning-handout-span305.html#visualization-resources-tools",
@@ -1012,13 +1005,20 @@
     "href": "span-305.html",
     "title": "Workshop links for SPAN 305",
     "section": "",
-    "text": "Digital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nData Cleaning and Visualization - Workshop for SPAN 305, October 26-28, 2026. See also simple html version.\nData Cleaning Handout"
+    "text": "Data Cleaning Handout\n\n\n\n\n\nDigital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nData Cleaning and Visualization - Workshop for SPAN 305, October 26-28, 2026. See also simple html version."
+  },
+  {
+    "objectID": "span-305.html#handouts",
+    "href": "span-305.html#handouts",
+    "title": "Workshop links for SPAN 305",
+    "section": "",
+    "text": "Data Cleaning Handout"
   },
   {
     "objectID": "span-305.html#workshop-slides",
     "href": "span-305.html#workshop-slides",
     "title": "Workshop links for SPAN 305",
     "section": "",
-    "text": "Digital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nData Cleaning and Visualization - Workshop for SPAN 305, October 26-28, 2026. See also simple html version.\nData Cleaning Handout"
+    "text": "Digital Humanities and Literary Data (powerpoint) - Workshop for SPAN 305, September 30, 2026\nData Vocabularies for GCSFI - Workshop for SPAN 305, October 21, 2026\nData Cleaning and Visualization - Workshop for SPAN 305, October 26-28, 2026. See also simple html version."
   }
 ]
